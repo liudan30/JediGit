@@ -1,0 +1,1000 @@
+smartcat-labs/cassandra-diagnostics	15	0	Cassandra Node Diagnostics Tools	{'smartcat-labs/cassandra-diagnostics': {'org.assertj': ('assertj-core', None, 'test'), 'junit': ('junit', None, 'test'), 'org.slf4j': ('slf4j-api', None, None), 'org.mockito': ('mockito-all', None, 'test')}}
+dsukhoroslov/bagri	15	0	XML/Document DB on top of distributed cache	{'dsukhoroslov/bagri': {'com.bagri.db': ('bagri-test-common', None, 'test'), 'ch.qos.logback': ('logback-classic', None, 'runtime'), 'junit': ('junit', None, 'test'), 'javax.xml.xquery': ('xqj-api', None, None), 'org.slf4j': ('slf4j-api', None, None), 'com.hazelcast': ('hazelcast-all', None, None)}}
+jtrfp/terminal-recall	15	0	Engine remake for Terminal Velocity and Fury3	{'jtrfp/terminal-recall': {'org.jogamp.jogl': ('jogl-all-main', '2.0.2', None), 'org.mockito': ('mockito-all', '2.0.2-beta', None), 'net.java.jinput': ('jinput', '2.0.6', None), 'de.quippy': ('javamod', '2.2', None), 'com.nativelibs4java': ('ochafik-util', '0.12', None), 'commons-beanutils': ('commons-beanutils', '1.9.2', None), 'org.jogamp.gluegen': ('gluegen-rt-main', '2.0.2', None), 'org.springframework': ('spring-context', '4.2.2.RELEASE', None), 'commons-primitives': ('commons-primitives', '1.0', None), 'commons-io': ('commons-io', '1.3.2', None), 'org.freedesktop.tango': ('tango-icon-theme', '0.8.90', None), 'org.apache.commons': ('commons-collections4', '4.1', None), 'junit': ('junit', '4.11', 'test'), 'org.jtrfp': ('jfdt', '1.1.2', None)}}
+ichiban/logcentric	15	0	ZeroMQ centralized logging for log4j. ZMQAppender is now a separate project by @lusis	{'ichiban/logcentric': {'org.zeromq': ('jzmq', '2.1.0-SNAPSHOT', None), 'com.google.code.gson': ('gson', '1.7.1', None), 'org.easymock': ('easymock', '3.0', 'test'), 'junit': ('junit', '4.8.2', 'test'), 'com.google.inject': ('guice', '3.0', 'compile'), 'log4j': ('log4j', '1.2.16', None)}}
+LabLayers/ap-computer-science	15	0	Coursework from AP Computer Science. Weeks 17-23 are currently unavailable due to legal action from the textbook publisher.	{'LabLayers/ap-computer-science': {}}
+flipkart-incubator/batchman	15	0	Android batching library	{'flipkart-incubator/batchman': {}}
+arashsammak/RTL-Toolbar-Android-AppCompat	15	0	Right to Left (RTL) AppCompat Toolbar for API > 11 (Persian Toolbar)	{'arashsammak/RTL-Toolbar-Android-AppCompat': {}}
+netopyr/caj	15	0	expect(yourTests).to.be("simple");	{'netopyr/caj': {'org.hamcrest': ('java-hamcrest', '2.0.0.0', 'test'), 'org.testng': ('testng', '6.9.4', 'test')}}
+dessalines/referendum	15	0	Referendum - A group decision-making and polling platform.	{'dessalines/referendum': {'com.github.tchoulihan': ('activejdbc', '1.4.20', None), 'com.esotericsoftware': ('kryo', '3.0.1', None), 'com.google.guava': ('guava', '18.0', None), 'com.github.spullara.mustache.java': ('compiler', '0.9.1', None), 'org.jasypt': ('jasypt', '1.9.2', 'compile'), 'args4j': ('args4j', '2.32', None), 'com.google.code.gson': ('gson', '2.2.2', None), 'com.sparkjava': ('spark-core', '2.3', None), 'org.xerial': ('sqlite-jdbc', '3.7.2', None), 'org.apache.httpcomponents': ('httpclient', '4.5.1', None), 'ch.qos.logback': ('logback-classic', '1.0.13', None), 'commons-fileupload': ('commons-fileupload', '1.3.1', None), 'org.quartz-scheduler': ('quartz-jobs', '2.2.2', None), 'de.javakaffee': ('kryo-serializers', '0.29', None), 'mysql': ('mysql-connector-java', '5.1.36', None), 'org.apache.commons': ('commons-lang3', '3.3.2', None), 'junit': ('junit', '4.11', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+xinyuan-liu/GPS-Simulator	15	0	An android GPS-Simulator APP	{'xinyuan-liu/GPS-Simulator': {}}
+sviperll/static-mustache	14	0	Template engine for java with statically checked and compiled templates. Compilation is performed alone with java sources.	{'sviperll/static-mustache': {'junit': ('junit', '4.11', 'test')}}
+shchurov/razuberi	14	0	{'shchurov/razuberi': {}}
+loxal/bugvm-example-template-project	14	0	BugVM example/template project	{'loxal/bugvm-example-template-project': {}}
+stefanbirkner/fishbowl	14	0	Fishbowl provides helper methods for dealing with exceptions.	{'stefanbirkner/fishbowl': {'org.assertj': ('assertj-core', '1.7.1', 'test'), 'de.bechte.junit': ('junit-hierarchicalcontextrunner', '4.12.0', 'test'), 'com.google.truth': ('truth', '0.25', 'test'), 'org.mockito': ('mockito-core', '1.10.19', 'test'), 'org.testng': ('testng', '6.8.17', 'test'), 'org.easytesting': ('fest-assert', '1.4', 'test'), 'org.hamcrest': ('hamcrest-library', '1.3', 'test'), 'junit': ('junit', '4.12', 'test')}}
+erlend-sh/jme3-maven	14	0	An unofficial branch for jME3 maven hosting. Supported by the jMonkey community.	{'erlend-sh/jme3-maven': {'com.jme3': ('vecmath', None, None)}}
+kimuraya/C0-language	14	0	{'kimuraya/C0-language': {}}
+netmelody/tatin	14	0	a http toggle box -- tat in, tat out!	{'netmelody/tatin': {}}
+kkroening/RedGen	14	0	Minecraft redstone logic generator	{'kkroening/RedGen': {}}
+Netflix-Skunkworks/qiro	14	0	The Qiro Project	{'Netflix-Skunkworks/qiro': {}}
+XingjianXu/cloudphylo	14	0	Phylogeny in Spark	{'XingjianXu/cloudphylo': {}}
+JungleTian/material-sample-googleplay	14	0	A very clear sample of googleplay client by material design	{'JungleTian/material-sample-googleplay': {}}
+kenodoggy/FragmentSamples	14	0	{'kenodoggy/FragmentSamples': {}}
+shinado/piping	14	0	Geekest Android launcher ever	{'shinado/piping': {}}
+wcy10586/androidEvent	14	0	android 事件分发机制的个人理解	{'wcy10586/androidEvent': {}}
+samiuelson/Preservely	14	0	Lightweight Android lib preserving objects instances during orientation changes	{'samiuelson/Preservely': {}}
+avishayil/react-native-restart	14	0	React Native Package With One Purpose: To Restart Your React Native Project	{'avishayil/react-native-restart': {}}
+imknown/NoDelayCountDownTimer	14	0	Smooth callback-able CountDownTimer-like with 'Decorator'.	{'imknown/NoDelayCountDownTimer': {}}
+bkromhout/Ruqus	14	0	Let your users build their own Realm queries!	{'bkromhout/Ruqus': {}}
+zjutkz/Knight	14	0	A lib for changing skin using java apt and javapoet	{'zjutkz/Knight': {}}
+spullara/teslalogger	14	0	Logs your vehicle information to a file	{'spullara/teslalogger': {'org.apache.httpcomponents': ('httpclient', '4.2.2', None), 'com.google.guava': ('guava', '13.0.1', None), 'com.sun.jersey': ('jersey-client', '1.15', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.1.1', None), 'com.github.spullara.cli-parser': ('cli-parser', '1.1', None), 'junit': ('junit', '4.10', 'test')}}
+farmapromlab/AndroidTestingPlease	14	0	{'farmapromlab/AndroidTestingPlease': {}}
+LOFI/gdx-scala-demo	14	0	Simple initial setup for a gdx project which uses gradle and scala.	{'LOFI/gdx-scala-demo': {}}
+eygraber/InjectorAndroid	14	0	Boilerplate for Android DI and testing	{'eygraber/InjectorAndroid': {}}
+nateisner/android-ads	14	0	Android library to add a simple slideshow of ads.	{'nateisner/android-ads': {}}
+cuber5566/uiModule	14	0	{'cuber5566/uiModule': {}}
+ljdelight/RawDiskService	14	0	Service to give RPC access to block scsi reads of a device	{'ljdelight/RawDiskService': {}}
+grapesnberries/Curl-Logger-interceptor	14	0	Library for logging your Retrofit requests as cURL in logcat	{'grapesnberries/Curl-Logger-interceptor': {}}
+noties/SimplePrefs	14	0	Android SharedPreferences made easy	{'noties/SimplePrefs': {}}
+yuchuangu85/Launcher3_mx	14	0	{'yuchuangu85/Launcher3_mx': {}}
+Sciss/Eisenkraut	14	0	A multi-channel and hi-res capable audio file editor	{'Sciss/Eisenkraut': {}}
+bitExpert/eclipse-smartsprites	14	0	Eclipse Plugin offering Smartsprites integration	{'bitExpert/eclipse-smartsprites': {}}
+jbrisbin/jstatebox	14	0	Statebox implementation for the JVM	{'jbrisbin/jstatebox': {}}
+hrk/tt-rss-mysql2pgsql	14	0	A quick & dirty tool to migrate an existing TT-RSS installation from MySQL to PostgreSQL.	{'hrk/tt-rss-mysql2pgsql': {}}
+fdansv/termimap-legacy	14	0	Maps in your command line	{'fdansv/termimap-legacy': {}}
+jprante/elasticsearch-analysis-reference	14	0	A reference mechanism for including content from other documents during the Elasticsearch analysis field mapping phase	{'jprante/elasticsearch-analysis-reference': {}}
+tkgktyk/ReleaseAction	14	0	{'tkgktyk/ReleaseAction': {}}
+gdx-libs/gdx-kiwi	14	0	:no_entry_sign: Moved to gdx-lml.	{'gdx-libs/gdx-kiwi': {}}
+daydreary/DotViewPager	14	0	{'daydreary/DotViewPager': {}}
+fuzz-productions/RatingBar	14	0	A customizable rating bar	{'fuzz-productions/RatingBar': {}}
+czyzby/noise4j	14	0	:octocat: Simple map generators for Java applications.	{'czyzby/noise4j': {}}
+siyehua/StyleTextView	14	0	{'siyehua/StyleTextView': {}}
+chalup/thneed	14	0	A library for defining the traversable hierarchy of data models.	{'chalup/thneed': {}}
+noctarius/castmapr	14	0	CastMapR - MapReduce for Hazelcast - Discontinued!	{'noctarius/castmapr': {'junit': ('junit', '4.11', 'test'), 'log4j': ('log4j', '1.2.12', None), 'com.hazelcast': ('hazelcast', '${hazelcast.version}', 'test')}}
+koduki/Android-Development-Suite	14	0	Android Development Suite.	{'koduki/Android-Development-Suite': {'gueei': ('android-binding', 'v30-0.52', None), 'org.mockito': ('mockito-all', '1.9.5', None), 'com.google.android': ('android-test', '${platform.version}', 'provided'), 'org.roboguice': ('roboguice', '2.0', None), 'junit': ('junit', '3.8.2', 'test'), 'org.twitter4j': ('twitter4j-core', '[2.2,)', None)}}
+chenkelmann/neo2-awt-hack	14	0	This is a nasty hack to enable the neo 2 keyboard layout in AWT/Swing based  programs under X11 (e.g. Linux).	{'chenkelmann/neo2-awt-hack': {}}
+goushengLi/DragScaleRoundImageView	14	0	{'goushengLi/DragScaleRoundImageView': {}}
+florent37/Baguette	14	0	Baguette is an Android Toast implementation adapted for Android Wear	{'florent37/Baguette': {}}
+davidmoten/flatbuffers	14	0	Maven artifacts containing compiled flatbuffers binaries and flatbuffers-java runtime library	{'davidmoten/flatbuffers': {'junit': ('junit', '4.12', 'test'), 'com.github.davidmoten': ('flatbuffers-java', '${project.parent.version}', None)}}
+osamarao/AndroidPermissionsManager	14	0	This plugin provides suggestions for permission for Android APIs	{'osamarao/AndroidPermissionsManager': {}}
+sajal/digdroid	14	0	DNS debug android app. Java ui Go logic	{'sajal/digdroid': {}}
+fommil/class-monkey	14	0	:monkey: URLClassLoader is broken, this fixes it	{'fommil/class-monkey': {}}
+Mourdraug/GyroEmu	14	0	{'Mourdraug/GyroEmu': {}}
+hannesstruss/WindFish	14	0	Keep your Android device awake during development	{'hannesstruss/WindFish': {}}
+savvasdalkitsis/betwixt	14	0	Betwixt (/bɪˈtwɪkst/ - preposition & adverb - archaic term for between) is an android library that aims to provide a unified composable api for animation Interpolators, both provided already by the platform and for new ones provided by the community	{'savvasdalkitsis/betwixt': {}}
+VersoBit/WeatherDoge	14	0	wow, dogeweather.com for Android!	{'VersoBit/WeatherDoge': {}}
+leeowenowen/AndroidUnitTest	14	0	Android单元测试最佳实践及（junit+mockito+powermock+robolectric使用详解）	{'leeowenowen/AndroidUnitTest': {}}
+hlfernandez/GC4S	14	0	GUI Components for (Java) Swing	{'hlfernandez/GC4S': {'org.swinglabs': ('swingx', '1.6.1', None)}}
+tootedom/related	13	0	Tracks Frequently Related Items (i.e Also Bought With)	{'tootedom/related': {'org.greencheek.related': ('related-domain', '${project.version}', 'test'), 'org.greencheek.related.plugins': ('relateddocs-merger', '1.0.0', 'test')}}
+shahriarhaque/swing-query	13	0	Java port of the jQuery library for the Swing toolkit	{'shahriarhaque/swing-query': {}}
+nosceon/titanite	13	0	A small web framework for Java 8, inspired by others like Sinatra and Finatra, running on top of Netty	{'nosceon/titanite': {'junit': ('junit', '4.11', 'test'), 'com.jayway.restassured': ('rest-assured', '2.3.3', 'test'), 'com.google.guava': ('guava', '17.0', None), 'com.github.spullara.mustache.java': ('compiler', '0.8.15', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.3.4', None), 'com.google.code.gson': ('gson', '2.2.4', None), 'org.freemarker': ('freemarker', '2.3.20', None), 'org.glassfish.jersey.core': ('jersey-client', '2.11', 'test'), 'org.webjars': ('jquery', '1.9.0', None), 'ch.qos.logback': ('logback-classic', '1.1.2', 'test'), 'io.netty': ('netty-codec-http', '4.0.23.Final', None), 'org.glassfish.jersey.media': ('jersey-media-sse', '2.11', 'test'), 'org.nosceon.titanite': ('titanite-json-jackson', '${project.version}', None), 'org.slf4j': ('jcl-over-slf4j', '1.7.7', 'test')}}
+busylee999/issue-handler	13	0	Android Library for handling uncaught exceptions and sending it to installed IssueBot program for posing to bug-trackers.	{'busylee999/issue-handler': {}}
+hyPiRion/pvec-perf	13	0	Persistent vector performance measurements and analysis	{'hyPiRion/pvec-perf': {'org.clojure': ('clojure', '1.6.0', None), 'org.openjdk.jmh': ('jmh-generator-annprocess', '${jmh.version}', 'provided'), 'com.hypirion': ('pvec', '0.1.0-SNAPSHOT', None)}}
+asantibanez/OAuthWebView	13	0	WebViews for OAuth Authentication	{'asantibanez/OAuthWebView': {}}
+julman99/futuristic	13	0	The Best way to do Future (or Promise) programming on Java 8	{'julman99/futuristic': {}}
+la-team/lightadmin-jhipster	13	0	LightAdmin and JHipster integration example	{'la-team/lightadmin-jhipster': {'org.springframework.boot': ('spring-boot-starter-test', None, 'test'), 'org.jadira.usertype': ('usertype.core', '${usertype-core.version}', None), 'com.mattbertolini': ('liquibase-slf4j', '${liquibase-slf4j.version}', None), 'joda-time': ('joda-time-hibernate', '${joda-time-hibernate.version}', None), 'org.assertj': ('assertj-core', '${assertj-core.version}', 'test'), 'com.codahale.metrics': ('metrics-servlets', None, None), 'org.liquibase': ('liquibase-core', None, None), 'mysql': ('mysql-connector-java', None, None), 'org.apache.tomcat.embed': ('tomcat-embed-jasper', None, None), 'com.zaxxer': ('HikariCP', '${HikariCP.version}', None), 'com.mangofactory': ('swagger-springmvc', '${swagger-springmvc.version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', None, None), 'org.lightadmin': ('lightadmin', '${lightadmin.version}', None), 'com.jayway.awaitility': ('awaitility', '${awaitility.version}', 'test'), 'org.hibernate': ('hibernate-validator', None, None), 'com.ryantenney.metrics': ('metrics-spring', '${metrics-spring.version}', None), 'io.github.jhipster.loaded': ('core', '${jhipster-loaded.version}', None), 'javax.inject': ('javax.inject', '${javax.inject.version}', None), 'org.springframework': ('spring-context-support', None, None), 'com.jayway.jsonpath': ('json-path', '${json-path.version}', 'test'), 'org.liquibase.ext': ('liquibase-hibernate4', '${liquibase-hibernate.version}', None), 'commons-lang': ('commons-lang', '${commons-lang.version}', None), 'com.h2database': ('h2', None, None), 'org.apache.geronimo.javamail': ('geronimo-javamail_1.4_mail', '${geronimo-javamail_1.4_mail.version}', None), 'commons-io': ('commons-io', '${commons-io.version}', None)}}
+kwlum/canvas-resize-demo	13	0	Libgdx html5 canvas resize demo.	{'kwlum/canvas-resize-demo': {}}
+xesam/CenterDrawableTextView	13	0	center align drawable(left, top, right, bottom) view	{'xesam/CenterDrawableTextView': {}}
+workarounds/freighter	13	0	Typesafe way to use intents and bundles in android	{'workarounds/freighter': {}}
+StefanLiebenberg/throwable-interfaces	13	0	A collection of standard interfaces that throw exceptions	{'StefanLiebenberg/throwable-interfaces': {'net.trajano.wagon': ('wagon-git', '2.0.0', None), 'org.apache.maven.doxia': ('doxia-module-markdown', '1.6', None), 'com.google.code.findbugs': ('bcel-findbugs', '6.0', None), 'junit': ('junit', '4.12', 'test'), 'org.slf4j': ('slf4j-jdk14', '1.7.21', 'test'), 'org.apache.maven.shared': ('maven-shared-jar', '1.1', None)}}
+raphw/weak-lock-free	13	0	Implementation of a concurrent map with weak keys and a detached thread local storage.	{'raphw/weak-lock-free': {'junit': ('junit', '4.12', 'test')}}
+spincast/spincast-framework	13	0	https://www.spincast.org ~ Spincast is an highly flexible Java web framework, based on Guice.	{'spincast/spincast-framework': {}}
+iitc/bytecode	13	0	Fast, lightweight Java bytecode manipulation library.	{'iitc/bytecode': {}}
+msoute/vertx-deploy-tools	13	0	vertx-deploy-tools	{'msoute/vertx-deploy-tools': {'org.apache.httpcomponents': ('httpcore', '4.4.5', None), 'org.mockito': ('mockito-core', '${mockito.version}', 'test'), 'ch.qos.logback': ('logback-classic', '1.1.7', 'provided'), 'org.eclipse.aether': ('aether-transport-http', '${aetherVersion}', None), 'org.apache.maven': ('maven-aether-provider', '${mavenVersion}', None), 'io.vertx': ('vertx-rx-java', '${vertx.platform.version}', None), 'org.hamcrest': ('hamcrest-all', '1.3', 'test'), 'com.amazonaws': ('aws-java-sdk-opsworks', '${aws.sdk.version}', None), 'junit': ('junit', '4.12', 'test'), 'org.slf4j': ('log4j-over-slf4j', '1.7.21', None)}}
+FrogCraft-Rebirth/FrogCraft-Rebirth	13	0	An overhaul, entirely independent rewrite of FrogCraft, an IC2 Addon with theme of chemical industry.	{'FrogCraft-Rebirth/FrogCraft-Rebirth': {}}
+akshayaggarwal99/BrainTeaser	13	0	{'akshayaggarwal99/BrainTeaser': {}}
+xmlsh/xmlsh1_3	13	0	A command line shell for XML - Stable release of the 1.3 branch	{'xmlsh/xmlsh1_3': {}}
+marcosemiao/log4jdbc	13	1	Log4jdbc is a Java Proxy JDBC driver	{'marcosemiao/log4jdbc': {'com.github.marcosemiao.log4jdbc': ('log4jdbc-utils', '${project.version}', None)}}
+inspirer/textmapper	13	0	Lexer and Parser generator	{'inspirer/textmapper': {}}
+dougqh/JAK	13	0	A fluent API for generating Java byte code	{'dougqh/JAK': {}}
+barracel/rested	13	0	Eclipse reStructuredText markup editor	{'barracel/rested': {}}
+hvasconcelos/beardroid	13	0	Usefull code to create amazing Android Applications	{'hvasconcelos/beardroid': {'com.google.android': ('android', '${android.version}', 'provided'), 'com.google.android.analytics': ('analytics', '${analytics.android.version}', None), 'org.hamcrest': ('hamcrest-integration', '${hamcrest.version}', 'test'), 'org.easymock': ('easymock', '${easymock.version}', 'test'), 'junit': ('junit', '${junit.version}', 'test'), 'commons-codec': ('commons-codec', '${apache.codec.version}', None)}}
+amlcurran/L-Preview-Demo	13	0	A demo project using the L developer preview (following from my 18 Sept code discussion)	{'amlcurran/L-Preview-Demo': {}}
+davidmoten/rxjava-slf4j	13	0	Logging utilities for use with RxJava	{'davidmoten/rxjava-slf4j': {'io.reactivex': ('rxjava', '1.1.5', None), 'com.github.davidmoten': ('rxjava-extras', '0.7.9.4', None), 'org.mockito': ('mockito-core', '1.10.19', 'test'), 'junit': ('junit', '4.12', 'test'), 'org.slf4j': ('slf4j-log4j12', '${slf4j.version}', 'test')}}
+johnzeringue/Javason	13	0	A Java DSL that makes it easy to write JSON	{'johnzeringue/Javason': {}}
+naver/usher	13	0	{'naver/usher': {}}
+huzongyao/UninstallFeedback	13	0	Auto launch a feedback webpage after uninstall the app on Android	{'huzongyao/UninstallFeedback': {}}
+Andyccs/sqat	13	0	Check and analyse your Java code	{'Andyccs/sqat': {}}
+tiwiz/WhatSong	13	0	Official repo of the WhatSong app by Tiwiz	{'tiwiz/WhatSong': {}}
+feresr/RxWeather	13	0	Personal pet project aimed to illustrate the use of the following android specific frameworks/libraries/tools: AndroidRx, RxJava, Dagger2, RetroLambda, Retrofit2	{'feresr/RxWeather': {}}
+blazegraph/tinkerpop3	13	0	Blazegraph Tinkerpop3 Implementation	{'blazegraph/tinkerpop3': {'com.blazegraph': ('bigdata-core', '${blaze.version}', None), 'org.hamcrest': ('hamcrest-library', '1.3', 'test'), 'junit': ('junit', '4.11', 'test'), 'org.apache.tinkerpop': ('gremlin-groovy-test', '${tp3.version}', 'test')}}
+DariusL/RxRoboBase	13	0	An RxJava wrapper for the Android Firebase client	{'DariusL/RxRoboBase': {}}
+yuyinghao/HorizontalLayout	13	0	{'yuyinghao/HorizontalLayout': {}}
+kayler-renslow/arma-intellij-plugin	13	0	A plugin for Intellij IDEA that allows for syntactical analysis, code inspections, and other nifty features for the SQF scripting language in Arma 3.	{'kayler-renslow/arma-intellij-plugin': {}}
+mglaman/intellij-drupal-run-tests	13	0	Provides a run configuration that executes Drupal's test runner (for Simpletest, Unit, Kernel, Functional, FunctionalJavascript.)	{'mglaman/intellij-drupal-run-tests': {}}
+zuiwuyuan/Joke	13	0	捧腹网笑话大全	{'zuiwuyuan/Joke': {}}
+turbolent/lila	13	0	Lila is a dynamic language running on the JVM with efficient multiple and predicate method dispatch	{'turbolent/lila': {}}
+anshgodara/OurStack	13	0	Our training stack	{'anshgodara/OurStack': {}}
+snotyak/twig	13	0	Twig is an android logging utility allowing for logging out previous method calls	{'snotyak/twig': {}}
+uPhyca/robota	13	0	robota makes your Android phone as Idobata(https://idobata.io) bot	{'uPhyca/robota': {}}
+touchlab/MagicThreads	13	0	{'touchlab/MagicThreads': {'com.squareup.retrofit': ('retrofit', '1.9.0', None), 'de.greenrobot': ('eventbus', '2.2.1', None), 'com.crashlytics.android': ('crashlytics', '1.1.11', 'provided'), 'com.google.code.gson': ('gson', '2.2.2', None), 'com.google.android': ('support-v4', 'r7', 'provided'), 'junit': ('junit', '${junit-version}', 'test')}}
+cristiangarciascmspain/ArchitectureDemo	13	0	{'cristiangarciascmspain/ArchitectureDemo': {}}
+TTFTCUTS/ShadowsOfPhysis	13	0	Discover the fate of the lost people of Physis	{'TTFTCUTS/ShadowsOfPhysis': {}}
+timboudreau/scamper	13	0	A toolkit for creating SCTP servers and clients	{'timboudreau/scamper': {'${project.groupId}': ('scamper-compression', '${project.version}', None), 'com.jcraft': ('jzlib', '1.1.3', None), 'io.netty': ('netty-transport-sctp', '${netty.version}', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.4.4', None), 'de.undercouch': ('bson4jackson', '2.4.0', None), 'junit': ('junit', '4.10', None), 'com.mastfrog': ('giulius-tests', '${mastfrog.version}', None)}}
+YukiMatsumura/MvpWithRecyclerView	13	0	RecyclerViewをMVPパターンで実装	{'YukiMatsumura/MvpWithRecyclerView': {}}
+benwbooth/semitone	13	0	A clojure music notation DSL for midi programming	{'benwbooth/semitone': {}}
+IYCI/MyClass	13	0	A UWaterloo course based app	{'IYCI/MyClass': {}}
+oriley-me/staticvalues	13	0	Generate static values from resources for compile time safety and performance improvements	{'oriley-me/staticvalues': {}}
+Verclene/LittleMaidReengaged	13	0	Again, on the new stage.	{'Verclene/LittleMaidReengaged': {}}
+Centralway/RxPhoenix	13	0	Automatic Lifecycle management for Android reactive projects.	{'Centralway/RxPhoenix': {}}
+AlexeyDmitriev/JHelper	13	0	{'AlexeyDmitriev/JHelper': {}}
+dmarks2/maven-archetypes-catalog-plugin	13	0	A plugin to enable IntelliJ IDEA to fetch external Maven Archetype Catalog files	{'dmarks2/maven-archetypes-catalog-plugin': {'org.jetbrains': ('extensions', '${intellij.idea.version}', 'provided')}}
+dmitriid/cali	13	1	an Erlang-Gremlin/Blueprints interface (neo4j/sail/etc...)	{'dmitriid/cali': {'com.tinkerpop': ('gremlin', '0.5-SNAPSHOT', None), 'org.erlang.otp': ('jinterface', '1.5.3', None)}}
+hanks-zyh/NumberAnimation	13	0	number view with 'add' animation	{'hanks-zyh/NumberAnimation': {}}
+shem8/AndroidDragAndDrop	13	0	An example project for using built in drag and drop functionality in Android between views	{'shem8/AndroidDragAndDrop': {}}
+BeagleLab/beagle	13	0	Navigating the sea of publications	{'BeagleLab/beagle': {}}
+jakebellotti/SteamVRLauncher	13	0	A custom steam launcher, adding extra functionality for Virtual Reality games.	{'jakebellotti/SteamVRLauncher': {}}
+c2mon/c2mon	13	0	CERN Control and Monitoring Platform	{'c2mon/c2mon': {'cern.cmw': ('cmw-log-log4j', '[1.5.4,2.0.0)', 'runtime'), 'org.springframework': ('spring-tx', None, None), 'oracle': ('ojdbc', None, 'runtime'), 'org.hsqldb': ('hsqldb', None, None), 'cern.accsoft.security': ('accsoft-security-rba-util', '1.6.3', None), 'org.easymock': ('easymockclassextension', None, None), 'cern.c2mon.client': ('c2mon-client-core', None, None), 'junit': ('junit', None, None)}}
+sigpwned/stork	13	0	An example programming language implemented in 10 steps to help developers learn the fundamental principles of programming language implementation.	{'sigpwned/stork': {'junit': ('junit', '3.8.1', 'test')}}
+petewarden/boilerpipe	13	0	A branch of the boilerpipe project	{'petewarden/boilerpipe': {}}
+MaineC/sofia	13	0	Code example to use Elastic Search as vector provider for a Mahout classifier (and for data exploration). On a related note will also contain sample code to move from the sequential setup to a distributed Hadoop implementation. In terms of data the example is based on the StackOverflow dump published among others on kaggle.	{'MaineC/sofia': {'com.google.guava': ('guava', '14.0-rc2', None), 'org.slf4j': ('slf4j-log4j12', '1.7.5', None), 'io.searchbox': ('jest', '0.0.2', None), 'com.carrotsearch.randomizedtesting': ('randomizedtesting-runner', '2.0.0', None), 'org.elasticsearch': ('elasticsearch', '0.20.2', None), 'org.apache.mahout': ('mahout-core', '0.7', None), 'log4j': ('log4j', '1.2.17', None), 'org.projectlombok': ('lombok', '0.11.6', 'provided'), 'junit': ('junit', '4.11', 'test')}}
+arpit/Android-World-Clock	13	0	A simple (hopefully visually nice) world clock app	{'arpit/Android-World-Clock': {}}
+KeithYokoma/LGTMCamera	13	0	LGTM Camera for Android	{'KeithYokoma/LGTMCamera': {}}
+kravchik/jcommon	13	0	Common utils, abstractions and tools that I use in my projects. They make Java pleasant.	{'kravchik/jcommon': {'org.apache.commons': ('commons-lang3', '3.3.2', None), 'junit': ('junit', '4.11', None)}}
+yusuke/ideahandson	13	0	{'yusuke/ideahandson': {'org.twitter4j': ('twitter4j-core', '4.0.2-SNAPSHOT', None)}}
+DaanVanYperen/arktrail	13	0	Artemis-ODB + LibGDX game	{'DaanVanYperen/arktrail': {}}
+zmdominguez/swipe-to-refresh-demo	13	0	{'zmdominguez/swipe-to-refresh-demo': {}}
+LapisBlue/Nocturne	13	0	A graphical tool for creation of Java deobfuscation mappings.	{'LapisBlue/Nocturne': {}}
+MichaelEvans/Espresso-Samples	13	0	{'MichaelEvans/Espresso-Samples': {}}
+Stefku/intellij-reference-diagram	13	0	This plugin for IntelliJ IDEA provides a diagram showing a reference graph for methods in java classes	{'Stefku/intellij-reference-diagram': {}}
+sysdevone/gab-cmdline	13	0	GAB Command Line Parser	{'sysdevone/gab-cmdline': {'org.apache.maven.surefire': ('surefire-junit47', '2.19', None), 'junit': ('junit', '4.12', 'test'), 'org.gabsocial': ('gab-collection', '0.3.alpha', 'system'), 'commons-codec': ('commons-codec', '1.10', 'compile')}}
+shaoshuai904/MsTD	13	0	一款好玩的塔防游戏	{'shaoshuai904/MsTD': {}}
+dragome/gdx-dragome	13	0	Dragome backend for LibGDX.	{'dragome/gdx-dragome': {}}
+yangqihua/awesome-component-Android	13	0	收集了现在Android的一些主流组件，小框架，工具类，技巧等(后期会不断更新)	{'yangqihua/awesome-component-Android': {}}
+harshpokharna/Netty-Chat-Server-Demo	13	0	{'harshpokharna/Netty-Chat-Server-Demo': {'org.apache.logging.log4j': ('log4j-core', '2.6', None), 'com.google.guava': ('guava', '19.0', None), 'junit': ('junit', '3.8.1', 'test'), 'io.netty': ('netty-all', '4.1.0.Final', None)}}
+joxad/easydatabinding	13	0	This project goal is to create activity fragment and views, with less code to be more efficient on the view models	{'joxad/easydatabinding': {}}
+emrekose26/CopyExternalDB	13	0	Copying External Database library for Android	{'emrekose26/CopyExternalDB': {}}
+konmik/RxQuery	13	0	An Android library for database access with RxJava	{'konmik/RxQuery': {}}
+joaosantacruz/SongMemo	13	0	Multitrack audio recorder (4 track like) for the Android platform	{'joaosantacruz/SongMemo': {}}
+ViksaaSkool/2CheckoutWrapper	13	0	2CheckoutWrapper	{'ViksaaSkool/2CheckoutWrapper': {}}
+bwssytems/restful-harmony	13	0	Restful harmony server to communicate with harmony hub.	{'bwssytems/restful-harmony': {'org.apache.httpcomponents': ('httpcore', '4.4.4', None), 'ch.qos.logback': ('logback-classic', '1.1.5', None), 'com.github.bwssytems': ('harmony-java-client', '1.0.9', None), 'com.sparkjava': ('spark-core', '2.3', None), 'org.igniterealtime.smack': ('smack-core', '4.0.7', None), 'com.google.code.gson': ('gson', '2.2.4', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.6.0', None), 'com.google.inject': ('guice', '4.0-beta4', None), 'org.slf4j': ('slf4j-api', '1.7.5', None)}}
+soywiz/psvita-java	13	0	Run Java/Kotlin Natively on the PSVita generating C++ with ARC instead GC using JTransc	{'soywiz/psvita-java': {}}
+SRGSSR/SRGMediaPlayer-Android	12	0	SRG Media Player Library	{'SRGSSR/SRGMediaPlayer-Android': {}}
+stephenc/non-maven-jar-maven-plugin	12	0	A plugin for making it easier to pull a non-maven jar into your build.	{'stephenc/non-maven-jar-maven-plugin': {'org.codehaus.plexus': ('plexus-container-default', '1.0-alpha-9', None), 'org.apache.maven': ('maven-plugin-api', '${mavenVersion}', None), 'org.apache.maven.plugin-tools': ('maven-plugin-annotations', '3.0', 'compile'), 'org.apache.maven.shared': ('maven-filtering', '1.0-beta-4', None)}}
+akomtur/fitchy	12	0	a lightweight feature-toggle library for Java	{'akomtur/fitchy': {'org.aspectj': ('aspectjrt', '1.6.11', None), 'junit': ('junit', '3.8.1', 'test'), 'com.googlecode.fitchy': ('core', '${parent.version}', None)}}
+cdorrat/geva-clj	12	0	Clojure support the the GEVA gramatical evolution library	{'cdorrat/geva-clj': {'groovy': ('groovy', '1.0', None), 'commons-logging': ('commons-logging', '1.1', None), 'org.apache.bsf': ('bsf-api', '3.1', None), 'org.clojure': ('clojure', '1.3.0', None), 'antlr': ('antlr', '2.7.5', None), 'jscheme': ('jscheme', '7.2', None), 'junit': ('junit', '4.8.2', 'test'), 'asm': ('asm', '2.2', None)}}
+idamobile/proto-mapper	12	0	Ligthweight generation of protobuf <-> bean mappers	{'idamobile/proto-mapper': {}}
+gusax/despotify	12	0	Clone of despotify	{'gusax/despotify': {'junit': ('junit', '4.5', 'test'), 'com.projectdarkstar.ext.jorbis': ('jorbis', '0.0.17', None), 'javax.persistence': ('persistence-api', '1.0', None), 'org.hibernate': ('hibernate-annotations', '3.3.1.GA', None), 'org.domdrides': ('domdrides-jpa', '1.2', None), 'org.tritonus': ('tritonus-jorbis', '0.3.6', None), 'org.slf4j': ('slf4j-log4j12', '1.4.2', None), 'log4j': ('log4j', '1.2.12', None)}}
+roquendm/JGO-Grabbag	12	0	non library of java source targeting game development	{'roquendm/JGO-Grabbag': {}}
+usrflo/encfs4j	12	0	Encrypted File System for Java: transparent encryption of files with e.g. AES by a java.nio.file.FileSystem implementation	{'usrflo/encfs4j': {'junit': ('junit', '4.12', None)}}
+nhaarman/Ergo	12	0	A library for easily executing asynchronous tasks using IntentServices	{'nhaarman/Ergo': {}}
+nitsanw/QueueEvolution	12	0	Supporting code, data, docs for Queue Evolution talk	{'nitsanw/QueueEvolution': {'org.openjdk.jmh': ('jmh-generator-annprocess', '0.6', 'provided')}}
+jruesga/android-snippets	12	0	{'jruesga/android-snippets': {}}
+anb0s/LogViewer	12	0	Eclipse Plug-in for tailing log files and eclipse consoles (e.g. SVN, Java Stack Trace, CDT), including syntax coloring with either a regular expression or a word match. It allows you to have multiple logs open concurrently.	{'anb0s/LogViewer': {}}
+sriharshachilakapati/WebGL4J	12	0	Simple WebGL wrapper for GWT	{'sriharshachilakapati/WebGL4J': {}}
+natetyoung/Frederic	12	0	Java implementation of Petrovich (http://dangermouse.net/esoteric/petrovich.html): operant conditioning in command systems	{'natetyoung/Frederic': {}}
+justomiguel/tsp2016	12	0	Carpeta de Ejercicios TSP	{'justomiguel/tsp2016': {}}
+rizasif/android-ble-sample	12	0	Bluetooth Low Energy to Android Connection	{'rizasif/android-ble-sample': {}}
+shuikeyi/MyWordPress	12	0	MyWordPress is a android client to visit the blog website bulid on Wordpress via JSON API	{'shuikeyi/MyWordPress': {}}
+miomin/MioHttp	12	0	Http framework / life cycle binding / pretreatment Json/xml / timeout retry / file downloading	{'miomin/MioHttp': {}}
+zhuoran/amoeba	12	0	Amoeba is a simple http server wrappered base on Netty framework	{'zhuoran/amoeba': {'org.springframework.boot': ('spring-boot-starter-log4j', '1.2.0.M2', None), 'org.slf4j': ('slf4j-api', '${slf4j.version}', None), 'io.netty': ('netty-all', '5.0.0.Alpha1', None)}}
+travisgoodspeed/MD380Tool	12	0	An Android client for the patched 'md380tools' firmware.	{'travisgoodspeed/MD380Tool': {}}
+misakuo/FlowLayout	12	0	FlowLayout component for Android	{'misakuo/FlowLayout': {}}
+kamikat/toast-compat	12	0	Toast notification polyfill	{'kamikat/toast-compat': {}}
+hrj/inter-wow	12	0	A visual technique for screening / interviewing programmers	{'hrj/inter-wow': {}}
+StylingAndroid/StateListAnimator	12	0	{'StylingAndroid/StateListAnimator': {}}
+georgemoralis/arcadeflex036	12	0	Port of mame 0.36 emulator to java	{'georgemoralis/arcadeflex036': {}}
+tazjin/kubernetes-letsencrypt	12	0	A Kubernetes controller to retrieve Letsencrypt certificates based on service annotations	{'tazjin/kubernetes-letsencrypt': {'com.google.guava': ('guava', '19.0', None), 'com.amazonaws': ('aws-java-sdk-route53', '1.11.33', None), 'io.fabric8': ('kubernetes-client', '1.4.7', None), 'org.mockito': ('mockito-all', '1.10.19', None), 'com.google.code.gson': ('gson', '2.7', None), 'dnsjava': ('dnsjava', '2.1.7', None), 'org.projectlombok': ('lombok', '1.16.10', 'provided'), 'junit': ('junit', '4.11', None), 'com.google.cloud': ('google-cloud-dns', '0.3.0', None), 'org.shredzone.acme4j': ('acme4j-utils', '0.7', None), 'org.slf4j': ('slf4j-simple', '1.7.21', None)}}
+eaglesakura/eglibrary	12	0	BluetoothDeviceScanner	{'eaglesakura/eglibrary': {}}
+muratcanbur/FirebaseTraining	12	0	This is an example project that demonstrates how simplified and easy to use firebase is.	{'muratcanbur/FirebaseTraining': {}}
+AleksanderMielczarek/BindingSnackbar	12	0	Simplify usage of Snackbar with Android Data Binding.	{'AleksanderMielczarek/BindingSnackbar': {}}
+mmhelloworld/akka-tutorial-frege	12	0	Akka with Frege	{'mmhelloworld/akka-tutorial-frege': {'frege': ('frege', '3.21.107-g4bd09eb', None), 'com.typesafe.akka': ('akka-actor_2.10', '2.1.4', None), 'junit': ('junit', '3.8.1', 'test')}}
+maxifier/cliche-shell	12	0	It's a reincarnation of cliche java shell to have a command line access to java process	{'maxifier/cliche-shell': {'commons-beanutils': ('commons-beanutils-core', '1.8.3', None), 'jline': ('jline', '2.9', None), 'com.google.guava': ('guava', None, None), 'org.apache.sshd': ('sshd-core', '0.8.0', None), 'data-exporter': ('data-exporter', None, None)}}
+sosiouxme/LogMyLife	12	0	Android application to help with tracking and remembering recurring events	{'sosiouxme/LogMyLife': {}}
+rxin/distributed-aligner	12	0	A distributed machine translation aligner implemented in Spark.	{'rxin/distributed-aligner': {}}
+krikelin/Spider	12	0	A clean room implementation of Spotify's Spider layout engine	{'krikelin/Spider': {}}
+timeu/processing-js-gwt	12	0	GWT Wrapper for processing-js	{'timeu/processing-js-gwt': {'com.google.gwt': ('gwt', '${gwt.version}', 'import'), 'com.github.timeu.gwt-libs.processingjs-gwt': ('processingjs-gwt', '${project.version}', None), 'junit': ('junit', '4.11', 'test'), 'org.mockito': ('mockito-all', '1.9.5', 'test')}}
+pr0cs/CameraTest	12	0	Using the camera intent in Android can be pretty confusing due to limited example code and different results from different devices.  This sample code aims to show some solutions or demonstrate different scenarios around image captures when using the built in Media camera intent.	{'pr0cs/CameraTest': {}}
+palantir/gerrit-ci	12	0	Plugin for Gerrit enabling self-service continuous integration workflows with Jenkins.	{'palantir/gerrit-ci': {}}
+satoshun/AndroidEvents	12	0	AndroidEvents is Sample Android app	{'satoshun/AndroidEvents': {}}
+ixkor/genaroid	12	0	Fast Android development with annotation processing	{'ixkor/genaroid': {}}
+rebane621/e621-android	12	0	NSFW android app	{'rebane621/e621-android': {}}
+sys1yagi/bazel-android-samples	12	0	{'sys1yagi/bazel-android-samples': {}}
+Swati4star/Mobile-store-estimotifier	12	0	:iphone:One Estimote beacon in each Airtel store and with that users can get numerous facilities.	{'Swati4star/Mobile-store-estimotifier': {}}
+nisrulz/UploadToJitpack	12	0	[Example] Base repository to demonstrate the process of uploading an aar/jar to JitPack	{'nisrulz/UploadToJitpack': {}}
+ncellar/caxap	12	0	A syntactic macro system on top of the Java language. Acts as a source pre-processor.	{'ncellar/caxap': {'eu.norswap.caxap': ('caxap', '1.0-SNAPSHOT', 'system')}}
+evant/retain-state	12	0	A dead simple way to retain some state thought configuration changes on Android	{'evant/retain-state': {}}
+AcandoNorway/XmlToRdf	12	0	Java library to convert any XML file to RDF.	{'AcandoNorway/XmlToRdf': {}}
+anylineorg/anyline	12	0	{'anylineorg/anyline': {}}
+TremoloSecurity/OpenUnison	12	0	Unified Identity Management	{'TremoloSecurity/OpenUnison': {'javax.servlet': ('javax.servlet-api', '${servlet.api.version}', 'provided'), 'com.tremolosecurity.unison': ('unison-server-core', '${openunison.version}', None)}}
+bloomberg/presto-accumulo	12	0	Presto Accumulo Integration	{'bloomberg/presto-accumulo': {'org.reflections': ('reflections', '0.9.10', None), 'com.facebook.presto': ('presto-accumulo-tools', '${presto.version}', None), 'org.apache.accumulo': ('accumulo-core', '${accumulo.version}', None), 'com.puppycrawl.tools': ('checkstyle', '6.15', None)}}
+SamirTalwar/FizzBuzz	12	0	Reimplementing lambda calculus in Java 8 for fun and profit.	{'SamirTalwar/FizzBuzz': {'org.hamcrest': ('hamcrest-library', '1.3', 'test'), 'junit': ('junit', '4.11', 'test')}}
+orocrm/oro-phpstorm-plugin	12	0	Plugin for the PHPStorm that will help to increase the development speed on the projects based on the OroPlatform	{'orocrm/oro-phpstorm-plugin': {}}
+mentlerd/HybridVM	12	0	HybridVM - Java implementation of the popular Lua scripting language	{'mentlerd/HybridVM': {}}
+daveshah/CukesForDroids	12	0	A quick and dirty proof of concept driving Android with Cukes!	{'daveshah/CukesForDroids': {'org.picocontainer': ('picocontainer', '2.14.1', None), 'junit': ('junit', '4.10', None), 'info.cukes': ('cucumber-junit', '1.0.0.RC10', None)}}
+danja/WebBeep	12	0	text to tones and back again	{'danja/WebBeep': {}}
+jasonhudgins/droidworks-android-kitchensink	12	0	An opensource library of android code	{'jasonhudgins/droidworks-android-kitchensink': {}}
+ru/casanova	12	0	A charming general game player	{'ru/casanova': {'jline': ('jline', '0.9.94', None), 'java-cup': ('java-cup', '0.10', None), 'jflex': ('jflex', '1.4.2', None), 'org.eclipse.palamedes': ('kif', '0.6.1', None), 'org.clojure': ('clojure-contrib', '1.1.0', None)}}
+lozga/spaceracegame	12	0	Turn-based strategy about space race between USA and USSR	{'lozga/spaceracegame': {}}
+dinosaurwithakatana/Reactor	12	0	Port of meteor's transparent reactive framework for android	{'dinosaurwithakatana/Reactor': {}}
+Thog/ISBRH	12	0	ISBRH for Minecraft 1.8 (Discontinued)	{'Thog/ISBRH': {}}
+misyobun/MSBVersionUpdater	12	0	MSBVersionUpdater can show dialog about app update information and force users to download new version app.	{'misyobun/MSBVersionUpdater': {}}
+littledot/Leg	12	0	Android Leg - A Logger that tells you exactly where in the source code the message was generated. Logging so good it's like running with a third leg.	{'littledot/Leg': {}}
+dlew/android-custom-views-sample	12	0	Sample code for the talk "Custom Views for Profit and Pleasure"	{'dlew/android-custom-views-sample': {}}
+BitFunnel/Workbench	12	0	Java and Lucene based tools for BitFunnel corpus preparation	{'BitFunnel/Workbench': {'org.apache.lucene': ('lucene-analyzers-common', '6.0.0', None), 'commons-cli': ('commons-cli', '1.3.1', None), 'junit': ('junit', '3.8.1', 'test')}}
+kaelaela/FindNoUsages	12	0	An Intellij IDEA plugin.	{'kaelaela/FindNoUsages': {}}
+TheDsWeb/yawls	12	0	Adjust the brightness level of your display by using the internal/external webcam of your notebook as an ambient light sensor	{'TheDsWeb/yawls': {}}
+keenon/lense	12	0	A framework for solving tasks with a real-time human-ML hybrid	{'keenon/lense': {'org.eclipse.jetty': ('jetty-webapp', '9.3.3.v20150827', None), 'com.googlecode.json-simple': ('json-simple', '1.1.1', None), 'org.junit.contrib': ('junit-theories', '4.12', None), 'com.google.protobuf': ('protobuf-java', '3.0.0-beta-2', None), 'org.codehaus.woodstox': ('wstx-asl', '4.0.6', None), 'org.eclipse.jetty.websocket': ('websocket-server', '9.3.3.v20150827', None), 'com.pholser': ('junit-quickcheck-generators', '0.4-beta-3', 'test'), 'com.amazon': ('java-aws-mturk', '1.2.2', None), 'junit': ('junit', '4.12', None), 'org.slf4j': ('slf4j-simple', '1.7.19', None), 'com.github.keenon': ('loglinear', '1.4.0', None)}}
+DanielSerdyukov/droidcon2015	12	0	{'DanielSerdyukov/droidcon2015': {}}
+akarapetsas/Monet	12	0	Monet is a wrapper of the Volley and the Jackson libraries with a fluent public API based on method chaining and extra caching functionality	{'akarapetsas/Monet': {}}
+gmarziou/jhipster-ionic	12	0	Example showing how to build an Ionic app using JHipster as backend	{'gmarziou/jhipster-ionic': {}}
+david-serrano/AndroidAssetImporter	12	0	An Android Studio plugin designed to facilitate importing assets into your Android project in an easy and painless manner. No more copy and pasting!	{'david-serrano/AndroidAssetImporter': {}}
+fredymam/AjedrezTorneo	12	0	{'fredymam/AjedrezTorneo': {}}
+mskurt/FlexiTags	12	0	{'mskurt/FlexiTags': {}}
+yxping/DyeingBarHelper	12	1	a android project for tinting the system bar	{'yxping/DyeingBarHelper': {}}
+diet4j/diet4j	12	0	Main repo	{'diet4j/diet4j': {'${project.groupId}': ('diet4j-core', '${project.version}', 'provided'), 'junit': ('junit', '${junit.version}', None)}}
+alseambusher/adb-toggle	12	0	A homescreen widget to toggle USB debugging on/off	{'alseambusher/adb-toggle': {}}
+eaglesakura/multicontextglsurfaceview	12	0	非同期でのGL処理をサポートしたGLSurfaceView	{'eaglesakura/multicontextglsurfaceview': {}}
+geophile/geophile	12	1	Spatial join, written in Java.	{'geophile/geophile': {'junit': ('junit', '4.8.1', 'test'), 'com.vividsolutions': ('jts', '1.13', None)}}
+stuartsierra/classpath-manager	12	0	(archived) Nailgun add-on to run Java classes with configurable classpath	{'stuartsierra/classpath-manager': {'com.stuartsierra': ('nailgun', '0.7.1', None)}}
+8Yards/Nebula_Android	12	0	Android Group Communication Application	{'8Yards/Nebula_Android': {}}
+insightfullogic/java-multi-inherit	12	0	A prototype implementation of Multiple Inheritance and Traits in Java.	{'insightfullogic/java-multi-inherit': {'asm': ('asm-commons', '3.3.1', None), 'com.google.guava': ('guava', 'r09', None), 'nl.jqno.equalsverifier': ('equalsverifier', '1.0.2', 'test'), 'junit': ('junit', '4.8.2', 'test'), 'com.google.inject': ('guice', '3.0', None)}}
+britt/github-java	12	0	A Java client for the GitHub API	{'britt/github-java': {'commons-httpclient': ('commons-httpclient', '3.1', None), 'log4j': ('log4j', '1.2.14', None), 'org.json': ('json', '20070829', None), 'junit': ('junit', '3.8.1', 'test')}}
+cjmalloy/torrent-fs	12	0	A torrent-based file system.	{'cjmalloy/torrent-fs': {'junit': ('junit', '3.8.1', 'test')}}
+josecalles/Tistiq	12	0	Android application that provides stats based on the texting behavior of you and your friends	{'josecalles/Tistiq': {}}
+bdiegel/android-aloha	12	0	Library and sample app to add a simple welcome activity.	{'bdiegel/android-aloha': {}}
+eigengo/activator-leag	12	0	Lagom eye for the Akka guy	{'eigengo/activator-leag': {}}
+luispereira/LogThis	12	0	Log any method on android by simply using annotation @LogThis for android apps or libs	{'luispereira/LogThis': {}}
+xbhatnag/Tenebris	12	0	Tenebris is the ultimate cat and mouse stealth game you can play in real life.	{'xbhatnag/Tenebris': {}}
+janishar/PlaceHolderView	12	0	A wrapper for android recyclerview	{'janishar/PlaceHolderView': {}}
+kmdupr33/Vice	12	0	{'kmdupr33/Vice': {}}
+DrBreen/BeRetained	12	0	Simple library for retaining non-Parcelable on configuration change.	{'DrBreen/BeRetained': {}}
+iitc/spark	12	0	Open source automation and reverse engineering library for Runescape.	{'iitc/spark': {}}
+akarnokd/RxJava2Extensions	12	0	Extra sources, operators and components and ports of many 1.x companion libraries for RxJava 2.x.	{'akarnokd/RxJava2Extensions': {}}
+fishyer/BaseUtil	12	0	Android学习之路	{'fishyer/BaseUtil': {}}
+ezhome/Android-RxFirebase	12	0	RxJava implementation for the Android Firebase client by Ezhome	{'ezhome/Android-RxFirebase': {}}
+NikitaKozlov/Pury	12	0	Android library for measuring time between multiple independent events.	{'NikitaKozlov/Pury': {}}
+MitI-7/IDEOM	11	0	Customizing the JetBRAINS IDEs	{'MitI-7/IDEOM': {}}
+yurkiv/uNote	11	0	Android Notes App with Material Design	{'yurkiv/uNote': {}}
+chiragjain/SurfaceGameProject	11	0	A Game framework implementation using Android View components	{'chiragjain/SurfaceGameProject': {}}
+Yaccc/ChmodUtil	11	0	Record some of my tools, not limited to language	{'Yaccc/ChmodUtil': {}}
+aahmed-se/presto-redis	11	0	presto-redis is an experimental sql layer for redis	{'aahmed-se/presto-redis': {}}
+rdclark/pptx2html	11	0	PowerPoint OOXML (2007) to HTML conversion via ANTLR	{'rdclark/pptx2html': {'org.apache.maven.surefire': ('surefire-junit47', '2.17', None), 'org.hamcrest': ('hamcrest-integration', '1.3', 'test'), 'org.antlr': ('ST4', '4.0.8', None), 'commons-io': ('commons-io', '2.4', None), 'junit': ('junit', '4.11', None)}}
+bjepson/Arduino_NDEF_Reader	11	0	This will read tags you've formatted on an Android phone using NXP Tagwriter	{'bjepson/Arduino_NDEF_Reader': {}}
+grahambrooks/bvira	11	0	Demonstration reference architecture and test example. Bvira is based on the architecture of a social media project I was involved in some years ago.	{'grahambrooks/bvira': {}}
+tcr/mug-android	11	0	JavaScript on Android.	{'tcr/mug-android': {}}
+headius/jcd	11	0	JRuby version of MacRuby's Grand Central Dispatch wrapper	{'headius/jcd': {}}
+Zarkonnen/A-Natural-Language-Generator-for-Software-Translation	11	0	A clever (I think) piece of software I wrote at university.	{'Zarkonnen/A-Natural-Language-Generator-for-Software-Translation': {}}
+darkrock/ferite-module-soap	11	0	A ferite module for interacting with SOAP services	{'darkrock/ferite-module-soap': {}}
+joakime/android-sdkfido	11	0	Fetch Android AOSP, create maven build, use real maven artifacts.	{'joakime/android-sdkfido': {'org.eclipse.jetty.toolchain': ('jetty-test-helper', '1.0', None), 'junit': ('junit', '4.8.1', None)}}
+isel-leic-mpd/mpd-2012-i41d	11	0	Repositório de MPD das turmas i41d e i61d de 2012	{'isel-leic-mpd/mpd-2012-i41d': {}}
+antoniogarrote/clojure_kilim	11	0	Clojure/Kilim integration	{'antoniogarrote/clojure_kilim': {}}
+ayax79/jetty-deployer	11	0	for of the cargo jetty deployer	{'ayax79/jetty-deployer': {'javax.servlet': ('servlet-api', '2.4', 'provided'), 'org.mortbay.jetty': ('jetty', '6.1.7', 'provided'), 'junit': ('junit', '3.8.1', 'test')}}
+Plazmaz/Agent7	11	0	An open source penetration testing tool	{'Plazmaz/Agent7': {'org.apache.commons': ('commons-lang3', '3.1', None), 'org.jsoup': ('jsoup', '1.7.2', None), 'commons-net': ('commons-net', '3.3', None)}}
+Camtendo/jokemon	11	0	A fully featured Pokemon game a team of 4 guys made in high school.	{'Camtendo/jokemon': {}}
+sambathl/interapp-eventbus	11	0	{'sambathl/interapp-eventbus': {'com.google.gwt': ('gwt-user', '2.6.0', 'provided')}}
+datasayer/meerkat	11	0	{'datasayer/meerkat': {'org.apache.hama': ('hama-core', '0.6.4', None), 'commons-logging': ('commons-logging', '1.1.3', None), 'junit': ('junit', '4.8.1', None), 'org.apache.hadoop': ('hadoop-core', '1.2.1', None), 'log4j': ('log4j', '1.2.17', None)}}
+JanGe/fasttimepicker	11	0	Makes the Numpad-style TimePicker from the Jelly Bean default clock and alarm application available as a library.	{'JanGe/fasttimepicker': {}}
+sissbruecker/gog-java-api	11	0	A Java API for GOG.com	{'sissbruecker/gog-java-api': {'org.apache.httpcomponents': ('httpclient', '4.2.5', None), 'org.codehaus.jackson': ('jackson-jaxrs', '1.9.11', None), 'junit': ('junit', '4.11', None), 'org.jsoup': ('jsoup', '1.7.1', None), 'log4j': ('log4j', '1.2.17', None)}}
+oyiptong/pancake-smarts	11	0	ugly code in topic modelling	{'oyiptong/pancake-smarts': {}}
+XhinLiang/MaterialNote	11	0	Note App	{'XhinLiang/MaterialNote': {}}
+edisonw/PennStation	11	0	An IPC supported event service for Android built on EventBus	{'edisonw/PennStation': {}}
+shiffman/Processing-Mod-Minecraft	11	0	Working on a way to mod Minecraft with Processing and Forge	{'shiffman/Processing-Mod-Minecraft': {}}
+andretietz/rxservice	11	0	An android remote service implementation including a callback using rxjava to connect	{'andretietz/rxservice': {}}
+Nincraft/ModPackDownloader	11	0	Simple downloader for Minecraft Forge Modpacks. Works with Curse manifest JSONs	{'Nincraft/ModPackDownloader': {'com.googlecode.json-simple': ('json-simple', '1.1.1', None), 'org.apache.logging.log4j': ('log4j-core', '2.5', None), 'com.google.guava': ('guava', '19.0', None), 'net.lingala.zip4j': ('zip4j', '1.3.2', None), 'commons-io': ('commons-io', '2.1', None), 'com.google.code.gson': ('gson', '2.6.2', None), 'org.apache.commons': ('commons-lang3', '3.4', None), 'org.projectlombok': ('lombok', '1.16.6', 'provided')}}
+fuqinwu/Movie	11	0	dagger实现的简单的电影列表	{'fuqinwu/Movie': {}}
+YouzanMobile/ZanCharts	11	0	A wonderful chart library for Android	{'YouzanMobile/ZanCharts': {}}
+FutureHax/UberVerificationSystem	11	0	{'FutureHax/UberVerificationSystem': {}}
+MarkusBernhardt/proxy-vole	11	0	Proxy Vole is a Java library to auto detect the platform network proxy settings.	{'MarkusBernhardt/proxy-vole': {'org.ini4j': ('ini4j', '0.5.4', None), 'net.java.dev.jna': ('jna-platform', '4.2.2', None), 'junit': ('junit', '4.12', None)}}
+stormcloud-dev/stormcloud	11	0	StormCloud Risk of Rain Server	{'stormcloud-dev/stormcloud': {'com.google.code.gson': ('gson', '2.3.1', None), 'org.jbox2d': ('jbox2d-library', '2.2.1.1', None), 'io.netty': ('netty-all', '5.0.0.Alpha1', None)}}
+ihorvitruk/buddysearch	11	0	Android Clean Architecture example using MVP, Rx: RxJava, RxAndroid, Dagger 2, Data Binding, Retrolambda, Firebase, Realm	{'ihorvitruk/buddysearch': {}}
+nerds-central/SonicFieldRepo	11	0	Audio Synthesis and Mastering For Python (Jython)	{'nerds-central/SonicFieldRepo': {}}
+HugoGresse/SimpleExoPlayer	11	0	A simple ExoPlayer implementation for easy use [WIP]	{'HugoGresse/SimpleExoPlayer': {}}
+kai0masanari/Forcelayout	11	0	{'kai0masanari/Forcelayout': {}}
+glassLake/MyToast	11	0	toast的基本封装,包括单例化,成功和失败的提示吐司	{'glassLake/MyToast': {}}
+heshiweij/RoundProgress	11	0	一个精致的圆环进度条，代码非常简洁	{'heshiweij/RoundProgress': {}}
+riebschlager/sketch-portrait	11	0	Create a portrait with thousands of faint lines.	{'riebschlager/sketch-portrait': {}}
+weefbellington/droidvalidate	11	0	An annotation-based input validation library for Android	{'weefbellington/droidvalidate': {}}
+avh4/junit-nested	11	0	JUnit-Nested - Testing tool for Java	{'avh4/junit-nested': {'org.hamcrest': ('hamcrest-integration', '1.3', None), 'junit': ('junit', '4.11', None), 'org.mockito': ('mockito-core', '1.9.5', None)}}
+safarijv/ifpress-solr-plugin	11	0	Plugins that extend Solr's capabilities	{'safarijv/ifpress-solr-plugin': {'commons-logging': ('commons-logging-api', '1.1', None), 'org.apache.solr': ('solr-core', '4.10.2', None), 'javax.servlet': ('servlet-api', '2.5', 'provided'), 'org.codehaus.woodstox': ('woodstox-core-asl', '4.1.1', None), 'junit': ('junit', '4.11', None), 'org.slf4j': ('slf4j-log4j12', '1.6.1', None), 'log4j': ('log4j', '1.2.16', 'test')}}
+jglrxavpok/JLSL	11	0	A java library to convert from Java to GLSL	{'jglrxavpok/JLSL': {}}
+curioustechizen/Support7Demos-AS	11	0	OBSOLETE	{'curioustechizen/Support7Demos-AS': {}}
+jaredrummler/vector2svg	11	0	Convert Android VectorDrawable XML resource file to SVG	{'jaredrummler/vector2svg': {}}
+SYSTRAN/geographic-api-java-client	11	0	SYSTRAN Platform - Geographic - Java Client Library	{'SYSTRAN/geographic-api-java-client': {'com.sun.jersey.contribs': ('jersey-multipart', '${jersey-version}', None), 'com.sun.jersey': ('jersey-client', '${jersey-version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '2.1.5', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${jackson-version}', None), 'org.apache.james': ('apache-mime4j-core', '0.7.2', None), 'joda-time': ('joda-time', '${jodatime-version}', None), 'io.swagger': ('swagger-annotations', '${swagger-annotations-version}', None), 'junit': ('junit', '${junit-version}', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+AndroidSources/Android-Location-API-Using-Google-Play-Services	11	0	Android Location API Using Google Play Services	{'AndroidSources/Android-Location-API-Using-Google-Play-Services': {}}
+AlecStrong/pizzasort	11	0	Sort a given list of pizzas by tastiness	{'AlecStrong/pizzasort': {}}
+igorspasic/idea-sexyeditor	11	0	Sexy editor plugin for IntelliJ - one that you can't live without	{'igorspasic/idea-sexyeditor': {}}
+operando/EspressoSpoonSample	11	0	Espresso + Spoon Sample	{'operando/EspressoSpoonSample': {}}
+concord/concord-jvm	11	0	Java and Scala client libraries for Concord	{'concord/concord-jvm': {}}
+sialcasa/focusFX	11	0	Small Focus Manager for JavaFX	{'sialcasa/focusFX': {'org.testfx': ('openjfx-monocle', '1.8.0_20', 'test'), 'junit': ('junit', '4.11', 'test')}}
+ClouDesire/janine	11	0	Janine is your sexy generator and archiver of PDF invoices (BETA)	{'ClouDesire/janine': {'org.springframework.boot': ('spring-boot-starter-test', None, 'test'), 'org.apache.pdfbox': ('pdfbox', '2.0.0', None), 'org.apache.jclouds': ('jclouds-allblobstore', '1.9.2', None), 'org.bouncycastle': ('bcpkix-jdk15on', '${bouncycastle.version}', None), 'com.fasterxml.jackson.module': ('jackson-module-jsonSchema', '${jackson.version}', None), 'com.cloudesire': ('janine-client', '0.1.1-SNAPSHOT', None), 'org.apache.commons': ('commons-lang3', '3.4', None)}}
+OkBuilds/BuckJava8RetroLambdaDemo	11	0	A demo project showcase the usage about combination of BUCK, Java 8 lambda expression and RetroLambda.	{'OkBuilds/BuckJava8RetroLambdaDemo': {}}
+Xiaofei-it/Concurrent-Utils	11	0	Utilities for Java concurrent library.	{'Xiaofei-it/Concurrent-Utils': {}}
+LateNightProductions/CardKeeper	11	0	Android app for scanning and retaining barcodes and QR codes	{'LateNightProductions/CardKeeper': {}}
+jgkamat/ViPaint	11	0	A modal, Vi like painting program!	{'jgkamat/ViPaint': {}}
+bullhorn/starter-kit-spring-maven	11	0	A Bullhorn Platform SDK library. Quickly build Java-based applications, services and CRM extensions that consume the Bullhorn REST API.	{'bullhorn/starter-kit-spring-maven': {'net.sf.dozer': ('dozer', '5.5.1', None), 'org.springframework.security': ('spring-security-taglibs', '${org.springframework.security.version}', None), 'commons-dbcp': ('commons-dbcp', '1.4', None), 'javax.transaction': ('jta', '1.1', None), 'org.codehaus.groovy': ('groovy-eclipse-batch', '2.3.4-01', None), 'com.thoughtworks.xstream': ('xstream', '1.4.9', None), 'javax.servlet': ('jstl', '1.2', None), 'javax.servlet.jsp': ('jsp-api', '2.2', 'provided'), 'cglib': ('cglib-nodep', '3.2.1', None), 'mysql': ('mysql-connector-java', '5.1.38', None), 'org.hsqldb': ('hsqldb', '2.3.3', None), 'org.slf4j': ('slf4j-log4j12', '${org.slf4j.version}', 'runtime'), 'javax.el': ('javax.el-api', '2.2.5', 'provided'), 'com.amazonaws': ('aws-java-sdk', '1.10.61', None), 'com.lowagie': ('itext-rtf', '2.1.7', None), 'com.fasterxml.jackson.core': ('jackson-annotations', '${jackson.version}', None), 'javax.mail': ('mail', '1.4.7', None), 'com.esotericsoftware.kryo': ('kryo', '2.24.0', None), 'org.quartz-scheduler': ('quartz', '2.2.2', None), 'commons-validator': ('commons-validator', '1.5.0', None), 'org.apache.maven.plugins': ('maven-clean-plugin', '2.1.1', 'provided'), 'org.bouncycastle': ('bcprov-jdk16', '1.46', None), 'com.jayway.jsonpath': ('json-path', '2.2.0', 'test'), 'com.bullhorn': ('sdk-rest', '1.1.18', None), 'javax.xml': ('jaxrpc-api', '1.1', None), 'junit': ('junit', '4.12', 'test'), 'commons-codec': ('commons-codec', '1.10', None), 'com.google.guava': ('guava', '19.0', None), 'commons-httpclient': ('commons-httpclient', '3.1', None), 'de.javakaffee': ('kryo-serializers', '0.37', None), 'joda-time': ('joda-time', '2.9.2', None), 'org.apache.axis': ('axis', '1.4', None), 'org.springframework.integration': ('spring-integration-ftp', '${org.springframework.integration.version}', None), 'org.glassfish.web': ('javax.el', '2.2.5', 'provided'), 'commons-io': ('commons-io', '2.4', 'compile'), 'org.hamcrest': ('hamcrest-library', '1.3', 'test'), 'org.json': ('json', '20160212', None), 'javax.validation': ('validation-api', '1.1.0.Final', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '${jackson.version}', None), 'org.hibernate': ('hibernate-entitymanager', '${hibernate.version}', None), 'commons-discovery': ('commons-discovery', '0.5', None), 'org.apache.velocity': ('velocity', '1.7', 'compile'), 'log4j': ('log4j', '1.2.17', None), 'org.springframework': ('spring-test', '${org.springframework.version}', 'test'), 'commons-fileupload': ('commons-fileupload', '1.3.1', 'compile'), 'com.itextpdf': ('itextpdf', '5.5.9', None), 'net.oauth.core': ('oauth', '20100527', 'compile'), 'org.apache.commons': ('commons-lang3', '3.4', None), 'org.eclipse.persistence': ('javax.persistence', '2.1.1', None)}}
+anlar/LunaticSMTP	11	0	Dummy SMTP server with JavaFX gui for testing email sending applications	{'anlar/LunaticSMTP': {}}
+LightSun/android-common-util-light	11	0	a light lib of android-common-utils for use.	{'LightSun/android-common-util-light': {}}
+trvedata/trvedb	11	0	{'trvedata/trvedb': {'org.eclipse.jetty.websocket': ('websocket-server', '${jetty.version}', None), 'org.apache.avro': ('avro', '1.8.0', None), 'org.rocksdb': ('rocksdbjni', '4.1.0', None), 'io.dropwizard': ('dropwizard-assets', '${dropwizard.version}', None), 'junit': ('junit', '4.12', 'test'), 'org.apache.kafka': ('kafka-clients', '${kafka.version}', None)}}
+bassaer/ChatMessageView	11	0	Chat UI library for Android	{'bassaer/ChatMessageView': {}}
+lukas-krecan/mock-socket	11	0	Mock Java client socket implementation	{'lukas-krecan/mock-socket': {'org.apache.httpcomponents': ('httpclient', '4.1.1', 'test'), 'org.hamcrest': ('hamcrest-core', '1.2.1', None), 'commons-io': ('commons-io', '2.0.1', None), 'org.mockito': ('mockito-all', '1.8.5', 'test')}}
+zazl/optimizer	11	0	Zazl Javascript Optimizer	{'zazl/optimizer': {}}
+migdb/migdb	11	0	The MigDB Project - Database Migration	{'migdb/migdb': {}}
+sk89q/CraftAPI	11	0	XML-RPC interface for hMod with support for streaming APIs	{'sk89q/CraftAPI': {}}
+kaladron/Webhack	11	0	A Java / JavaScript reimplementation of Nethack	{'kaladron/Webhack': {}}
+allenday/image-similarity	11	0	Canny edges + color histograms + KD-tree indexing	{'allenday/image-similarity': {'com.sun.media': ('jai-codec', '1.1.3', None), 'junit': ('junit', '4.8.1', 'test'), 'org.slf4j': ('slf4j-api', '1.6.4', None), 'javax.media': ('jai_core', '1.1.3', None)}}
+esammer/mrunit	11	0	A standalone fork of mrunit	{'esammer/mrunit': {'commons-logging': ('commons-logging', '1.1.1', None), 'junit': ('junit', '4.8.1', None), 'com.cloudera.hadoop': ('hadoop-core', '0.20.2-737', 'provided'), 'log4j': ('log4j', '1.2.15', 'provided')}}
+MBQ-/Hangouts-UI	11	0	Exact Hangouts UI with a demo.	{'MBQ-/Hangouts-UI': {}}
+Zandbee/FloatingTitleBar	11	0	Custom Android layout with a toolbar, image, floating title, fab and content.	{'Zandbee/FloatingTitleBar': {}}
+CorpWar/CorpNet	11	0	Java R-UDP game network library	{'CorpWar/CorpNet': {'junit': ('junit', '4.11', 'test')}}
+jrhicks/ionic-pouchdb	11	0	(In progress) Base app for writing iOS and Android apps using IonicFramework and PouchDB	{'jrhicks/ionic-pouchdb': {}}
+pagrus7/java-for-rockstars	11	0	Simple real-time sound effect with java/asio4all	{'pagrus7/java-for-rockstars': {'com.googlecode.soundlibs': ('tritonus-share', '0.3.7-2', None), 'org.jaudiolibs': ('jnajack', '1.1.1', 'system'), 'net.sf.trove4j': ('trove4j', '3.0.3', None), 'com.synthbot': ('jasiohost64', '1.8', 'system'), 'net.java.dev.jna': ('jna', '4.1.0', None)}}
+sureshg/java-rust-ffi	11	0	FFI example for accessing rust dynamic libraries from java	{'sureshg/java-rust-ffi': {}}
+dstaley/react-native-chrome-custom-tabs	11	0	Use Chrome Custom Tabs from React Native on Android	{'dstaley/react-native-chrome-custom-tabs': {}}
+conversant/rtree	11	0	General Purpose R-Tree Index	{'conversant/rtree': {'junit': ('junit', '4.12', 'test'), 'org.mockito': ('mockito-all', '1.10.19', 'test')}}
+lukas-krecan/json-literal	11	0	A library for writing JSON in literal-like style	{'lukas-krecan/json-literal': {}}
+Cojac/Cojac	11	0	Numerical sniffing tool and Enriching number wrapper for Java	{'Cojac/Cojac': {'com.wicht.benchmark.utils': ('mt-13.jar', '1.0', 'system'), 'commons-cli': ('commons-cli', '1.2', None), 'junit': ('junit', '4.7', 'test'), 'org.ow2.asm': ('asm-all', '5.0.2', None)}}
+Haoxiqiang/Third-update-sdk	11	0	为了天朝的各个应用市场的不要脸规则,整理一些通用的解决办法	{'Haoxiqiang/Third-update-sdk': {}}
+XhinLiang/BlueControl	11	0	Just A Simple App For Bluetooth Control Using SPP.	{'XhinLiang/BlueControl': {}}
+loonggg/CircleProgressBar	11	0	圆环进度动态显示	{'loonggg/CircleProgressBar': {}}
+frodoking/GithubAndroidClient	11	1	Github Client for Android	{'frodoking/GithubAndroidClient': {}}
+prachi1210/air-travel-tracker	11	0	:airplane: Java Applet built in Processing using the Unfolding Maps library	{'prachi1210/air-travel-tracker': {}}
+covetcode/EditTextFirework-Demo	11	0	first commit	{'covetcode/EditTextFirework-Demo': {}}
+nhachicha/ZoomMapsV2	11	0	Demo App to showcase how you can find the appropriate zoom level  so we can display the desired number of POI within a given radius	{'nhachicha/ZoomMapsV2': {}}
+hgschmie/vtte	11	0	Very trivial template engine	{'hgschmie/vtte': {'org.kitei.internal': ('kitei-rules', '${dep.kitei-rules.version}', None), 'com.google.guava': ('guava', None, 'test'), 'junit': ('junit', None, 'test')}}
+pantor-engineering/xmit	11	0	XMIT Session Layer Implementation	{'pantor-engineering/xmit': {}}
+yasiralijaved/GenRadar	11	0	A Radar API for Android	{'yasiralijaved/GenRadar': {}}
+konsumer/phonegap-pebble	11	0	A Phonegap interface to PebbleKit	{'konsumer/phonegap-pebble': {}}
+openCage/memoryfs	11	0	a java 7 nio2 memory based filesystem	{'openCage/memoryfs': {'de.pfabulist': ('kleinod', '0.34.1', None), 'junit': ('junit', None, 'test'), 'de.pfabulist.lindwurm': ('niotest', '0.35', 'test')}}
+kurtraschke/wmata-gtfsrealtime	11	0	GTFS-realtime StopTimeUpdate, VehiclePosition, and Alert feeds for WMATA	{'kurtraschke/wmata-gtfsrealtime': {'org.apache.httpcomponents': ('httpclient', '4.3.4', None), 'com.google.guava': ('guava', '17.0', None), 'ch.qos.logback': ('logback-classic', '1.1.2', None), 'org.codehaus.woodstox': ('woodstox-core-asl', '4.4.0', None), 'org.onebusaway': ('onebusaway-collections', '1.2.0', None), 'net.sf.ehcache': ('ehcache', '2.8.3', None), 'org.99soft.guice': ('rocoto', '6.2', None), 'com.fasterxml.jackson.dataformat': ('jackson-dataformat-xml', '2.4.1', None), 'org.slf4j': ('slf4j-api', '1.7.7', None)}}
+mironal/GlacierTools	11	0	開発停止。	{'mironal/GlacierTools': {}}
+docBliny/qremote	11	0	Nexus Q Remote Control API and Web Application	{'docBliny/qremote': {}}
+Pewpewarrows/Convoid	11	0	The unofficial Convore app for Android!	{'Pewpewarrows/Convoid': {}}
+kuksenko/quantum	11	0	"Quantum Performance Effects" demo	{'kuksenko/quantum': {'org.openjdk.jmh': ('jmh-generator-annprocess', '${jmh.version}', 'provided'), 'net.sf.trove4j': ('trove4j', '3.0.3', None)}}
+yayquery/yayqueryPad	11	0	a next generation etherpad	{'yayquery/yayqueryPad': {}}
+egaumer/bulktag	11	0	An elasticsearch bulk tagging plugin	{'egaumer/bulktag': {'org.elasticsearch': ('elasticsearch', '${elasticsearch.version}', 'compile')}}
+gatoatigrado/skalch	11	0	scala + sketching (sketch.cs.berkeley.edu) project	{'gatoatigrado/skalch': {'gnu-regexp': ('gnu-regexp', '1.1.4', None), 'edu.berkeley.cs.sketch': ('sketch-frontend', '${sketchfrontend.version}', None), 'junit': ('junit', '4.6', None)}}
+cwgit/ximix	11	0	Ximix is a network application offering threshold key generation, signatures, decryption, and a RPC style MixNet	{'cwgit/ximix': {}}
+vydd/cachedmediaplayer	11	0	Android MediaPlayer wrapper that supports caching via internal proxy	{'vydd/cachedmediaplayer': {}}
+amulyakhare/Android-Clean-Architecture-BookStore	11	0	A sample android application built based on the principles of Uncle Bob's Clean Architecture.	{'amulyakhare/Android-Clean-Architecture-BookStore': {}}
+kekepins/alt-scount	11	0	Save your Suunto Ambit moves without Moveslink and Movescount	{'kekepins/alt-scount': {'eu.hansolo.enzo': ('Enzo', '${enzo.version}', None), 'org.springframework': ('spring-web', '${spring.version}', None), 'org.ambit.altscount': ('altscount-usb', '${project.version}', None), 'org.hid4java': ('hid4java', '${hid4java}', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${fasterxml.version}', None), 'org.controlsfx': ('controlsfx', '8.20.8', None), 'org.apache.maven.surefire': ('surefire-junit47', '2.16', None), 'log4j': ('log4j', '1.2.16', None), 'org.slf4j': ('jcl-over-slf4j', '${org.slf4j-version}', None)}}
+coding-jam/CodingJamAndroidApp	11	0	Android app of blog cosenonjaviste.it	{'coding-jam/CodingJamAndroidApp': {}}
+puniverse/capsule-desktop	11	0	Make native executables out of capsules	{'puniverse/capsule-desktop': {}}
+SYSTRAN/resources-api-java-client	11	0	SYSTRAN Platform - Resources Management - Java Client Library	{'SYSTRAN/resources-api-java-client': {'com.sun.jersey.contribs': ('jersey-multipart', '${jersey-version}', None), 'com.sun.jersey': ('jersey-client', '${jersey-version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '2.1.5', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${jackson-version}', None), 'org.apache.james': ('apache-mime4j-core', '0.7.2', None), 'joda-time': ('joda-time', '${jodatime-version}', None), 'io.swagger': ('swagger-annotations', '${swagger-annotations-version}', None), 'junit': ('junit', '${junit-version}', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+upenn-libraries/xmlaminar	11	0	Utilities for working with streaming XML pipelines	{'upenn-libraries/xmlaminar': {'edu.upenn.library': ('xmlaminar-parallel', '1.3-SNAPSHOT', None), 'org.apache.httpcomponents': ('httpclient', '4.2.3', 'compile'), 'org.apache.solr': ('solr-solrj', '4.9.0', None), 'net.sf.saxon': ('Saxon-HE', '9.5.1-8', None), 'log4j': ('log4j', '1.2.16', None), 'junit': ('junit', '4.7', 'test')}}
+JerryChan123/MyDrribleApp	11	0	app using retrofit+rxJava+picasso	{'JerryChan123/MyDrribleApp': {}}
+donglua/GitHubClient	11	0	A GitHub client Android app which showcases usage of  Dagger2, RxJava and Android Data Binding	{'donglua/GitHubClient': {}}
+bingoogolapple/Meiqia-SDK-Android-UE-EC	11	0	{'bingoogolapple/Meiqia-SDK-Android-UE-EC': {}}
+tenmax/pushable-stream	11	0	A push-based java stream/reactive library	{'tenmax/pushable-stream': {}}
+AdrianoCelentano/Mvvm	11	0	{'AdrianoCelentano/Mvvm': {}}
+ti8m/react-native-ibeacon-android	11	0	Visit us:	{'ti8m/react-native-ibeacon-android': {}}
+Alex-Cin/QiHuTabLayout	11	0	仿，360手机助手，底部导航	{'Alex-Cin/QiHuTabLayout': {}}
+cesarferreira/PainlessPrefs	11	0	Static way to use android preferences, no hassle	{'cesarferreira/PainlessPrefs': {}}
+xmartlabs/Android-Base-Project	11	0	Android base project used by Xmartlabs team	{'xmartlabs/Android-Base-Project': {}}
+onehilltech/concurrent	10	0	Utility library of concurrent execution strategies for JVM and Android	{'onehilltech/concurrent': {}}
+aalmiray/gipsy	10	0	Groovy version of Jipsy, a configurable AST Transformation to simplify the use of the Service Provider Interface.	{'aalmiray/gipsy': {}}
+divegeek/memorable-numbers	10	0	A tool for converting numbers into easily-memorized word lists.	{'divegeek/memorable-numbers': {}}
+chherbst/StudentManager	10	0	Small sample app using EMF + WindowBuilder	{'chherbst/StudentManager': {}}
+bcoverston/IntervalTree	10	0	Interval Tree Implementation created for CASASANDRA-1608	{'bcoverston/IntervalTree': {'com.google.guava': ('guava', 'r09', None), 'commons-lang': ('commons-lang', '2.1', None), 'org.apache.commons': ('commons-math', '2.2', None), 'junit': ('junit', '4.8.2', None), 'org.apache.uima': ('uimaj-core', '2.3.1', None)}}
+mruffalo/seal	10	0	SEquence ALignment evaluation suite	{'mruffalo/seal': {}}
+doffm/android-dragexample	10	0	Some example android applications that utilize the android-dragarea widget.	{'doffm/android-dragexample': {}}
+mdonoughe/jnotify	10	0	Obsolete fork of JNotify. Use 0.93 or higher instead.	{'mdonoughe/jnotify': {}}
+mtodd/halcyon-clients	10	0	A collection of non-Ruby clients for Halcyon applications.	{'mtodd/halcyon-clients': {}}
+myabc/appfuse	10	0	Rapid Application Development in Java, integrating a Hibernate, Spring, Struts/JSF/Tapestry stack. Mirror of canonical SVN Repo.	{'myabc/appfuse': {}}
+kashev/nextWAVE	10	0	A project for HackIllinois 2014	{'kashev/nextWAVE': {}}
+MaksTuev/clean_app	10	0	This project demonstrates how to make complex Android application with good architecture	{'MaksTuev/clean_app': {}}
+cairnsc/adtd	10	0	Attack-Driven Test Development	{'cairnsc/adtd': {'com.google.guava': ('guava', '18.0', None), 'org.assertj': ('assertj-core', '2.2.0', 'test'), 'commons-io': ('commons-io', '2.4', None), 'org.mockito': ('mockito-all', '1.10.19', 'test'), 'org.apache.commons': ('commons-lang3', '3.4', None), 'junit': ('junit', '4.12', 'test'), 'org.jsoup': ('jsoup', '1.8.3', None)}}
+tbroyer/gwt-places	10	0	GWT PlaceHistoryMapper generator as an annotation processor	{'tbroyer/gwt-places': {'com.google.auto.service': ('auto-service', '1.0-rc2', None), 'com.google.guava': ('guava', '18.0', None), 'com.google.auto': ('auto-common', '0.4', None), 'com.squareup': ('javapoet', '1.1.0', None), 'com.google.gwt': ('gwt-user', None, None), 'org.mockito': ('mockito-core', '1.10.19', 'test'), 'com.google.testing.compile': ('compile-testing', '0.7', 'test'), 'junit': ('junit', '4.12', 'test')}}
+huangchaosuper/toolkits	10	0	kinds of toolkits	{'huangchaosuper/toolkits': {'com.google.code.gson': ('gson', '${gson.version}', None)}}
+status-im/syng-client	10	0	The Mobile Client for the Ethereum Network DEPRECATED	{'status-im/syng-client': {}}
+ArabAgile/android-typeahead	10	0	Awesome Android Typeahead library - User mention plugin, UI widget for auto complete user mention using the at sign (@) like Twitter or Facebook.	{'ArabAgile/android-typeahead': {}}
+fflewddur/archivo	10	0	A cross-platform app for saving recordings from a TiVo to your computer.	{'fflewddur/archivo': {}}
+nicewarm/SlideImagesGroup	10	0	滑动拖拽，收起展开的viewgroup，	{'nicewarm/SlideImagesGroup': {}}
+DillionFeng/Material-design-control	10	0	利用Android5.0+以及design库控件实现的一个初步客户端	{'DillionFeng/Material-design-control': {}}
+brooth/jeta	10	0	Use the power of javax.annotation.processing	{'brooth/jeta': {}}
+orrsella/bazel-example	10	0	Examples for a Bazel-based Scala and Java project	{'orrsella/bazel-example': {}}
+zalando/zester	10	0	An IntelliJ IDEA plugin for running mutation tests with a single button click	{'zalando/zester': {}}
+xJakub/TuentiChallenge6	10	0	My solutions for Tuenti Challenge 6: Prepare to Cry edition	{'xJakub/TuentiChallenge6': {}}
+BeeeOn/android	10	0	Android application as frontend of the BeeeOn system.	{'BeeeOn/android': {}}
+bkromhout/realm-recyclerview-lite	10	0	A RecyclerView for Realm data which supports swiping, drag-and-drop, fast scrolling, and multi-select	{'bkromhout/realm-recyclerview-lite': {}}
+oriley-me/bunyan	10	0	Logger factory with SLF4J message formatting, and support for custom logger extensions.	{'oriley-me/bunyan': {}}
+joielechong/BigDecimalUtils	10	0	A Small BigDecimal Comparison and Calculation Utility for Java and Android.	{'joielechong/BigDecimalUtils': {}}
+PlayPen/playpen-core	10	0	Server management and load balancing framework	{'PlayPen/playpen-core': {'com.google.guava': ('guava', '18.0', 'compile'), 'org.antlr': ('stringtemplate', '4.0.2', 'compile'), 'org.jasypt': ('jasypt', '1.9.2', 'compile'), 'org.zeroturnaround': ('zt-zip', '1.8', 'compile'), 'org.projectlombok': ('lombok', '1.16.0', 'provided'), 'junit': ('junit', '4.12', 'test'), 'org.apache.logging.log4j': ('log4j-slf4j-impl', '2.1', 'compile'), 'org.json': ('json', '20141113', 'compile'), 'io.netty': ('netty-handler', '4.0.23.Final', 'compile'), 'com.zaxxer': ('nuprocess', '1.0.3', 'compile'), 'com.google.protobuf': ('protobuf-java', '2.6.1', 'compile'), 'commons-codec': ('commons-codec', '1.10', 'compile'), 'commons-io': ('commons-io', '2.4', 'compile')}}
+SmartDengg/RxGallery	10	0	Sample Gallery with RxJava	{'SmartDengg/RxGallery': {}}
+HeZaiJin/AndroidIndicators	10	0	Paging indicator widgets for Android.	{'HeZaiJin/AndroidIndicators': {}}
+artem-zinnatullin/RxJavaV1V2Adapter	10	0	Adapter between RxJava v1 and v2	{'artem-zinnatullin/RxJavaV1V2Adapter': {}}
+openbouquet/bouquet-core	10	0	Bouquet serveur core services	{'openbouquet/bouquet-core': {'com.google.guava': ('guava', '14.0', None), 'org.apache.avro': ('avro', '1.7.7', None), 'org.slf4j': ('slf4j-api', '1.6.6', None), 'org.apache.poi': ('poi-ooxml-schemas', '3.14', None), 'com.fasterxml.jackson.core': ('jackson-annotations', '2.4.0', None), 'org.eclipse.xtext': ('org.eclipse.xtext.ide', '2.9.2', None), 'junit': ('junit', '4.11', None), 'org.apache.velocity': ('velocity', '1.7', None)}}
+JackWaiting/ChartView	10	0	Simple ChartView	{'JackWaiting/ChartView': {}}
+michel-kraemer/actson	10	0	A reactive (or non-blocking, or asynchronous) JSON parser	{'michel-kraemer/actson': {}}
+jeoffreylim/maelstrom	10	0	Maelstrom is an open source Kafka integration with Spark that is designed to be developer friendly, high performance (millisecond stream processing), scalable (consumes messges at Spark worker nodes), and is extremely reliable.	{'jeoffreylim/maelstrom': {'com.typesafe.scala-logging': ('scala-logging-slf4j_${scala.binary.version}', '2.1.2', None), 'org.apache.spark': ('spark-streaming-kafka_${scala.binary.version}', '${spark.version}', 'test'), 'com.github.rholder': ('guava-retrying', '2.0.0', None), 'com.googlecode.concurrentlinkedhashmap': ('concurrentlinkedhashmap-lru', '1.4.2', None), 'it.unimi.dsi': ('fastutil', '7.0.8', None), 'org.apache.curator': ('curator-client', '${curator.version}', None), 'org.apache.kafka': ('kafka_${scala.binary.version}', '${kafka.version}', None)}}
+ravidsrk/generator-android-boilerplate	10	0	[Yeoman Generator] Generate Android App using https://github.com/ribot/android-boilerplate.	{'ravidsrk/generator-android-boilerplate': {}}
+Haulmont/mvcclassloader	10	0	Demo mvc project with dynamic classloading	{'Haulmont/mvcclassloader': {}}
+YougaKing/DragRecyclerView	10	0	支持上拉加载,以及各种状态RecyclerView	{'YougaKing/DragRecyclerView': {}}
+AXDOOMER/mochadoom	10	0	A pure Java Doom source port	{'AXDOOMER/mochadoom': {}}
+zhuowei/Varodahn	10	0	Some code to experiment with Steam In-Home Streaming	{'zhuowei/Varodahn': {}}
+MrPowerGamerBR/Droidtale	10	0	Unofficial hacky Undertale port for Android.	{'MrPowerGamerBR/Droidtale': {}}
+jbarop/gwt-hotdeployment	10	0	Enables automatic reloading of the web application context in GWT's internal Jetty when compiled classes change.	{'jbarop/gwt-hotdeployment': {'com.google.gwt': ('gwt-user', '${gwt.version}', None), 'de.barop.gwt': ('gwt-hotdeployment', None, None)}}
+privatejava/javafx-listview-animation	10	0	ListView Animation in JavaFX	{'privatejava/javafx-listview-animation': {}}
+ryankennedy/telemetry	10	0	A dapper-like substance in Java with an associated Dropwizard bundle.	{'ryankennedy/telemetry': {'junit': ('junit', '4.11', 'test'), 'org.mockito': ('mockito-all', '1.9.5', 'test')}}
+inthefabric/RexConnect	10	0	Connect to Rexster/RexPro via TCP connection.	{'inthefabric/RexConnect': {'org.glassfish.grizzly': ('grizzly-framework', '2.2.16', None), 'jline': ('jline', '2.10', None), 'org.codehaus.jackson': ('jackson-mapper-asl', '1.9.12', None), 'com.tinkerpop.rexster': ('rexster-protocol', '2.4.0-SNAPSHOT', None), 'com.sun.jersey': ('jersey-server', '1.11', 'provided')}}
+w01fe/InfinityTable	10	0	Patterns for HL1606 RGB LED strip lights	{'w01fe/InfinityTable': {}}
+StefanKrecher/smalltalk_for_android	10	0	{'StefanKrecher/smalltalk_for_android': {}}
+radmoore/ProgressBar	10	0	A text-based ProgressBar for Java	{'radmoore/ProgressBar': {}}
+Olegas/YandexAPI	10	0	Library to build Android apps working with Yandex's services with OAuth2 authorization	{'Olegas/YandexAPI': {}}
+krestenkrab/jvm-verifier	10	0	A Verifier for JVM byte code that you can run off-line with detailed error reporting.  Great for compiler writers. Useless for everyone else.	{'krestenkrab/jvm-verifier': {}}
+aperotte/persistentmatrix	10	0	An N-Dimensional Array / Matrix datatype for clojure.	{'aperotte/persistentmatrix': {}}
+opsb/butler-io	10	0	Let the butler take care of it while you attend to more pressing matters	{'opsb/butler-io': {'commons-vfs': ('commons-vfs', '1.0', None), 'org.hamcrest': ('hamcrest-all', '1.1', 'test'), 'junit': ('junit', '4.5', 'test')}}
+aalmiray/jipsy	10	0	Configurable Java Annotation Processor to simplify the use of the Service Provider Interface.	{'aalmiray/jipsy': {'org.kordamp.jipsy': ('jipsy', '${project.version}', None), 'junit': ('junit', '4.11', None)}}
+asposeforcloud/Aspose_Cloud_SDK_For_Android	10	0	Aspose Cloud SDK for Android allows you to use cloud based REST API in your applications quickly and easily.	{'asposeforcloud/Aspose_Cloud_SDK_For_Android': {}}
+infobip/payment-plugin-appcelerator-titanium	10	0	Payment plugin for Appcelerator Titanium	{'infobip/payment-plugin-appcelerator-titanium': {}}
+keyboardr/GlassRemote	10	0	A library facilitating two-way communication between Glass and a companion device connected via Bluetooth.	{'keyboardr/GlassRemote': {}}
+tomthecarrot/GlassGrid	10	0	Google Glass app that shows a grid on top of camera output for photo alignment.	{'tomthecarrot/GlassGrid': {}}
+chrisichris/yetiscript	10	0	yeti to javascript compiler	{'chrisichris/yetiscript': {}}
+cuber5566/Chart	10	0	{'cuber5566/Chart': {}}
+akinaru/fadecandy-android	10	0	Fadecandy server library to manage your Fadecandy USB controlled LED driver on Android	{'akinaru/fadecandy-android': {}}
+NikolaDespotoski/SwipeCheckableLayout	10	0	Checkable layout that holds hidden view and changes its states with dragging any of its children besides the hidden one. See Swarm app neighborhood sharing toggle.	{'NikolaDespotoski/SwipeCheckableLayout': {}}
+junichi11/netbeans-backlog-plugin	10	0	Support for Backlog	{'junichi11/netbeans-backlog-plugin': {'org.netbeans.external': ('org-apache-commons-io', 'RELEASE80', None), 'org.netbeans.modules': ('org-netbeans-modules-team-commons', 'RELEASE80', None), 'org.netbeans.api': ('org-netbeans-modules-options-api', 'RELEASE80', None), 'junit': ('junit', '4.10', 'test'), 'com.nulab-inc': ('backlog4j', '2.1.4', None)}}
+RecursiveG/Yet-Another-Input-Fix	10	0	An advanced InputFix Mod for Minecraft. Using ASM to allow people using IME.	{'RecursiveG/Yet-Another-Input-Fix': {}}
+digicrafts/AmazonAds-ANE	10	0	AmazonAds Native Extension for Adobe Air. Use Amazon Mobile Ads in Adobe Air (Android Only)	{'digicrafts/AmazonAds-ANE': {}}
+blinskey/greek-reference	10	0	An ancient Greek lexicon and grammar for Android.	{'blinskey/greek-reference': {}}
+Wokdsem/Kommander	10	0	{'Wokdsem/Kommander': {}}
+SYSTRAN/nlp-api-java-client	10	0	SYSTRAN Platform - Natural language processing - Java Client Library	{'SYSTRAN/nlp-api-java-client': {'com.sun.jersey.contribs': ('jersey-multipart', '${jersey-version}', None), 'com.sun.jersey': ('jersey-client', '${jersey-version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '2.1.5', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${jackson-version}', None), 'org.apache.james': ('apache-mime4j-core', '0.7.2', None), 'joda-time': ('joda-time', '${jodatime-version}', None), 'io.swagger': ('swagger-annotations', '${swagger-annotations-version}', None), 'junit': ('junit', '${junit-version}', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+SecUSo/privacy-friendly-qr-scanner	10	0	Privacy Friendly QR Code Scanner for Android	{'SecUSo/privacy-friendly-qr-scanner': {}}
+shaunxiao/RefreshView	10	0	itheima pull to refresh	{'shaunxiao/RefreshView': {}}
+junit-tools-team/junit-tools	10	0	Tools around the creation and management of junit-tests.	{'junit-tools-team/junit-tools': {}}
+niorgai/SlideFinishLayout	10	0	Android 右滑销毁Activity的Layout	{'niorgai/SlideFinishLayout': {}}
+SYSTRAN/translation-api-java-client	10	0	SYSTRAN Platform - Translation - Java Client Library	{'SYSTRAN/translation-api-java-client': {'com.sun.jersey.contribs': ('jersey-multipart', '${jersey-version}', None), 'com.sun.jersey': ('jersey-client', '${jersey-version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '2.1.5', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${jackson-version}', None), 'org.apache.james': ('apache-mime4j-core', '0.7.2', None), 'joda-time': ('joda-time', '${jodatime-version}', None), 'io.swagger': ('swagger-annotations', '${swagger-annotations-version}', None), 'junit': ('junit', '${junit-version}', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+DruidKuma/vk-access-token-getter	10	0	Access Token getter for vk.com, using App ID and credentials pair (login-password)	{'DruidKuma/vk-access-token-getter': {'org.jsoup': ('jsoup', '${jsoup.version}', None)}}
+yansha87/douban-movie	10	0	基于 Material Design 的豆瓣电影客户端	{'yansha87/douban-movie': {}}
+o19s/grand_central	10	0	Docker & Kubernetes deployment system for dynamic environments.	{'o19s/grand_central': {'org.eclipse.jetty': ('jetty-proxy', '${jetty.version}', None), 'io.dropwizard': ('dropwizard-client', '${dropwizard.version}', None)}}
+ruilyzhu/AndroidCircleCropper	10	0	Android library project for cropping images by circle border	{'ruilyzhu/AndroidCircleCropper': {}}
+JeroenMols/MockitoExample	10	0	Sample project to demonstrate Mockito usage on Android	{'JeroenMols/MockitoExample': {}}
+NeatMonster/NEATFlappyBird	10	1	Machine learning to play Flappy Bird using NEAT approach	{'NeatMonster/NEATFlappyBird': {}}
+ajtag/ReallifeRedstone	10	0	Bukkit Plugin to breakout redstone signals	{'ajtag/ReallifeRedstone': {}}
+code-crusher/Dimmer	10	0	Android app to reduce device brightness lower than minimum.	{'code-crusher/Dimmer': {}}
+ukwa/w3act	10	0	w3act is an annotation and curation tool for building web archive collections	{'ukwa/w3act': {}}
+neoremind/fountain	10	0	Fountain is a Java based toolkit for syncing MySQL binlog and provide an easy API to process/publish events.	{'neoremind/fountain': {'net.neoremind': ('fountain-common', '${fountain-common.version}', None), 'junit': ('junit', None, None)}}
+ChiralBehaviors/Nexus	10	0	A Gossip Based Service Discovery and Failure Detection Service	{'ChiralBehaviors/Nexus': {'com.hellblazer': ('service-discovery', '1.0.3-SNAPSHOT', None), 'ch.qos.logback': ('logback-classic', '1.1.1', 'test'), 'org.mockito': ('mockito-all', '1.9.0', 'test'), 'com.fasterxml.jackson.core': ('jackson-databind', '2.4.1', None), 'junit': ('junit', '4.10', 'test'), 'org.slf4j': ('slf4j-api', '1.7.7', None)}}
+r0adkll/r0adkll-flocking	10	0	Universal Java Flocking Engine	{'r0adkll/r0adkll-flocking': {}}
+alexvasilkov/deprecated-image-loader	10	0	Library that helps loading and caching images in Android applications	{'alexvasilkov/deprecated-image-loader': {'com.google.android': ('android', '4.1.1.4', 'provided'), 'com.squareup.okhttp': ('okhttp', '1.3.0', None)}}
+ciasaboark/Tacere	10	0	Android app to automatically silence the phone while a calendar event is active	{'ciasaboark/Tacere': {}}
+underclocker/Blob-Game	10	0	{'underclocker/Blob-Game': {'org.poly2tri': ('poly2tri-core', '${project.version}', None), 'com.ardor3d': ('ardor3d-core', '0.6', None)}}
+atlanmod/emfviews	10	0	EMF Views	{'atlanmod/emfviews': {}}
+artemmanaenko/ImageLoadersTest	10	0	Benchmark for comparing memory usages between Picasso and UniversalImageLoader	{'artemmanaenko/ImageLoadersTest': {}}
+s1mpl3x/skadi	10	0	livestreamer GUI for twitch	{'s1mpl3x/skadi': {'junit': ('junit', '4.12', 'test'), 'org.apache.httpcomponents': ('httpclient', '4.5.2', None), 'org.apache.maven': ('maven-artifact', '3.3.9', None), 'de.jensd': ('fontawesomefx', '8.9', None), 'org.apache.logging.log4j': ('log4j-jul', '2.6.1', None), 'org.pegdown': ('pegdown', '1.6.0', None), 'eu.over9000': ('cathode', '1.1', None), 'org.controlsfx': ('controlsfx', '8.40.10', None), 'org.slf4j': ('slf4j-api', '1.7.21', None), 'com.jcabi': ('jcabi-manifests', '1.1', None)}}
+idega/is.idega.idegaweb.egov.bpm	10	0	{'idega/is.idega.idegaweb.egov.bpm': {'com.idega.block.addon': ('com.idega.bpm', None, None), 'com.idega.block.egov': ('is.idega.idegaweb.egov.application', None, None), 'org.apache.poi': ('poi', None, None), 'com.idega.block.platform': ('com.idega.block.article', None, None)}}
+jcodagnone/jiolsucker	10	0	ITBAOnline Scrapper	{'jcodagnone/jiolsucker': {'org.slf4j': ('slf4j-api', None, None), 'commons-lang': ('commons-lang', None, None)}}
+omaroman/chronostamp	10	0	Play! Framework module for adding magic timestamp fields to Models, like Ruby on Rails (created_at & updated_at))	{'omaroman/chronostamp': {}}
+Frostman/dropbox4j	10	0	Dropbox API Java implementation	{'Frostman/dropbox4j': {'org.scribe': ('scribe', '1.3.0', None), 'org.codehaus.jackson': ('jackson-mapper-asl', '1.9.4', None), 'junit': ('junit', '4.10', None), 'com.google.code.findbugs': ('jsr305', '2.0.0', None)}}
+Wavesonics/libCalendar	10	0	Android 4.0 ICS Calendar Provider utilities	{'Wavesonics/libCalendar': {}}
+piscisaureus/owl2java	10	0	Makes working with OWL ontologies in Java easy by auto-generating classes that wrap OWL instances with a convenient API	{'piscisaureus/owl2java': {}}
+squaremo/swimrabbit	10	0	Message transformation and filtering with RabbitMQ.	{'squaremo/swimrabbit': {}}
+derari/cthul	10	0	Commons, Tools, Helpers and Utils Library	{'derari/cthul': {'org.apache.maven': ('maven-project', '2.2.1', None), 'org.freemarker': ('freemarker', '2.3.19', None), 'org.cthul': ('cthul-log', '1.0', None), 'junit': ('junit', None, 'test')}}
+we4tech/semantic-repository	10	0	semantic repository service is intended for indexing content from different sources and maintain multi indexes for different types of content and perform different types of search. yet another solr type indexing service on top of lucene but it will gradually support content versioning and more semantic search result.	{'we4tech/semantic-repository': {'com.ideabase.repository.common': ('idea-repository-common', '${pom.version}', None), 'junit': ('junit', '3.8.1', 'test')}}
+artemmanaenko/ImageLoadersTest	10	0	Benchmark for comparing memory usages between Picasso and UniversalImageLoader	{'artemmanaenko/ImageLoadersTest': {}}
+guardian/android-subtle-prompts	10	0	Library which enables the creation of user information prompts similar to those in the Guardian Android app	{'guardian/android-subtle-prompts': {}}
+jarvislin/Produce-Price-Checker	10	0	查詢蔬果市場行情的Android應用程式。	{'jarvislin/Produce-Price-Checker': {}}
+Atrox/haikunatorjava	10	0	Generate Heroku-like random names to use in your Java applications	{'Atrox/haikunatorjava': {'org.apache.commons': ('commons-lang3', '3.4', None), 'junit': ('junit', '4.12', 'test')}}
+SYSTRAN/multimodal-api-java-client	10	0	SYSTRAN Platform - Multimodal - Java Client Library	{'SYSTRAN/multimodal-api-java-client': {'com.sun.jersey.contribs': ('jersey-multipart', '${jersey-version}', None), 'com.sun.jersey': ('jersey-client', '${jersey-version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-joda', '2.1.5', None), 'com.fasterxml.jackson.core': ('jackson-databind', '${jackson-version}', None), 'org.apache.james': ('apache-mime4j-core', '0.7.2', None), 'joda-time': ('joda-time', '${jodatime-version}', None), 'io.swagger': ('swagger-annotations', '${swagger-annotations-version}', None), 'junit': ('junit', '${junit-version}', 'test'), 'commons-io': ('commons-io', '2.4', None)}}
+antoniolg/Voice-Search-Example	10	0	An quick example on how to integrate our App with Google Now by using Voice Search	{'antoniolg/Voice-Search-Example': {}}
+Programming-Algorithms-Book/Java-Translation-Sources	10	0	Java Translation of "Programming =++ Algorithms;" book	{'Programming-Algorithms-Book/Java-Translation-Sources': {}}
+yurinnick/hadoop-video-ocr	10	0	MapReduce job for text recognition from YouTube videos	{'yurinnick/hadoop-video-ocr': {'org.slf4j': ('slf4j-log4j12', '1.7.5', None), 'org.apache.hadoop': ('hadoop-mapreduce-client-core', '2.6.0', None), 'com.github.axet': ('vget', '1.1.23', None), 'net.sourceforge.tess4j': ('tess4j', '1.4.0', None), 'nu.pattern': ('opencv', '2.4.9-5', None), 'org.jsoup': ('jsoup', '1.7.2', None)}}
+akarnokd/rxjava2-backport	10	0	Discontinued, use RxJava 2	{'akarnokd/rxjava2-backport': {}}
+jakubkinst/Weather-2.0	10	0	{'jakubkinst/Weather-2.0': {}}
+guizhigang/LGNineGrideView	10	0	类似微信朋友圈的图片展示的自定义View	{'guizhigang/LGNineGrideView': {}}
+Prokky/Auster	10	0	Simple lightweight MVP library for Android	{'Prokky/Auster': {}}
+deliciousblackink/Derpibooru	10	0	The Derpibooru Mobile Client for Android	{'deliciousblackink/Derpibooru': {}}
+nukc/LoadMoreLayout	10	0	Pull up to load more / refresh . Raining style	{'nukc/LoadMoreLayout': {}}
+bunjlabs/Fuga-Framework	10	0	Small Web Framework for Java	{'bunjlabs/Fuga-Framework': {'${project.groupId}': ('fuga-templates', '${project.version}', None)}}
+carlosbenicio/java-specifications	10	0	{'carlosbenicio/java-specifications': {}}
+getsmp/LOR-for-Android	10	0	Клиент linux.org.ru для Android	{'getsmp/LOR-for-Android': {}}
+gejiaheng/Dividers-For-RecyclerView	10	0	A simple demo to demonstrate how to draw dividers for RecyclerView	{'gejiaheng/Dividers-For-RecyclerView': {}}
+YuxiangQue/oj-java	10	0	个人小题库	{'YuxiangQue/oj-java': {'org.scala-lang': ('scala-library', '2.11.8', None), 'junit': ('junit', '4.12', None), 'org.jetbrains.kotlin': ('kotlin-stdlib', '${kotlin.version}', None)}}
+qstumn/RadarChart	10	0	支持自由定制外观、手势旋转的雷达图表 android radarchart	{'qstumn/RadarChart': {}}
+danybony/magic-mirror-dashboard	10	0	Make your mirror even smarter!	{'danybony/magic-mirror-dashboard': {}}
+harshit211997/Hitball	10	0	Hit the ball to keep it in air. Simple huh! Try to find out	{'harshit211997/Hitball': {}}
+SquidDev-CC/CCTweaks	10	0	Random additions to ComputerCraft	{'SquidDev-CC/CCTweaks': {}}
+SS111/Minecraft-ID-Resolver	10	0	An open-source, cross platform tool designed to find and fix Minecraft ID conflicts.	{'SS111/Minecraft-ID-Resolver': {}}
+infobip/payment-plugin-cordova-phonegap	10	0	Payment plugin for Cordova/PhoneGap	{'infobip/payment-plugin-cordova-phonegap': {}}
+asiermarques/xamarin-demos	10	0	Demos of my talks about Xamarin	{'asiermarques/xamarin-demos': {}}
+zenobase/zenobase-cardio	10	0	{'zenobase/zenobase-cardio': {}}
+ashertarno/vertx-gcm	10	0	Provides Google Cloud Messaging server integration for vert.x	{'ashertarno/vertx-gcm': {}}
+spicavigo/onlinesms_android	10	0	Android app for online sms	{'spicavigo/onlinesms_android': {}}
+aleksag/TRONbot	10	0	Code for a robot named TRONbot, java/c++	{'aleksag/TRONbot': {}}
+shamansir/gwt-mvp4g-layouting-demo	10	0	:point_up: GWT+mvp4g Layouting Demo for ADDConf [Finished]. Documentation: http://shamansir.github.com/gwt-mvp4g-layouting-demo/ Library: http://github.com/shamansir/gwt-mvp4g-layouting/	{'shamansir/gwt-mvp4g-layouting-demo': {}}
+mduerig/json-jerk	10	0	Json Jerk is a flexible and fast JSON parser.	{'mduerig/json-jerk': {'junit': ('junit', '4.5', 'test')}}
+mica-gossip/MiCA	10	0	MiCA gossip framework research project	{'mica-gossip/MiCA': {}}
+isitchristmas/android	10	0	Native Android app.	{'isitchristmas/android': {}}
+raphtown/moonweasel	10	0	3D Space Shooter	{'raphtown/moonweasel': {}}
+atduskgreg/arduino	10	0	a mirror of the arduino svn repo for git users	{'atduskgreg/arduino': {}}
+autonome/Syllabuzz	10	0	Android application that vibrates the number of syllables in the calling contact's name.	{'autonome/Syllabuzz': {}}
+Glamdring/aardWARk	10	0	Allows easy syncing of a maven project with a servlet container	{'Glamdring/aardWARk': {'org.apache.maven': ('maven-model', '3.1.1', None), 'ch.qos.logback': ('logback-classic', '1.0.13', None), 'javax.servlet': ('javax.servlet-api', '3.1.0', None), 'commons-io': ('commons-io', '2.4', None), 'org.eclipse.aether': ('aether-connector-wagon', '0.9.0.M2', None), 'org.apache.maven.wagon': ('wagon-http-lightweight', '2.5', None), 'joda-time': ('joda-time', '2.3', None), 'org.mockito': ('mockito-all', '1.9.5', 'test'), 'junit': ('junit', '4.11', 'test'), 'org.slf4j': ('slf4j-api', '1.7.5', None)}}
+stokito/FreeTTSLog4JAppender	10	0	Talking log appender to keep your eyes :)	{'stokito/FreeTTSLog4JAppender': {'org.mobicents.external.freetts': ('en_us', '1.0', None), 'log4j': ('log4j', '1.2.17', None)}}
+tbocek/opus-wrapper	10	0	{'tbocek/opus-wrapper': {'net.java.dev.jna': ('jna', '4.1.0', None), 'junit': ('junit', '4.11', 'test')}}
+NikolaDespotoski/BugreportCleaner	10	0	Tool that extracts exceptions and life of PID from bugreport file generated from android devices.	{'NikolaDespotoski/BugreportCleaner': {}}
+AccuvantLABS/burp-shellshock	10	0	{'AccuvantLABS/burp-shellshock': {'junit': ('junit', '3.8.1', 'test')}}
+Qkyrie/Markdown2Pdf	10	0	A simple library to convert markdown to pdf using Java	{'Qkyrie/Markdown2Pdf': {}}
+contentful/cma-cookies-demo	10	0	{'contentful/cma-cookies-demo': {}}
+myunimol/api	10	0	API for MyUnimol	{'myunimol/api': {}}
+SSODelta/LoGiX	10	0	LoGiX is a program for determining if certain logical expression are semantic consequences of some premises.	{'SSODelta/LoGiX': {}}
+hiBrianLee/SimpleRatingBar	10	0	SimpleRatingBar is a lightweight rating bar for Android. It displays ratings using unicode characters as icons.	{'hiBrianLee/SimpleRatingBar': {}}
+ycdev-demo/LollipopExplorer	10	0	A demo written to demonstrate the features of Android 5.0 (Lollipop).	{'ycdev-demo/LollipopExplorer': {}}
+ivanceras/orm	10	0	ivanceras ORM, a very simple extensible ORM, which supports offline database handling in the browser using GWT	{'ivanceras/orm': {'org.postgresql': ('postgresql', '9.3-1102-jdbc41', None), '${project.groupId}': ('keywordSQL', '${project.version}', None), 'org.apache.logging.log4j': ('log4j-web', '2.0.2', None), 'org.mockito': ('mockito-all', '1.9.5', 'test'), 'org.apache.commons': ('commons-lang3', '3.3.2', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.4.2', None), 'org.jmockit': ('jmockit', '1.9', 'test'), 'junit': ('junit', '4.4', 'test')}}
+AdoHe/APool	10	0	An Async Object Pool Implementation used in our web service framework.	{'AdoHe/APool': {}}
+rolfl/MicroBench	10	0	Enabling simpler microbenchmarks of Java8 code	{'rolfl/MicroBench': {'org.apache.commons': ('commons-math3', '3.4.1', None), 'junit': ('junit', '4.12', 'test')}}
+pushbit/sprockets-android	10	0	Android base components, widgets, and utility methods	{'pushbit/sprockets-android': {}}
+rnorth/visible-assertions	10	0	Alternative to JUnit assertions that provides a more insightful log narrative for your tests	{'rnorth/visible-assertions': {'org.fusesource.jansi': ('jansi', '1.11', None), 'junit': ('junit', '4.12', 'provided'), 'jline': ('jline', '2.11', None)}}
+AlanCheen/CrashCatcher	10	0	捕获crash,存入本地文件~	{'AlanCheen/CrashCatcher': {}}
+nekdenis/Permissions_sample	10	0	One more sample of requesting permissions for new Android Marshamallow model	{'nekdenis/Permissions_sample': {}}
+gadelkareem/aws-client	10	0	Desktop AWS java client	{'gadelkareem/aws-client': {'org.controlsfx': ('controlsfx', '8.40.10', None), 'com.amazonaws': ('aws-java-sdk-ec2', '1.10.37', None), 'com.oracle': ('javafx', '2.2', 'system')}}
+erickok/ratebeer	10	0	RateBeer for Android app	{'erickok/ratebeer': {}}
+suewonjp/civilizer	10	0	Civilizer - Tool to efficiently manage your data/knowledge/idea	{'suewonjp/civilizer': {'org.springframework.security': ('spring-security-config', '${spring.security.version}', None), 'org.spockframework': ('spock-core', '1.0-groovy-2.4', 'test'), 'org.codehaus.groovy': ('groovy-all', '2.4.6', None), 'org.glassfish.web': ('el-impl', '2.2', None), 'javax.servlet': ('jstl', '1.2', None), 'commons-io': ('commons-io', '2.4', None), 'cglib': ('cglib-nodep', '3.1', 'test'), 'org.objenesis': ('objenesis', '2.1', 'test'), 'org.springframework.webflow': ('spring-faces', '${spring.webflow.version}', None), 'org.primefaces': ('primefaces', '5.2', None), 'aspectj': ('aspectjrt', '1.5.4', None), 'org.slf4j': ('slf4j-log4j12', '${org.slf4j-version}', 'runtime'), 'javax.el': ('el-api', '2.2', None), 'org.hibernate': ('hibernate-validator', '4.2.0.Final', None), 'com.h2database': ('h2', '1.3.160', None), 'com.sun.faces': ('jsf-impl', '${jsf-version}', None), 'log4j': ('log4j', '1.2.15', 'compile'), 'javax.inject': ('javax.inject', '1', None), 'org.springframework': ('spring-orm', '${org.springframework-version}', None), 'commons-fileupload': ('commons-fileupload', '1.3.1', None), 'joda-time': ('joda-time-hibernate', '1.3', None), 'org.apache.myfaces.core': ('myfaces-impl', '${jsf-version}', None), 'org.primefaces.themes': ('all-themes', '1.0.9', None), 'javax.validation': ('validation-api', '1.0.0.GA', None), 'org.apache.commons': ('commons-lang3', '3.3.2', None), 'junit': ('junit', '4.10', 'test')}}
+Arcfalt/ExtendAHand	10	0	Minecraft Mod: Extend-A-Hand	{'Arcfalt/ExtendAHand': {}}
+dakshsrivastava/Loglr	10	0	A project to enable 'Login using Tumblr' a breeze.	{'dakshsrivastava/Loglr': {}}
+WenhaoWu/Morsi	10	0	Instant Message powered by Firebase	{'WenhaoWu/Morsi': {}}
+v1210012100/ClearBlurBitmap	10	0	利用大名鼎鼎的高斯模糊实现的一个可擦除显示原图的VIew。	{'v1210012100/ClearBlurBitmap': {}}
+PM-Martin/TinderSwipeable-android	10	0	{'PM-Martin/TinderSwipeable-android': {}}
+songxiaoliang/loadinglayout	10	0	This is a custom relative layout, the layout root as your layout, you do not have to do those tedious Loading show and hide, this layout will help you complete. You can also define your own Loading styles. For example: fillet Loading, frame animation ,tween animation so on.	{'songxiaoliang/loadinglayout': {}}
+Ruenzuo/fbsnapfail	10	0	Jenkins plugin for displaying FBSnapshotTestCase failed tests.	{'Ruenzuo/fbsnapfail': {}}
+Doridian/SteamMobileLib	10	0	A Steam Chat client library (with super-simple example implementation) using Steam's API for mobile devices	{'Doridian/SteamMobileLib': {'com.googlecode.json-simple': ('json-simple', '1.1', None)}}
+mikelambert/react-native-firebase3	10	0	React Native support for Firebase 3 mobile SDKs	{'mikelambert/react-native-firebase3': {}}
+abhijith0505/ListView-Snapshot-Demo	10	0	A demo android application that uses the listview-snapshot android library	{'abhijith0505/ListView-Snapshot-Demo': {}}
+yeyincai/grpc-demo	10	0	introduces using grpc about encryption、stream、oneof、interceptor、loadbalance demo	{'yeyincai/grpc-demo': {'io.grpc': ('grpc-stub', '${grpc.version}', None)}}
+mstane/software-architecture-lab	10	0	Design Software Architecture Research	{'mstane/software-architecture-lab': {'org.postgresql': ('postgresql', '9.4-1202-jdbc42', 'runtime'), 'org.springframework.boot': ('spring-boot-starter-data-elasticsearch', None, None), 'org.hibernate': ('hibernate-validator', None, None), 'org.springframework.security': ('spring-security-test', None, None), 'com.hazelcast': ('hazelcast-spring', '${hazelcast.version}', None), 'org.scala-lang': ('scala-library', '2.10.4', None), 'org.apache.httpcomponents': ('httpclient', None, 'test'), 'org.springframework': ('spring-test', None, None), 'com.jayway.jsonpath': ('json-path', None, None), 'org.liquibase': ('liquibase-core', None, None), 'org.hsqldb': ('hsqldb', None, 'runtime'), 'org.yaml': ('snakeyaml', '1.16', None), 'org.webjars': ('angular-ui-bootstrap', '0.13.0', None), 'org.apache.commons': ('commons-lang3', '3.4', None), 'javax.inject': ('javax.inject', '${javax.inject.version}', None)}}
+laenger/ViewPagerBottomSheet	10	0	Use ViewPagers in Bottom Sheets!	{'laenger/ViewPagerBottomSheet': {}}
+drcrane/downsample	9	0	Down sampling in Java as demonstrated by Sveinn Steinarsson in his masters thesis	{'drcrane/downsample': {'org.jfree': ('jfreechart', '1.0.14', 'test')}}
+RobertoMatas/android-civicrm-test	9	0	Batería de Test para el proyecto android-civicrm	{'RobertoMatas/android-civicrm-test': {}}
+chsmy/PopupWindowDialog	9	0	使用PopupWindow完成各种dialog	{'chsmy/PopupWindowDialog': {}}
+coolAlias/StructureGenerationAPI	9	0	A tool that allows you to rotate and offset structures with ease.	{'coolAlias/StructureGenerationAPI': {}}
+aphex/cordova-glass-core	9	0	Plugin for Cordova adding Google Glass Support	{'aphex/cordova-glass-core': {}}
+marcosdiez/IngressIntelToGps	9	0	Sends Ingress Intel URLs to you GPS app ( Android )	{'marcosdiez/IngressIntelToGps': {}}
+BijdorpStudio/UrlSetter	9	0	Android app to solve redirect with annoying browser opening	{'BijdorpStudio/UrlSetter': {}}
+judoole/monitorino	9	0	An easy pluggable Java monitor/healthcheck for your webapp.	{'judoole/monitorino': {}}
+iPavel92/j2meSPbTransport	9	0	j2me app with real-time map of transport near you	{'iPavel92/j2meSPbTransport': {}}
+guetux/gcm-sample	9	0	Google Cloud Message sample project ported to gradle	{'guetux/gcm-sample': {}}
+jinmingjian/seed	9	0	Scala Eclipse Effort for Development	{'jinmingjian/seed': {}}
+eclipsesource/com.eclipsesource.tycho.aspectj.demo	9	0	{'eclipsesource/com.eclipsesource.tycho.aspectj.demo': {}}
+hemantasapkota/sloot-editor	9	0	Box2D Editor with support for entities, animation, screens and scripting.	{'hemantasapkota/sloot-editor': {}}
+fat-tire/SoftKeys	9	0	{'fat-tire/SoftKeys': {}}
+tyen/cs320tests	9	0	Cucumber system tests	{'tyen/cs320tests': {}}
+billdueber/javamarc	9	0	Manipulate MARC data with java; fork of marc4j by Bas Peters	{'billdueber/javamarc': {}}
+amahule/Daisy3-Reader	9	0	Android based reader for ebooks in Daisy 3 text format	{'amahule/Daisy3-Reader': {}}
+yanzm/HelloADK	9	0	{'yanzm/HelloADK': {}}
+empirephoenix/JME3D	9	0	JME3 Deferred	{'empirephoenix/JME3D': {}}
+okuyamaoo/setsuna	9	0	Complex Event Processing Engine Setsuna	{'okuyamaoo/setsuna': {}}
+jordansissel/elasticsearch-on-heroku	9	0	ElasticSearch run on Heroku	{'jordansissel/elasticsearch-on-heroku': {'org.elasticsearch': ('elasticsearch', '0.19.0', None)}}
+rubbish/intellij-mark-plugin	9	0	This IntelliJ IDEA plugin mimics the mark functionality of emacs	{'rubbish/intellij-mark-plugin': {}}
+weratyr/ppj09_fd	9	0	Praxis Projekt 2009	{'weratyr/ppj09_fd': {}}
+idega/com.idega.manager	9	0	Upgrade manager for the Idega platform	{'idega/com.idega.manager': {'org.apache.maven.wagon': ('wagon-http-lightweight', '1.0-beta-2', None), 'org.apache.maven': ('maven-model', '2.0.8', None), 'jug': ('jug', '${jug-jug-version}', None), 'com.idega.block.platform': ('com.idega.core', None, None)}}
+idega/org.apache.axis	9	0	Axis webservice framework integration for the Idega platform	{'idega/org.apache.axis': {'org.apache.axis': ('axis-saaj', '${axis-axis-version}', None), 'wsdl4j': ('wsdl4j', '1.6.3', None), 'commons-discovery': ('commons-discovery', '0.2', None), 'com.idega.block.platform': ('com.idega.core', None, None), 'axis': ('axis-schema', '1.3', None)}}
+idega/com.idega.block.process	9	0	Base case system block/plugin for the Idega platform	{'idega/com.idega.block.process': {'com.idega.block.platform': ('com.idega.webface', None, None)}}
+soundTricker/backlog-android-client	9	0	backlogのAndroidクライアント androidannotations ormlite roboguice の組み合わせ	{'soundTricker/backlog-android-client': {'com.googlecode.stk.android': ('backlog-android-client', '0.0.1-SNAPSHOT', None), 'com.google.android': ('android-test', None, None)}}
+chids/java-rest-versioning	9	0	Example of a HTTP/REST service versioned by media type but published with additional support for version and format in the URL	{'chids/java-rest-versioning': {'org.codehaus.jackson': ('jackson-core-asl', '1.9.0', 'compile'), 'javax.servlet': ('javax.servlet-api', '3.0.1', 'provided'), 'com.sun.jersey': ('jersey-server', '${jersey.version}', None), 'com.sun.jersey.contribs': ('jersey-guice', '${jersey.version}', 'compile'), 'org.codehaus.woodstox': ('woodstox-core-asl', '4.1.2', 'compile'), 'junit': ('junit', '4.9', 'test'), 'com.google.inject': ('guice', '3.0', 'compile')}}
+zanew/MonovsDalvik	9	0	Performance Benchmarks each implemented in C# Mono for Android and Java with the Dalvik runtime	{'zanew/MonovsDalvik': {}}
+giTorto/extraCTU-plugin	9	0	This refine plugin allows the user to extract e-mails,urls and telephone numbers from a column in OpenRefine	{'giTorto/extraCTU-plugin': {}}
+Mumfrey/WorldEditWrapper	9	0	WorldEditWrapper allows WorldEdit to be used in single player	{'Mumfrey/WorldEditWrapper': {}}
+rwtema/Luxcraft	9	0	{'rwtema/Luxcraft': {}}
+epochcoder/pretty-console	9	0	A simple java library for writing various key-value type information to the console	{'epochcoder/pretty-console': {'com.google.guava': ('guava', '15.0', None), 'junit': ('junit', '3.8.1', 'test')}}
+SingleCycleKing/Android-L-Weight	9	0	A small library replicating some new weights in android L.	{'SingleCycleKing/Android-L-Weight': {}}
+mebigfatguy/exagent	9	0	a javaagent to embellish exception stack traces with useful information	{'mebigfatguy/exagent': {}}
+snowtide/lucene-pdf	9	0	A library enabling easy Lucene indexing of PDF text and metadata	{'snowtide/lucene-pdf': {}}
+jcul/BankingHideRoot	9	0	Xposed Framework module to hide root from some banking apps in the UK	{'jcul/BankingHideRoot': {}}
+eixom/zoeey	9	0	{'eixom/zoeey': {'httpunit': ('httpunit', '1.7', 'test'), 'net.sourceforge.groboutils': ('groboutils-core', '5', 'test'), 'javax.servlet': ('servlet-api', '2.5', None), 'junit': ('junit', '4.8.1', 'test'), 'asm': ('asm-util', '3.2', 'test'), 'org.h2database': ('h2database', '1.0.20061217', 'test')}}
+arpit/MultiHeightFreeFlowList	9	0	An example of a Layout that lays out strings of different sizes	{'arpit/MultiHeightFreeFlowList': {}}
+GenomicParisCentre/eoulsan	9	0	  A pipeline and a framework for NGS analysis (RNA-Seq and soon Chip-Seq)	{'GenomicParisCentre/eoulsan': {'org.usadellab': ('trimmomatic', '0.36', None), 'org.apache.logging.log4j': ('log4j-core', '2.2', None), 'com.google.guava': ('guava', '15.0', 'compile'), 'org.testng': ('testng', '6.1.1', 'compile'), 'commons-cli': ('commons-cli', '1.2', 'compile'), 'org.apache.hadoop': ('zookeeper', '3.3.0', 'compile'), 'com.googlecode.lanterna': ('lanterna', '2.1.8', None), 'org.codehaus.plexus': ('plexus-compiler-javac-errorprone', '2.5', None), 'fr.ens.biologie.genomique': ('aozan', '2.0-rc11', None), 'org.apache.odftoolkit': ('simple-odf', '0.7-incubating', None), 'org.apache.ant': ('ant', '1.8.2', 'compile'), 'org.codehaus.jackson': ('jackson-mapper-asl', '1.8.9', 'runtime'), 'de.gesellix': ('unix-socket-factory', '2014-11-16T14-41-27', 'runtime'), 'org.xerial.snappy': ('snappy-java', '1.0.3-rc3', None), 'org.glassfish': ('javax.json', '1.0.2', None), 'com.spotify': ('docker-client', '3.1.3', None), 'log4j': ('log4j', '1.2.17', None), 'org.slf4j': ('slf4j-log4j12', '1.7.6', None), 'uk.ac.babraham': ('fastqc', '0.11.2', 'compile'), 'commons-logging': ('commons-logging', '1.1.1', 'runtime'), 'com.amazonaws': ('aws-java-sdk', '1.3.30', 'compile'), 'org.python': ('jython-standalone', '2.7.0', None), 'com.beust': ('jcommander', '1.12', 'compile'), 'xerces': ('xercesImpl', '2.9.1', None), 'dom4j': ('dom4j', '1.6.1', None), 'com.sun.mail': ('javax.mail', '1.4.5', 'compile'), 'junit': ('junit', '4.11', 'test'), 'org.apache.xmlbeans': ('xmlbeans', '2.3.0', None), 'org.beanshell': ('bsh', '2.0b4', 'compile'), 'org.nuiton.thirdparty': ('Rserve', '0.6-1', 'compile'), 'org.seqdoop': ('hadoop-bam', '7.0.0-hadoop-${hadoop.version}', 'compile'), 'itadaki': ('jbzip2', '0.9', 'runtime'), 'org.cheetahtemplate': ('cheetah', '2.4.4', None), 'org.apache.poi': ('poi-ooxml-schemas', '3.12', 'compile'), 'org.apache.httpcomponents': ('httpcore', '4.3.2', 'runtime'), 'org.apache.commons': ('commons-compress', '1.4.1', 'compile'), 'net.sourceforge.picard': ('htsjdk', '${htsjdk.version}', 'compile'), 'commons-codec': ('commons-codec', '1.3', 'runtime'), 'javassist': ('javassist', '3.12.1.GA', 'compile')}}
+tballison/lucene-addons	9	0	Standalone versions of LUCENE_5205 and other patches: SpanQueryParser, Concordance and Co-occurrence stats	{'tballison/lucene-addons': {'org.apache.lucene': ('lucene-analyzers-common', '${lucene.version}', 'test'), 'junit': ('junit', None, 'test')}}
+clover/android-filteredcursor	9	0	A Cursor filtering class for Android	{'clover/android-filteredcursor': {}}
+Elecs-Mods/E-Flux	9	0	E-Flux repo	{'Elecs-Mods/E-Flux': {}}
+Allogy/elasticbeanstalk-worker-simulator	9	0	Run an Elastic Beanstalk worker application locally	{'Allogy/elasticbeanstalk-worker-simulator': {}}
+lancevalour/SwipeMenuListView-master	9	0	Android Swipe Menu ListView	{'lancevalour/SwipeMenuListView-master': {}}
+kloener/visor-android	9	0	visor - low vision magnifier	{'kloener/visor-android': {}}
+oxoooo/Moments	9	0	To be the best unofficial Instagram app	{'oxoooo/Moments': {}}
+Comp-UFSCar/simple-sonora	9	0	Musical programing language for Compiler Design 2 class.	{'Comp-UFSCar/simple-sonora': {}}
+evant/PokeMVVM	9	0	A playground for MVVM style architecture on Android	{'evant/PokeMVVM': {}}
+lahuang4/mitshuttles	9	0	A lightweight Android app for getting MIT shuttle information.	{'lahuang4/mitshuttles': {}}
+weekend27/StreamSync	9	0	The code is to synchronize data on multiple servers.	{'weekend27/StreamSync': {}}
+harshit211997/Blockks	9	0	{'harshit211997/Blockks': {}}
+paradoxie/SignCalender	9	0	自定义控件-签到日历	{'paradoxie/SignCalender': {}}
+Mauin/ReactiveAwareness	9	0	Android library to quickly and easily get the users context using the Awareness API and RxJava	{'Mauin/ReactiveAwareness': {}}
+alexsimo/sanum	9	0	Sanum is a healthy recipes app	{'alexsimo/sanum': {}}
+nathanielove/Java-Console-Table-Builder	9	0	An extendable library to build stylish Excel-like tables, which can be converted into a single string with all formats preserved.	{'nathanielove/Java-Console-Table-Builder': {}}
+apsun/TumblrAdAway	9	0	A simple ad-blocker for the Android Tumblr app.	{'apsun/TumblrAdAway': {}}
+Noppes/CustomNPCsAPI	9	0	{'Noppes/CustomNPCsAPI': {}}
+dalbelap/flipper-reverse-image-search	9	0	Open Reverse Image Search with Lire, Cassandra, Metaextractor, Solr and JHipster	{'dalbelap/flipper-reverse-image-search': {'org.springframework.boot': ('spring-boot-starter-tomcat', None, None), 'net.semanticmetadata': ('lire', '0.9.4-SNAPSHOT', None), 'org.assertj': ('assertj-core', '${assertj-core.version}', 'test'), 'io.dropwizard.metrics': ('metrics-servlets', None, None), 'io.gatling.highcharts': ('gatling-charts-highcharts', '${gatling.version}', 'test'), 'com.datastax.cassandra': ('cassandra-driver-mapping', '${datastax-driver.version}', None), 'commons-lang': ('commons-lang', '${commons-lang.version}', None), 'commons-io': ('commons-io', '${commons-io.version}', None), 'fr.ippon.spark.metrics': ('metrics-spark-reporter', '${metrics-spark-reporter.version}', None), 'org.cassandraunit': ('cassandra-unit-spring', '2.1.3.1', 'test'), 'com.zaxxer': ('HikariCP', None, None), 'net.jpountz.lz4': ('lz4', '${lz4.version}', None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-json-org', '${jackson.version}', None), 'org.hibernate': ('hibernate-validator', None, None), 'com.jayway.awaitility': ('awaitility', '${awaitility.version}', 'test'), 'org.springframework.security': ('spring-security-data', None, None), 'org.mapstruct': ('mapstruct-processor', '${mapstruct.version}', None), 'com.ryantenney.metrics': ('metrics-spring', '${metrics-spring.version}', None), 'org.springframework.data': ('spring-data-cassandra', None, None), 'javax.inject': ('javax.inject', '${javax.inject.version}', None), 'org.springframework': ('spring-context-support', None, None), 'com.jayway.jsonpath': ('json-path', None, 'test'), 'org.springframework.cloud': ('spring-cloud-localconfig-connector', None, None), 'joda-time': ('joda-time', None, None), 'io.springfox': ('springfox-swagger2', '${springfox.version}', None), 'com.drewnoakes': ('metadata-extractor', '${metadata-extractor.version}', None), 'com.h2database': ('h2', None, 'test')}}
+onebone/MineCombat-Nukkit	9	0	MineCombat plugin for Nukkit	{'onebone/MineCombat-Nukkit': {'cn.nukkit': ('nukkit', '1.0-SNAPSHOT', 'provided')}}
+bitstormGER/jlatexmathfx	9	0	A Javafx Control to render LaTeX math formula	{'bitstormGER/jlatexmathfx': {}}
+smarek/android-unbound-dns	9	0	Unbound DNS for Android	{'smarek/android-unbound-dns': {}}
+skuro/stringbuilder	9	0	Test classes to assess the performance difference between StringBuilders vs using the plus operator	{'skuro/stringbuilder': {}}
+hamzeen/JSONParserP5	9	0	A simple JSON parser library for Processing.	{'hamzeen/JSONParserP5': {}}
+serkan-ozal/jillegal-agent	9	0	Java Agent Library for All Jillegal Frameworks	{'serkan-ozal/jillegal-agent': {'com.sun': ('tools', '${tools.version}', None)}}
+emil10001/OttoExampleAndroid	9	0	An example implementation of the Otto event bus lib by Square.	{'emil10001/OttoExampleAndroid': {}}
+stormprocessor/storm-ml	9	0	{'stormprocessor/storm-ml': {}}
+asafge/PocketPlus	9	0	A news+ extension for the Pocket reading service	{'asafge/PocketPlus': {'com.google.android': ('support-v4', None, None), 'junit': ('junit', None, 'test')}}
+meteotester/meteotester	9	0	Testing the weather forecasts	{'meteotester/meteotester': {'commons-logging': ('commons-logging', '1.1.3', 'provided'), 'com.amazonaws': ('aws-java-sdk', '1.5.4', 'provided'), 'com.jayway.jsonpath': ('json-path', '0.8.0', None), 'org.apache.tomcat': ('tomcat-servlet-api', '7.0.42', 'provided'), 'net.minidev': ('json-smart', '1.1.1', None), 'org.apache.httpcomponents': ('httpcore', '4.2.4', 'provided'), 'commons-lang': ('commons-lang', '2.6', 'provided'), 'log4j': ('log4j', '1.2.17', 'provided'), 'commons-codec': ('commons-codec', '1.8', 'provided')}}
+ke4qqq/RHIP	9	0	Realhostip.com source code (based on dnsjava)	{'ke4qqq/RHIP': {}}
+swilliams-pivotal/mod-spring	9	0	A vert.x BusMod for the Spring Framework	{'swilliams-pivotal/mod-spring': {}}
+semperos/gershwin	9	0	(Deprecated Prototype) Gershwin programming language	{'semperos/gershwin': {'org.clojure': ('clojure', '1.5.1', None)}}
+albertofaci/dropwizard-session	9	0	An attempt of cookie based session management for Dropwizard	{'albertofaci/dropwizard-session': {'org.mockito': ('mockito-all', '${mockito.version}', 'test'), 'com.google.guava': ('guava', '${guava.version}', None), 'com.yammer.dropwizard': ('dropwizard-auth', '${dropwizard.version}', None), 'junit': ('junit', '${junit.version}', 'test'), 'commons-lang': ('commons-lang', '${commons-lang.version}', None)}}
+BayviewGlen/Game-Grade-11	9	0	Summative Project for Grade 11	{'BayviewGlen/Game-Grade-11': {}}
+javace/cursoseam	9	0	{'javace/cursoseam': {}}
+PedroGomes/datanucleus-cassandra	9	0	A cassandra plugin to the java persistence platform Datanucleus	{'PedroGomes/datanucleus-cassandra': {}}
+carsonmcdonald/Stack-Apps-Java-Library	9	0	A wrapper library for the sites supported by the stack apps api.	{'carsonmcdonald/Stack-Apps-Java-Library': {}}
+hayamiz/kondo-lisp	9	0	KondoLisp is a framework for dynamic prototying on Arduino	{'hayamiz/kondo-lisp': {}}
+dmeybohm/Eclipse-PHP-Formatter	9	0	Format PHP code automatically in Eclipse PDT.	{'dmeybohm/Eclipse-PHP-Formatter': {}}
+snooplsm/njtransit	9	0	njtransit	{'snooplsm/njtransit': {'org.codehaus.plexus': ('plexus-component-api', '1.0-alpha-32', None), 'org.apache.maven': ('maven-core', '2.2.1', None), 'commons-jxpath': ('commons-jxpath', '1.3', None), 'commons-io': ('commons-io', '1.4', None), 'org.apache.maven.plugins': ('maven-dependency-plugin', '2.1', None), 'org.easytesting': ('fest-reflect', '1.2', 'test'), 'commons-lang': ('commons-lang', '2.5', None), 'junit': ('junit', '4.8.1', 'test'), 'asm': ('asm', '3.2', None)}}
+rejeep/apes	9	0	Audio Program for Editing Sound	{'rejeep/apes': {}}
+idega/com.idega.block.process.webservice	9	0	Webservice extension to the Process Block for the Idega platform	{'idega/com.idega.block.process.webservice': {'commons-httpclient': ('commons-httpclient', '${commons-httpclient-commons-httpclient-version}', None), 'itextpdf': ('itext-paulo', '${itextpdf-itext-paulo-version}', 'test'), 'commons-codec': ('commons-codec', '${commons-codec-commons-codec-version}', None), 'com.idega.block.platform': ('org.apache.axis', None, None)}}
+idega/is.idega.idegaweb.egov.cases	9	0	{'idega/is.idega.idegaweb.egov.cases': {'com.idega.block.addon': ('com.idega.block.text', None, None), 'com.idega.block.egov': ('is.idega.idegaweb.egov.message', None, None), 'com.idega.block.platform': ('com.idega.user', None, None)}}
+blerer/horizondb	9	0	Tick/Time Series database	{'blerer/horizondb': {'org.antlr': ('antlr4-runtime', '4.2.1', None), 'io.horizondb': ('horizondb-model', '1.0-SNAPSHOT', None), 'org.easymock': ('easymock', '3.0', 'test'), 'junit': ('junit', '4.11', 'test'), 'com.codahale.metrics': ('metrics-core', '3.0.1', None)}}
+manhluong/pd-for-libgdx	9	0	Gdx backend for libpd (pure data).	{'manhluong/pd-for-libgdx': {}}
+turbidwater/GeoCapabilitiesANE	9	0	Android ANE for detecting if GPS is actually on or not	{'turbidwater/GeoCapabilitiesANE': {}}
+KrazyTheFox/StarDB-for-Java	9	0	A port of the Python library (StarDB) for manipulating Starbound database files to Java.	{'KrazyTheFox/StarDB-for-Java': {}}
+pwntester/RSA_RESTing	9	0	Demos for RSA talk: RESTing on your laurels will get you owned	{'pwntester/RSA_RESTing': {'org.hibernate': ('hibernate-entitymanager', '3.6.10.Final', None), 'com.thoughtworks.xstream': ('xstream', '1.4.6', None), 'org.springframework.data': ('spring-data-jpa', '${spring-data.version}', None), 'jstl': ('jstl', '1.2', None), 'org.springframework': ('spring-oxm', '4.0.0.BUILD-SNAPSHOT', None), 'javax.servlet': ('servlet-api', '2.5', None), 'javax.servlet.jsp': ('jsp-api', '2.1', 'provided'), 'org.hsqldb': ('hsqldb', '2.2.9', None), 'org.hibernate.javax.persistence': ('hibernate-jpa-2.0-api', '1.0.0.Final', None), 'junit': ('junit', '4.8.2', 'test'), 'org.json': ('json', '20080701', None)}}
+thalmic-alpha/myo-glass-companion	9	0	Myo input for Google Glass, via an Android phone using Glass Companion BT Protocol	{'thalmic-alpha/myo-glass-companion': {}}
+iconmaster5326/Source	9	0	NOT IN DEVELOPMENT, FOLLOW https://github.com/iconmaster5326/Typhon INSTEAD.	{'iconmaster5326/Source': {}}
+wakhub/tinyclock	9	0	Super small 1x1 clock widget for Android	{'wakhub/tinyclock': {}}
+lrodero/java-cuckoo-filter	9	0	Open Java implementation of Cuckoo Filters, Apache License v2	{'lrodero/java-cuckoo-filter': {}}
+ewjmulder/hue-bridge-simulator	9	0	Operate your Smart Home using Eneco Toon	{'ewjmulder/hue-bridge-simulator': {}}
+drankye/haox	9	0	A Kerberos implementation in Java	{'drankye/haox': {'org.bouncycastle': ('bcprov-ext-jdk15on', '1.51', None), 'commons-httpclient': ('commons-httpclient', '3.0', None), 'log4j': ('log4j', '1.2.13', None), 'junit': ('junit', '4.8.2', 'test'), 'org.mockito': ('mockito-all', '1.9.5', None)}}
+Haehnchen/idea-php-drupal-symfony2-bridge	9	0	PhpStorm plugin to support Symfony2 components inside Drupal 8	{'Haehnchen/idea-php-drupal-symfony2-bridge': {}}
+hrzafer/resha-turkish-stemmer	9	0	A fast and less aggresive stemmer for Turkish in Java	{'hrzafer/resha-turkish-stemmer': {'junit': ('junit', '4.10', 'test')}}
+edwgiz/maven-shaded-log4j-transformer	9	0	Transformer implementation to concatenate Log4j2Plugins.dat files	{'edwgiz/maven-shaded-log4j-transformer': {'junit': ('junit', '4.12', 'test'), 'org.apache.logging.log4j': ('log4j-core', '2.6.1', None), 'commons-io': ('commons-io', '2.5', None), 'org.apache.maven.plugins': ('maven-shade-plugin', '2.4.3', None)}}
+FIRHQ/fir_eclipse_plugin	9	0	{'FIRHQ/fir_eclipse_plugin': {}}
+finebyte/AppMsgBridge	9	0	AppMessage Tools for Pebble Emulator - Send AppMessages from Android , File, or Simple Web Interface to Emu	{'finebyte/AppMsgBridge': {}}
+sk89q/BiomeAtlas	9	0	Forge mod to generate a .png map of biomes	{'sk89q/BiomeAtlas': {}}
+blackbeard334/djoom3	9	0	doom 3 java port. ...'almost' playable!	{'blackbeard334/djoom3': {'uk.com.robust-it': ('cloning', '${cloning.version}', None), 'com.googlecode.soundlibs': ('jorbis', '${jorbis.version}', None), 'org.lwjgl.lwjgl': ('lwjgl', '${lwjgl.version}', None)}}
+devdev-dev/PureDataSampleProject	9	0	Android Studio sample project for a musical app using Pure Data (pd-for-android).	{'devdev-dev/PureDataSampleProject': {}}
+npryce/worktorule	9	0	Manage test lifecycle by correlating failures with contents of an issue tracker.	{'npryce/worktorule': {}}
+SurveyMonkey/surveymonkey-android-sdk	9	0	The SurveyMonkey Mobile Feedback SDK for Android	{'SurveyMonkey/surveymonkey-android-sdk': {}}
+tillnagel/sankey-arcs	9	0	Sankey Arcs - Visualizing edge weights in path graphs	{'tillnagel/sankey-arcs': {}}
+liuyufei/SSLKiller	9	0	SSLKiller is used for killing SSL verification functions on Android client side. With SSLKiller, You can intercept app's HTTPS communication packages between the client and server.	{'liuyufei/SSLKiller': {}}
+StylingAndroid/UserIdentity	9	0	{'StylingAndroid/UserIdentity': {}}
+helloqiu/mianliao-login-android	9	0	An android app for mianliao login	{'helloqiu/mianliao-login-android': {}}
+EEdge/FoodCraft	9	0	A simple Android app that fetches meal recipes based on ingredients entered by the user.	{'EEdge/FoodCraft': {}}
+amanmj/PC-Remote-Control	9	0	A telegram bot to remotely control anyone's PC remotely through your phone/PC.	{'amanmj/PC-Remote-Control': {}}
+mattsilber/font-utils	9	0	A library to help with custom fonts and text sizes	{'mattsilber/font-utils': {}}
+dkajiwara/Curson	9	0	Cursor binding which uses annotation processing to generate boilerplate code for you	{'dkajiwara/Curson': {}}
+Wolftein/Quark-Engine	9	0	Modern Java(8/9) 2D/3D game framework (LWJGL3, TeaVM)	{'Wolftein/Quark-Engine': {}}
+thangbn/Direct-File-Downloader	9	0	A simple, fool-proof file downloader	{'thangbn/Direct-File-Downloader': {}}
+birdwang/ZhiHuDaily	9	0	{'birdwang/ZhiHuDaily': {}}
+jirawatee/FirebaseStorage-Android	9	0	Firebase Storage code guideline for Android developers	{'jirawatee/FirebaseStorage-Android': {}}
+umbucaja/moringa-webservice	9	0	{'umbucaja/moringa-webservice': {'org.springframework.boot': ('spring-boot-starter-test', None, 'test'), 'postgresql': ('postgresql', '9.1-901.jdbc4', None), 'com.fasterxml.jackson.core': ('jackson-databind', '2.6.2', None), 'org.apache.commons': ('commons-lang3', '3.1', None), 'org.jsoup': ('jsoup', '1.7.2', None)}}
+lukamarin/PhotoFilters-android	9	0	{'lukamarin/PhotoFilters-android': {}}
+mattlogan/LocationTracker	9	0	Demo app for test doubles talk: https://www.youtube.com/watch?v=_pCwcdNtxog	{'mattlogan/LocationTracker': {}}
+colabug/RoboCaster	9	0	Follow along with my Robolectric series at CasterIO!	{'colabug/RoboCaster': {}}
+mabeijianxi/android-expression	9	0	This is an android custom expressions library,Support expression expand.	{'mabeijianxi/android-expression': {}}
+devnewton/newton_adventure	9	0	Newton adventure is an open source 2D platform game. You play Newton, a very special hero who has the power to change gravity direction. It runs on every Linux, Windows, Mac OS X or any OS with Java and OpenGL support.	{'devnewton/newton_adventure': {}}
+pnfsoftware/jeb2-androsig	9	0	{'pnfsoftware/jeb2-androsig': {}}
+Rainist/yacht	9	0	yet another chart library for Android	{'Rainist/yacht': {}}
+foreverxiongtao/dagger2sample	9	0	本实例主要是本人在学习dragger2过程中的一些个人理解(如有错误，希望指正)	{'foreverxiongtao/dagger2sample': {}}
+Qualia-Li/LeetCode	9	0	My LeetCode Practice	{'Qualia-Li/LeetCode': {}}
+documentcloud/pdftailor	9	0	Stitch and Unstitch PDFs.	{'documentcloud/pdftailor': {}}
+generify/image-cache-android	9	0	Memory and disk is used for caching images on Android.	{'generify/image-cache-android': {'com.jakewharton': ('disklrucache', '1.3.0', None), 'android.support': ('compatibility-v4', '11', None)}}
+DivyanshuVerma/CubicBiezerEasing	9	0	A demo of the animation produced using a cubic beizer	{'DivyanshuVerma/CubicBiezerEasing': {}}
+BossLetsPlays/Cataclysmic-Battles	9	0	Lets make a game together!  Having a hard time following my tutorials?  My source is available here to help you!	{'BossLetsPlays/Cataclysmic-Battles': {}}
+ashtonthomas/gwt-fast-touch-press	9	0	FastButton implementation in GWT	{'ashtonthomas/gwt-fast-touch-press': {}}
+michelluther/umap	9	0	UMLtoABAP	{'michelluther/umap': {}}
+timboudreau/scopes	9	0	A framework for writing custom Guice scopes	{'timboudreau/scopes': {}}
+jansolo/aXbo-research	9	0	Open source version of the client software package for the aXbo Sleep Phase Alarm Clock.	{'jansolo/aXbo-research': {}}
+FinalStarfall/HangarShipViewer	9	0	{'FinalStarfall/HangarShipViewer': {}}
+PKU-CADA/pkuapp_Android	9	0	Android版 颐和园路5号	{'PKU-CADA/pkuapp_Android': {}}
+JetBrains/teamcity-local-cloud	9	0	TeamCity plugin that creates a "cloud" on the server's machine using its local agents.	{'JetBrains/teamcity-local-cloud': {}}
+andresan87/TowerDefenseLib	9	0	Biblioteca para criação de games no estilo tower defense.	{'andresan87/TowerDefenseLib': {}}
+chris-martin/reactive-gwt	9	0	Event support for GWT, inspired by functional reactive programming	{'chris-martin/reactive-gwt': {'com.google.gwt': ('gwt-dev', '[2.0,)', 'test'), 'com.google.guava': ('guava-gwt', 'r09', None), 'com.google.code.findbugs': ('jsr305', '[1.3.9,)', None), 'junit': ('junit', '4.8.2', 'test')}}
+ithayer/plaid-penguin-example	9	0	Just a simple example for a simple library (plaid-penguin) that shows how to setup a client & server thrift interface.	{'ithayer/plaid-penguin-example': {}}
+soluvas/tumblej	9	0	Tumblr API Java Client Library to provide capabilities to update tumblr blogs with text, link, quote, image, audio and video posts	{'soluvas/tumblej': {}}
+kshoji/ADK-MIDI-Driver	9	0	Android MIDI Driver with ADK+MIDI Shield	{'kshoji/ADK-MIDI-Driver': {}}
+magnusart/Ekonomipuls	9	0	{'magnusart/Ekonomipuls': {'com.pivotallabs': ('robolectric', '1.0-RC1', 'test'), 'org.mockito': ('mockito-all', '${mockito.version}', 'test'), 'com.google.code.gson': ('gson', '1.7.1', 'compile'), 'com.google.android': ('android-test', '${android.version}', 'provided'), 'org.roboguice': ('roboguice', '1.1.1', 'compile'), 'junit': ('junit', '4.8.2', 'test'), 'com.google.inject': ('guice', '2.0-no_aop', 'compile')}}
+jpountz/tries	9	0	Comparison of trie implementations	{'jpountz/tries': {}}
+hlship/t5intro	9	0	Example Tapestry application from "Tapestry 5 Introduction" slide deck	{'hlship/t5intro': {}}
+katox/toptree	9	0	Self Adjusting Top Tree Java5 Implementation	{'katox/toptree': {}}
+binomed/CineShowTime-Android	9	0	CineShowTime Application for android	{'binomed/CineShowTime-Android': {}}
+orbeon/msv	9	0	The Sun Multi-Schema XML Validator (MSV) is a Java technology tool to validate XML documents against several kinds of XML schemata. It supports RELAX NG, RELAX Namespace, RELAX Core, TREX, XML DTDs, and a subset of XML Schema Part 1. The project is licensed under the BSD license.	{'orbeon/msv': {}}
+bamboo/monolipse	9	0	Mono Development Tools for Eclipse including code highlighting and incremental compilation for boo, boojay and c#.	{'bamboo/monolipse': {}}
+Java-Communitivity/Adirondack	9	0	Originally a fork of the Whack API from IgniteRealtime, converted to Maven build, planned to house Java XMPP external component experiments	{'Java-Communitivity/Adirondack': {'commons-logging': ('commons-logging', '1.1.1', None), 'dom4j': ('dom4j', '1.6', None), 'junit': ('junit', '3.8.1', 'test'), 'jaxen': ('jaxen', '1.1-beta-12', None), 'xpp3': ('xpp3', '1.1.4c', None)}}
+idega/com.idega.block.rss	9	0	RSS plugin/block for the Idega platform	{'idega/com.idega.block.rss': {'rome': ('rome-modules', '0.2.1j1.4.2', None), 'com.idega.block.platform': ('com.idega.slide', None, None)}}
+idega/com.idega.cxf	9	0	Integration of the CXF WebServices engine for the Idega platform	{'idega/com.idega.cxf': {'org.mortbay.jetty': ('jetty-util', '6.1.5', None), 'wsdl4j': ('wsdl4j', '1.6.1', None), 'com.sun.xml.bind': ('jaxb-impl', '2.0.5', None), 'woodstox': ('wstx-asl', '3.2.1', None), 'stax-utils': ('stax-utils', 'snapshot-20060502', None), 'org.apache.geronimo.specs': ('geronimo-ws-metadata_2.0_spec', '1.1.1', None), 'stax': ('stax-api', '${stax-stax-api-version}', None), 'com.idega.block.platform': ('com.idega.core', None, None), 'javax.xml.ws': ('jaxws-api', '2.1', None), 'xml-resolver': ('xml-resolver', '1.2', None), 'org.apache.ws.commons': ('XmlSchema', '1.1', None), 'org.apache.ws.commons.neethi': ('neethi', None, None), 'javax.xml': ('jaxb-api', '2.0', None)}}
+teacurran/appleworks-parser	9	0	Parser for Appleworks and Clarisworks file formats.	{'teacurran/appleworks-parser': {'commons-cli': ('commons-cli', '1.2', None), 'commons-io': ('commons-io', '2.4', None), 'org.slf4j': ('slf4j-simple', '1.7.2', None), 'org.odftoolkit': ('odfdom-java', '0.8.7', None)}}
+erosenfeld/Thesaurus	9	0	A dynamically generated thesaurus using Syntactic N-grams parsed by Google Research. Rather than providing synonyms, this thesaurus provides words used in similar contexts. It also provides actual values, so certainty of similarity can be properly gauged.	{'erosenfeld/Thesaurus': {}}
+tkurz/media-fragments-uri	9	0	Media Fragments URI 1.0 for Java	{'tkurz/media-fragments-uri': {'junit': ('junit', '4.8', 'test')}}
+nobuoka/vc-gradle-android-sdk-manager	9	0	This plugin enables you to update Android SDK components in the Gradle build script.	{'nobuoka/vc-gradle-android-sdk-manager': {}}
+xuwei-k/free-monad-java	9	0	Free Monad in Java	{'xuwei-k/free-monad-java': {}}
+saltintop64/OgrenciBilgiSistemi	9	0	{'saltintop64/OgrenciBilgiSistemi': {}}
+colintheshots/RxRetrofitAutoCompleteExample	9	0	An example of using RxJava to autocomplete searches with a slight delay and request cancellation.	{'colintheshots/RxRetrofitAutoCompleteExample': {}}
+making/jqiita	9	0	Qiita API Java Client	{'making/jqiita': {'com.squareup.retrofit': ('retrofit', '1.7.0', None), 'junit': ('junit', '4.11', 'test'), 'org.projectlombok': ('lombok', '1.14.8', 'provided')}}
+bdentino/Qtino.SharingKit	9	0	Generic Sharing Kit API for Qt	{'bdentino/Qtino.SharingKit': {}}
+calblueprint/phc	9	0	Connecting homeless in SF to essential services.	{'calblueprint/phc': {}}
+DaanVanYperen/underkeep	9	0	What lies Beneath - The Underkeep (LD29)	{'DaanVanYperen/underkeep': {}}
+CXgamer/MC-ticker	9	0	A simulator for minecraft	{'CXgamer/MC-ticker': {}}
+InfiniteSearchSpace/Automata-Totalistic-Gen-4	9	0	A slimmed-down, Totalistic-only version of my CA generator	{'InfiniteSearchSpace/Automata-Totalistic-Gen-4': {}}
+jpaulm/javafbp-websockets	9	0	JavaFBP support for WebSockets	{'jpaulm/javafbp-websockets': {'org.java-websocket': ('Java-WebSocket', '1.3.0', 'compile'), 'com.jpaulmorrison': ('javafbp', '4.1.0', 'compile')}}
+nenick/espresso-macchiato	9	1	Write quickly and easily tests with Android Espresso.	{'nenick/espresso-macchiato': {}}
+viniciusccarvalho/xd-firehose	9	0	Spring XD source module to consume data from doppler firehose	{'viniciusccarvalho/xd-firehose': {}}
+kemitix/spring-boot-awt-gui-demo	9	0	Demonstration on how to create an AWT GUI in Spring Boot.	{'kemitix/spring-boot-awt-gui-demo': {'org.springframework.boot': ('spring-boot-starter-test', None, 'test')}}
+hptruong93/Repeat	9	0	Repeat yourself with some intelligence. This, if used correctly, can improve your productivity by 2x - 5x.	{'hptruong93/Repeat': {}}
+Ghuizing/Clippr	9	0	{'Ghuizing/Clippr': {}}
+cswinter/codecraft-tutorial	9	0	Tutorial for the CodeCraft programming game.	{'cswinter/codecraft-tutorial': {}}
+TheDerek/hex-libgdx	9	0	Libgdx prototype with hexagonal tiles	{'TheDerek/hex-libgdx': {}}
+lemberg/android-realm-sample	9	0	{'lemberg/android-realm-sample': {}}
+yygmind/DDZhanXun	9	0	点点掌讯，基于6.0的短信管理软件	{'yygmind/DDZhanXun': {}}
+akoufatzis/WeatherApp	9	0	A demo app to demonstrate and test various concepts like MVP, Dagger 2, RxJava and testing	{'akoufatzis/WeatherApp': {}}
+scm-spain/tap-da-dev	9	0	Tap the InfoJobs' devs! Game of the Year Edition	{'scm-spain/tap-da-dev': {}}
+kawasima/falchion	9	0	Falchion is an antifragile JVM container.	{'kawasima/falchion': {'org.eclipse.jetty': ('jetty-server', '9.3.8.v20160314', None), 'com.google.guava': ('guava', '18.0', None), 'io.dropwizard.metrics': ('metrics-jetty9', '${metrics.version}', None), 'net.unit8.falchion': ('falchion-jetty9-connector', '0.1.0-SNAPSHOT', None), 'junit': ('junit', '4.12', 'test'), 'org.slf4j': ('slf4j-simple', '1.7.21', None)}}
+kuassivi/October	9	0	Android MVP Framework.	{'kuassivi/October': {}}
+yygmind/DDLock	9	0	点点锁屏，解放手机锁屏键	{'yygmind/DDLock': {}}
+lordlothar99/strategy-spring-security-acl	9	0	Extensible strategy-based Spring Security ACL implementation ; available modules are : PermissionEvaluator, JPA Specification and ElasticSearch Filter	{'lordlothar99/strategy-spring-security-acl': {'org.springframework.boot': ('spring-boot-autoconfigure', None, None), 'org.springframework': ('spring-web', None, None), 'javax.servlet': ('javax.servlet-api', None, 'provided'), 'org.slf4j': ('slf4j-api', None, None)}}
+bq/MarkerSeekBar	9	0	Custom Android SeekBar that adds a marker / thumb to display current value.	{'bq/MarkerSeekBar': {}}
+rafaeltoledo/android-keep-testing	9	0	A showcase of some ways to test your Android code	{'rafaeltoledo/android-keep-testing': {}}
+regis-leray/factory_duke	9	0	A Java framework for creating objects as test data (Fixture)	{'regis-leray/factory_duke': {'ch.qos.logback': ('logback-classic', '1.1.3', None), 'org.slf4j': ('slf4j-api', '1.7.13', None), 'org.mockito': ('mockito-core', '1.10.19', 'test'), 'org.assertj': ('assertj-core', '3.3.0', 'test'), 'junit': ('junit', '4.12', 'test'), 'io.github.lukehutch': ('fast-classpath-scanner', '1.9.17', None)}}
+ashwanikumar04/retroclient	9	0	This library provides an easy to use wrapper for Retrofit library to make network calls	{'ashwanikumar04/retroclient': {}}
+disassemble-io/asm-framework-full	9	0	A full analysis/modification framework for ASM	{'disassemble-io/asm-framework-full': {'com.linkedin.parseq': ('parseq', '[2.3.5,)', None), 'org.ow2.asm': ('asm-debug-all', '[5.1,)', None), 'junit': ('junit', '[4.12,)', 'test')}}
+prachi1210/tetris-game	9	0	:video_game: Tetris game in Java Swing	{'prachi1210/tetris-game': {}}
+devstepbcn/react-native-android-wifi	9	0	A react-native module for viewing and connecting to Wifi networks on Android devices.	{'devstepbcn/react-native-android-wifi': {}}
+matzuk/TestableCodeMobius	9	0	Demo project for Testable code in Mobius conference	{'matzuk/TestableCodeMobius': {}}
+umbucaja/moringa-android	9	0	{'umbucaja/moringa-android': {}}
+yuyinghao/GalleryViewPager	9	0	{'yuyinghao/GalleryViewPager': {}}
+FireZenk/Tabbels	9	0	A crazy idea about bringing functional programming to Java, in an elegant way	{'FireZenk/Tabbels': {}}
+PM-Martin/ScrollGallery-android	9	0	{'PM-Martin/ScrollGallery-android': {}}
+Jacksgong/PercentSmoothHandler	9	0	Handle the case of  the internal of the percent between the current and the last is too large to smooth for the target progress widget or event others	{'Jacksgong/PercentSmoothHandler': {}}
+hextremelabs/lib-ussd	9	0	A lightweight USSD application framework.	{'hextremelabs/lib-ussd': {'junit': ('junit', '4.12', 'test'), 'org.mockito': ('mockito-all', '1.10.19', 'test'), 'javax': ('javaee-web-api', '7.0', 'provided'), 'org.slf4j': ('slf4j-api', '1.7.12', 'provided'), 'javax.enterprise.concurrent': ('javax.enterprise.concurrent-api', '1.0', 'provided')}}
+sonyxperiadev/home-badge	9	0	{'sonyxperiadev/home-badge': {}}
+ChrisRenke/FixedSpans	9	0	MonospaceSpan and TabularSpan with Sample	{'ChrisRenke/FixedSpans': {'com.chrisrenke': ('fixed-spans-parent', '${project.version}', None), 'com.google.android': ('android', '${platform.version}', 'provided')}}
+iskandarshabaev/weather	9	0	{'iskandarshabaev/weather': {}}
+frogermcs/Dagger2Recipes-InjectEverything	9	0	Example app which shows how to make use from Multibindings and AutoFactory in Dagger 2	{'frogermcs/Dagger2Recipes-InjectEverything': {}}
+predict-io/PredictIO-Android	9	0	A battery-optimized SDK to get real-time updates when a user starts or ends a journey.	{'predict-io/PredictIO-Android': {}}
+Koterwong/Weather	9	1	以MVP为架构开发，遵循Material Design的天气App	{'Koterwong/Weather': {}}
+marcellogalhardo/Viajabessa	9	0	Aplicativo para efetuar compras de pacotes de viagens. Desenvolvido como parte de um processo seletivo; aplicativo de amostra, nenhuma funcionalidade tem valor ou compromisso real.	{'marcellogalhardo/Viajabessa': {}}
+IreneXY/SimpleWidget	9	0	 :four_leaf_clover: Easy to customize the widget color and style	{'IreneXY/SimpleWidget': {}}
+benschw/docker-service-discovery-with-links	9	0	{'benschw/docker-service-discovery-with-links': {}}
+daxzel/instalogger	9	0	Application to display the logs	{'daxzel/instalogger': {}}
+qmetric/spark-authentication	9	0	{'qmetric/spark-authentication': {'org.mockito': ('mockito-all', '1.10.19', 'test'), 'com.sparkjava': ('spark-core', '2.2', 'provided'), 'org.hamcrest': ('hamcrest-all', '1.3', 'test'), 'org.apache.commons': ('commons-lang3', '3.4', None), 'junit': ('junit', '4.12', 'test'), 'commons-codec': ('commons-codec', '1.10', None)}}
+mgodave/raft	9	0	An implementation of the Raft distributed consensus protocol in Java.	{'mgodave/raft': {'org.robotninjas': ('netty-protobuf-rpc', '1.1.1-SNAPSHOT', None), 'com.google.guava': ('guava', '14.0.1', None), 'ch.qos.logback': ('logback-classic', '1.0.11', 'runtime'), 'com.github.rholder': ('guava-retrying', '1.0.4', None), 'com.google.inject.extensions': ('guice-assistedinject', '3.0', None), 'com.google.protobuf': ('protobuf-java', '2.5.0', None), 'com.google.inject': ('guice', '3.0', None), 'io.netty': ('netty', '3.6.2.Final', None), 'commons-pool': ('commons-pool', '1.6', None), 'com.github.sbtourist': ('journalio', '1.3', None), 'org.apache.commons': ('commons-lang3', '3.1', None), 'junit': ('junit', '3.8.1', 'test'), 'org.slf4j': ('slf4j-api', '1.7.5', None)}}
+nLight/jruby-http-kit	9	0	JRuby wrapper for Clojure HTTP Kit library	{'nLight/jruby-http-kit': {}}
+snow/sahara	9	0	simple app to anti spam sms	{'snow/sahara': {}}
+fcheung/elasticsearch-jruby	9	0	plugin to allow you to write elasticsearch scripts using jruby	{'fcheung/elasticsearch-jruby': {'org.elasticsearch': ('elasticsearch', '${elasticsearch.version}', 'compile'), 'org.jruby': ('jruby', '1.6.7.2', 'compile'), 'log4j': ('log4j', '1.2.16', 'runtime')}}
+solkin/mandarin-android	9	0	Android mobile IM client	{'solkin/mandarin-android': {}}
+mdellavo/boids	9	0	Android Boids Live Wallpaper	{'mdellavo/boids': {}}
+dydra/dydra.java	9	0	Dydra.com software development kit (SDK) for Java.	{'dydra/dydra.java': {'com.ning': ('async-http-client', '1.7.10', 'compile'), 'org.codehaus.jackson': ('jackson-mapper-asl', '1.9.12', 'compile'), 'junit': ('junit', '4.10', 'test'), 'org.openrdf.sesame': ('sesame-runtime', '2.6.10', 'compile'), 'org.apache.jena': ('jena-arq', '2.10.0', 'compile')}}
+mygreen/super-csv-annotation	9	0	'Super CSV' extention library for annotation	{'mygreen/super-csv-annotation': {'net.sf.supercsv': ('super-csv-joda', '${supercsv.version}', 'provided'), 'org.springframework': ('spring-test', '${spring.version}', 'test'), 'org.hamcrest': ('hamcrest-all', '1.3', 'test'), 'junit': ('junit', '4.12', 'test'), 'org.slf4j': ('jcl-over-slf4j', '${slf4j.version}', 'test'), 'log4j': ('log4j', '1.2.14', 'test')}}
+musketyr/gpars-appengine	9	0	GPars App Engine	{'musketyr/gpars-appengine': {}}
+anwajler/diaspora-mobile	9	0	Diaspora mobile client	{'anwajler/diaspora-mobile': {}}
+dsaff/dotmesh	9	0	An assertion API for Java unit-testing frameworks that provides free assertions for each boolean method in the code under test.	{'dsaff/dotmesh': {}}
+fjenett/quickreferencetool	9	0	Quick Reference, an inline reference tool for the Processing IDE	{'fjenett/quickreferencetool': {}}
+atzkey/glitchcam	9	0	Realtime video glitches for Processing	{'atzkey/glitchcam': {}}
+axiomsoftware/axiom-rhino	9	0	Axiom's branch of Mozilla Rhino, with fixes and a few extensions	{'axiomsoftware/axiom-rhino': {}}
+idega/com.idega.block.login	9	0	Base login block/module for the Idega platform	{'idega/com.idega.block.login': {'com.idega.block.platform': ('com.idega.faces', None, None)}}
+derekwyatt/PressureQueue-Concept	9	0	This is just a concept for a pressure based queue.  Enqueueing becomes more difficult as the size of the queue increases.	{'derekwyatt/PressureQueue-Concept': {}}
+robbypond/dashclock-facebook-extension	9	0	{'robbypond/dashclock-facebook-extension': {}}
+mjgp2/sio2box	9	0	Memory tracking sandbox	{'mjgp2/sio2box': {'sio2box': ('sio2box', '1.0', None), 'com.carrotsearch': ('junit-benchmarks', '0.7.2', 'test'), 'junit': ('junit', '4.11', 'test'), 'org.projectlombok': ('lombok', '1.16.2', 'provided')}}
+s8871404/ControllableMenu	9	0	ControllableMenu, a library which can make developer create an useful expandable menu. This menu can be collect and expand by a button, which developer can design byself.	{'s8871404/ControllableMenu': {}}
+android-cjj/VolleyFrame	9	0	this project tell you how to use the Volley  by cjj	{'android-cjj/VolleyFrame': {}}
+TheLanguageArchive/FLAT	9	0	{'TheLanguageArchive/FLAT': {'nl.mpi.tla.flat': ('DoorKeeper', '1.0-SNAPSHOT', None), 'javax.servlet': ('javax.servlet-api', '3.1.0', 'provided'), 'com.sun.jersey': ('jersey-servlet', '1.17.1', None)}}
+assen-totin/android-icecast-player	9	0	Icecast player for Android	{'assen-totin/android-icecast-player': {}}
+DhavalKapil/viewer	9	0	A client/server java application to transmit changes on files on the client side to the server side immediately.	{'DhavalKapil/viewer': {}}
+sephiroth74/RxBroadcast	9	0	Reactive Broadcast for Android	{'sephiroth74/RxBroadcast': {}}
+hvqzao/burp-wildcard	9	0	Burp extension intended to compact Burp extension tabs by hijacking them to own tab.	{'hvqzao/burp-wildcard': {}}
+sugtao4423/ChinachuClient	9	0	Android用Chinachuクライアント	{'sugtao4423/ChinachuClient': {}}
+drytools/petclinic	9	0	Sample application created with Sifu	{'drytools/petclinic': {'org.springframework.boot': ('spring-boot-starter-test', None, 'test'), 'org.subethamail': ('subethasmtp-wiser', '1.2', 'test'), 'io.dropwizard.metrics': ('metrics-servlets', None, None), 'org.liquibase': ('liquibase-core', None, None), 'com.fasterxml.jackson.datatype': ('jackson-datatype-jsr310', None, None), 'org.hibernate': ('hibernate-validator', None, None), 'mysql': ('mysql-connector-java', None, None), 'com.ryantenney.metrics': ('metrics-spring', '${metrics-spring.version}', None), 'io.jsonwebtoken': ('jjwt', '0.6.0', None), 'javax.inject': ('javax.inject', '${javax.inject.version}', None), 'io.springfox': ('springfox-swagger-ui', '${swagger.version}', None), 'commons-io': ('commons-io', '2.4', None), 'com.querydsl': ('querydsl-jpa', '${querydsl.version}', None), 'commons-lang': ('commons-lang', '2.6', None), 'com.zaxxer': ('HikariCP', None, None)}}
+amadornes/JTraits	9	0	My go at bringing scala traits to Java 6 through the magic of ASM	{'amadornes/JTraits': {}}
+winterDroid/droidcon_lint	9	0	This is a template project which shows how to include custom Lint checks into your Gradle based Android project.	{'winterDroid/droidcon_lint': {}}
+rgarza/ExchangeFakeUserAgent	9	0	{'rgarza/ExchangeFakeUserAgent': {}}
+a11n/lint-junit-rule	9	0	A JUnit rule which allows unit testing of custom Lint rules.	{'a11n/lint-junit-rule': {}}
+rafaelpsouza/in-memory-docker-database	9	0	In memory databases for your tests!	{'rafaelpsouza/in-memory-docker-database': {'org.postgresql': ('postgresql', '9.4-1201-jdbc41', None), 'br.eng.rafaelsouza': ('in-memory-docker-database', '1.0-SNAPSHOT', 'test'), 'org.mybatis': ('mybatis', '3.3.0', None), 'junit': ('junit', '4.10', 'test')}}
+JcDenton86/cordova-plugin-panoramaviewer	9	0	Cordova plugin which brings photopshere viewer on Android hybrid application	{'JcDenton86/cordova-plugin-panoramaviewer': {}}
+BoD/OpenCurrentActivityIntelliJPlugin	9	0	A little plugin for Android development (Android Studio or IntelliJ).	{'BoD/OpenCurrentActivityIntelliJPlugin': {}}
+amyu/Pikasan	9	0	{'amyu/Pikasan': {}}
+timothymdavis/taciturn	9	0	A small Java utility project inspired by the likes of Underscore and jQuery.	{'timothymdavis/taciturn': {'junit': ('junit', '4.8.1', None)}}
+Orchextra/orchextra-android-sample-app	9	0	{'Orchextra/orchextra-android-sample-app': {}}
+tomasbjerre/git-changelog-gradle-plugin	9	0	Gradle plugin that generates a changelog or releasenotes from git repository	{'tomasbjerre/git-changelog-gradle-plugin': {}}
+kosiara/suggestions-searchview-material-example	9	0	Simple SearchView with auto suggestions and sorting preferences	{'kosiara/suggestions-searchview-material-example': {}}
+shapesecurity/bandolier	9	0	Bandolier - bundler for ES2015 modules	{'shapesecurity/bandolier': {'com.intellij': ('annotations', '5.1', 'compile'), 'junit': ('junit', '4.11', 'test'), 'com.shapesecurity': ('shape-functional-java', '2.0.2', None)}}
+xushaojie/SwitchListGrid	9	0	使用RecycleView实现List与Grid样式切换	{'xushaojie/SwitchListGrid': {}}
+oceancx/AndroidLib	9	0	{'oceancx/AndroidLib': {}}
+armdev/reactive-javaserver-faces	9	0	JavaServer Faces with rxJava.	{'armdev/reactive-javaserver-faces': {}}
+liangsaifei/CircleTimeLoading	9	0	listView下拉刷新 钟表动画。	{'liangsaifei/CircleTimeLoading': {}}
+magiepooh/AdjustFullScreenLayout	9	0	{'magiepooh/AdjustFullScreenLayout': {}}
+ChrisCheng4j/SelectorView	9	0	Implemention of selector when pressed by one drawable on view.	{'ChrisCheng4j/SelectorView': {}}
+tianshiyeben/iptr	9	1	实时监控tomcat，apache服务器，若请求没有响应，则重启服务。支持监控多个tomcat和apache，支持发送邮件	{'tianshiyeben/iptr': {}}
+wanglu1209/PickerView	9	0	{'wanglu1209/PickerView': {}}
+mattak/Autumn	9	0	Android animator library inspired by Spring. ✨	{'mattak/Autumn': {}}
+redoxide/ruste	9	0	{'redoxide/ruste': {}}
+razeghi71/JalaliCalendar	9	0	Persian Calendar for java	{'razeghi71/JalaliCalendar': {}}
+lololiu/varname-go-die	9	0	Android Studio plugin(根据中文在线查找翻译并生成指定格式的变量名称)	{'lololiu/varname-go-die': {}}
+caarmen/poet-assistant	9	0	{'caarmen/poet-assistant': {}}
+skierkowski/react-native-wifi-manager	9	1	A WiFi connection manager for React Native	{'skierkowski/react-native-wifi-manager': {}}
+xiangzhihong/MaterialIntroView-master	9	1	{'xiangzhihong/MaterialIntroView-master': {}}
+evernote/kgb	9	1	Keyboard Geometry Builder and espresso keyboard testing	{'evernote/kgb': {}}
+HanSolo/medusademo	9	1	Some demos for the Medusa JavaFX gauges library	{'HanSolo/medusademo': {}}
+LordAkkarin/Stockpile	9	1	A lightweight caching server for Mojang profiles.	{'LordAkkarin/Stockpile': {'com.google.code.findbugs': ('jsr305', None, None), 'junit': ('junit', None, None), 'org.mockito': ('mockito-core', None, None)}}
+yudehai0204/CustomSeekBar	9	1	First	{'yudehai0204/CustomSeekBar': {}}
+weld/weld-vertx	9	1	{'weld/weld-vertx': {'org.jboss.weld.se': ('weld-se-core', None, None), 'io.vertx': ('vertx-unit', None, None), 'junit': ('junit', None, None), 'org.slf4j': ('slf4j-simple', None, 'test')}}
+blockstack/blockstack-android-client	9	1	Android client for blockstack-server	{'blockstack/blockstack-android-client': {}}
+kealsoul/MVP-Rxjava-Retrofit-okhttp	9	1	封装Rxjava+Retrofit+okhttp，清晰的MVP架构	{'kealsoul/MVP-Rxjava-Retrofit-okhttp': {}}
+yangruihan/Notes	9	1	个人笔记	{'yangruihan/Notes': {}}
+ashokslsk/JspWithServletsAcademicProject	9	1	Academic java online music portal project (user can listen to music and add to cart for admin processing)	{'ashokslsk/JspWithServletsAcademicProject': {}}
+nsiatras/sourcerabbit-gcode-sender	9	1	Cross platform GRBL G-Code sender	{'nsiatras/sourcerabbit-gcode-sender': {}}
+viviant1224/CircleTextImage	9	1	{'viviant1224/CircleTextImage': {}}
+h908714124/zerobuilder	9	1	A flexible builder scheme for Java	{'h908714124/zerobuilder': {'com.google.auto.service': ('auto-service', '1.0-rc2', 'provided'), 'com.google.guava': ('guava', '${guava.version}', None), 'com.google.auto': ('auto-common', '0.6', None), 'com.squareup': ('javapoet', '1.7.0', None), 'com.google.truth': ('truth', '0.28', 'test'), 'com.google.testing.compile': ('compile-testing', '0.9', 'test'), 'junit': ('junit', '4.12', 'test')}}
+mbaeuerle/Briss-2.0	8	0	Briss 2.0 is intended to be a GUI Update for the Briss PDF cropping tool.	{'mbaeuerle/Briss-2.0': {}}
+joaoevangelista/spring-data-datatables-integration	8	0	A simple integration using Spring Data JPA Pages and Datatables v1.10+. Inspired by Dandelion Datatables  dandelion.github.io/datatables	{'joaoevangelista/spring-data-datatables-integration': {'org.springframework': ('spring-web', '4.1.2.RELEASE', 'compile'), 'javax.servlet': ('javax.servlet-api', '3.1.0', 'compile'), 'org.springframework.data': ('spring-data-jpa', '1.7.1.RELEASE', 'compile'), 'com.fasterxml.jackson.core': ('jackson-databind', '2.4.4', 'compile')}}
+DirtyDan88/play-framework-blob	8	0	How to upload/load a file (e.g. images) with java play framwork, storing the file as BLOB.	{'DirtyDan88/play-framework-blob': {}}
+belliottsmith/bes-utils	8	0	{'belliottsmith/bes-utils': {}}
+rostanek/freemarker-support-for-netbeans	8	0	FreeMarker support for NetBeans including syntax coloring, parsing etc. new features will be added soon.	{'rostanek/freemarker-support-for-netbeans': {}}
+poetix/radioactive	8	0	Java 8 library for mutating beans	{'poetix/radioactive': {'com.google.guava': ('guava', '18.0', 'test'), 'junit': ('junit', '4.11', 'test')}}
+ideago/Moutianmouju	8	0	{'ideago/Moutianmouju': {}}
+Rodot/BitmapEncoder	8	0	Encode images to display them on your Gamebuino	{'Rodot/BitmapEncoder': {}}
+mayroncachina/phonegap-essencial	8	0	Exemplos do Curso	{'mayroncachina/phonegap-essencial': {}}
+Sefford/fraggle	8	0	A wrapper for Fragment Manager that streamlines some common operations over Fragments	{'Sefford/fraggle': {}}
+bluemix/CinemanaPlayer	8	0	An ExoPlayer with subtitles and OkHttp HttpDataSource. Android player with (Arabic) subtitles. Tags: ExoPlayer subtitles arabic android okhttp	{'bluemix/CinemanaPlayer': {}}
+mattunderscorechampion/tree-root	8	0	Tree collection and utility library	{'mattunderscorechampion/tree-root': {'com.mattunderscore.tree.root': ('iterators', None, None), 'junit': ('junit', None, None)}}
+dlech/nook-touch-button-service	8	0	Service that runs on rooted Nook Simple Touch (Nook 2nd Edition) that allows user to configure the hardware buttons.	{'dlech/nook-touch-button-service': {}}
+aparkinson/jenkins-webdriver	8	0	{'aparkinson/jenkins-webdriver': {'org.seleniumhq.selenium': ('selenium-java', '2.21.0', 'test'), 'junit': ('junit', '4.8.2', 'test')}}
+mikelmaron/MICS-GPX	8	0	A Package of Tools and Documentation for Innovative Use of GPX in MICS Surveys	{'mikelmaron/MICS-GPX': {}}
+kthoms/spray	8	0	A quick way to create Graphiti	{'kthoms/spray': {}}
+troyhen/neo	8	0	Neo Programming Language	{'troyhen/neo': {}}
+idega/com.idega.block.weather	8	0	{'idega/com.idega.block.weather': {'com.idega.block.platform': ('com.idega.core', None, None)}}
+rath/naver-english-dictionary	8	0	Naver English Dictionary	{'rath/naver-english-dictionary': {}}
+fdb/simovex	8	0	A simple Java wrapper around FFMPEG.	{'fdb/simovex': {}}
+sonatype/hudson-jsr330	8	0	JSR-330 integration for Hudson.	{'sonatype/hudson-jsr330': {'org.aspectj': ('aspectjtools', '1.6.10', None), 'ch.qos.logback': ('logback-classic', '0.9.26', 'test'), 'org.jvnet.hudson.main': ('hudson-core', '${hudsonVersion}', 'provided'), 'org.slf4j': ('jcl-over-slf4j', '1.6.1', 'test'), 'org.codehaus.groovy': ('groovy', '1.7.5', None), 'org.sonatype.sisu': ('sisu-inject-bean', '1.4.3.1', None), 'junit': ('junit-dep', '4.8.2', 'test'), 'javax.servlet': ('servlet-api', '2.5', 'provided'), 'org.apache.ant': ('ant-launcher', '1.8.1', None)}}
+wiregit/wirecode	8	0	gpl wire code	{'wiregit/wirecode': {}}
+jankotek/HEALPix	8	0	Astronomical sphere pixelization improved with range trees.	{'jankotek/HEALPix': {'org.apache.commons': ('commons-math', '2.2', None), 'junit': ('junit', '4.8.2', 'test')}}
+orefalo/Play2_CustomValidator	8	0	custom play 2.0 validation	{'orefalo/Play2_CustomValidator': {}}
+Krilivye/Jocco	8	0	Java port of Docco	{'Krilivye/Jocco': {'org.tautua.markdownpapers': ('markdownpapers-core', '1.2.7', None), 'org.freemarker': ('freemarker', '2.3.19', None), 'ch.qos.logback': ('logback-classic', '1.0.0', None), 'junit': ('junit', '4.8.1', 'test')}}
+PolymathicCoder/Averroes	8	0	{'PolymathicCoder/Averroes': {'com.google.guava': ('guava', '11.0.2', None), 'org.drools': ('drools-templates', '${drools-version}', None), 'org.apache.velocity': ('velocity', '1.7', None), 'com.googlecode.lambdaj': ('lambdaj', '2.3.3', None), 'org.reflections': ('reflections', '0.9.5', None), 'com.thoughtworks.xstream': ('xstream', '1.4.2', None), 'commons-io': ('commons-io', '2.1', None), 'org.pojomatic': ('pojomatic', '1.0', None), 'org.javassist': ('javassist', '3.15.0-GA', None), 'org.apache.commons': ('commons-lang3', '3.0.1', None), 'junit': ('junit', '4.10', None), 'org.slf4j': ('slf4j-log4j12', '${org.slf4j-version}', None)}}
+rapportive-oss/storm-front	8	0	Visualise a Storm topology	{'rapportive-oss/storm-front': {'log4j': ('log4j', '1.2.16', None), 'storm': ('storm', '0.5.4', None)}}
+davidrobert/RPG-Character-Sheets	8	0	Application Android for control rpg character sheets	{'davidrobert/RPG-Character-Sheets': {'com.google.android': ('support-v4', None, None), 'junit': ('junit', None, 'test')}}
+wibidata/odiago-common-flags	8	0	A Java command-line flag parsing library	{'wibidata/odiago-common-flags': {}}
+gregersn/HPGL	8	0	HPGL library for Processing	{'gregersn/HPGL': {}}
+xamry/mongo-gs-example	8	0	Example code demonstrating Geospatial Queries in MongoDB	{'xamry/mongo-gs-example': {'junit': ('junit', '4.5', 'test'), 'org.mongodb': ('mongo-java-driver', '2.6.5', None)}}
+yujunliang/lambda	8	0	Enabling functional programming in Java	{'yujunliang/lambda': {'com.google.guava': ('guava', '14.0.1', None), 'org.springframework': ('spring-test', '4.0.3.RELEASE', None), 'info.cukes': ('cucumber-junit', '${cucumber.version}', 'test'), 'org.powermock': ('powermock-api-easymock', '1.5.4', None), 'org.easymock': ('easymock', '3.1', None), 'org.jbehave': ('jbehave-core', '3.8', None), 'log4j': ('log4j', '1.2.12', None), 'junit': ('junit', '4.6', None)}}
+sourcesense/hippo-cmis-plugin	8	0	Allows to access the Hippo repository via CMIS interface, using a set of components developed on top of the Hippo Site Toolkit.	{'sourcesense/hippo-cmis-plugin': {'org.apache.chemistry.opencmis': ('chemistry-opencmis-client-impl', '${opencmisVersion}', None), 'org.slf4j': ('slf4j-api', None, None), 'org.onehippo.cms7.hst.components': ('hst-jaxrs', None, 'provided')}}
+itog/JsonEngineSample	8	0	JsonEngine BBS Sample Client Application for Android	{'itog/JsonEngineSample': {}}
+rickyclarkson/bin4s	8	0	Binary Parsing Combinators for Scala	{'rickyclarkson/bin4s': {'junit': ('junit', '4.10', 'test'), 'org.scala-lang': ('scala-library', '2.9.1', None)}}
+idega/com.idega.block.entity	8	0	Entity Block is a plug-in into the User Application to present a customizable entity path based column list view	{'idega/com.idega.block.entity': {'com.idega.block.platform': ('com.idega.builder', None, None)}}
+idega/com.idega.block.media	8	0	Media block for the Idega platform	{'idega/com.idega.block.media': {'com.idega.block.platform': ('org.apache.myfaces', None, None)}}
+idega/com.idega.hibernate	8	0	Hibernate integration for the Idega platform	{'idega/com.idega.hibernate': {'cglib': ('cglib-nodep', '2.1_3', None), 'org.hibernate': ('hibernate-entitymanager', None, None), 'antlr': ('antlr', None, None), 'dom4j': ('dom4j', None, None), 'org.slf4j': ('slf4j-log4j12', '1.5.5', None), 'com.idega.block.platform': ('com.idega.core', None, None)}}
+idega/com.idega.multidomain	8	0	Multidomain support for the Idega platform	{'idega/com.idega.multidomain': {'com.idega.block.platform': ('com.idega.manager', None, None)}}
+Macarse/itoa-test	8	0	{'Macarse/itoa-test': {}}
+ConstantineLignos/MORSEL	8	0	MORphological Sparsity Embiggens Learning: A simple unsupervised morphological learning model.	{'ConstantineLignos/MORSEL': {}}
+matthewmichihara/goodreads-android	8	0	Good Reads Android Client	{'matthewmichihara/goodreads-android': {}}
+gemmakbarlow/android-bag	8	0	Pocket-like (http://getpocket.com) 'recent files' manager for Android.	{'gemmakbarlow/android-bag': {}}
+simonracz/isometric-libgdx-game-template	8	0	A simple isometric game template.	{'simonracz/isometric-libgdx-game-template': {}}
+twitterdev/twttr-kinesis	8	0	Implementation for Amazon Kinesis for Twitter Streaming APIs.	{'twitterdev/twttr-kinesis': {}}
+IanField90/DevStat	8	0	Android application to quickly query device information to identify Play Store appearance issues in your apps	{'IanField90/DevStat': {}}
+sswv/sd-daemon-java	8	0	Enabling systemd-style socket service written in Java	{'sswv/sd-daemon-java': {}}
+pfn/advanced-keyguard-manager	8	0	https://play.google.com/store/apps/details?id=com.hanhuy.android.bluetooth.keyguard	{'pfn/advanced-keyguard-manager': {}}
+kstenschke/realigner-plugin	8	0	"Realigner" plugin for IntelliJ IDEA	{'kstenschke/realigner-plugin': {}}
+lecho/campus	8	0	Campus map application for the Lodz University of Technology - Android app	{'lecho/campus': {}}
+C4J-Team/C4J-Eclipse-Plugin	8	0	{'C4J-Team/C4J-Eclipse-Plugin': {}}
+monkstone/joons-fork	8	0	A fork of the joons renderer that works with processing 2.0 (and sunflow-0.73)	{'monkstone/joons-fork': {}}
+AlexanderSavochkin/MolecularLucene	8	0	  Lucene tokenizer for chemical structures indexing/searching	{'AlexanderSavochkin/MolecularLucene': {'${project.groupId}': ('lucenechemistry', '1.0.1-SNAPSHOT', None), 'org.apache.lucene': ('lucene-queryparser', '4.3.1', None), 'org.openscience.cdk': ('cdk-core', '1.4.16', None), 'junit': ('junit', '4.10', 'test'), 'net.java.dev.javacc': ('javacc', '6.1.2', None)}}
+briangriffey/android-devise-accounts	8	0	Simple account authenticator for Token Authentication using devise.	{'briangriffey/android-devise-accounts': {}}
+rabyunghwa/InfiniteAutoScroolViewPager	8	0	infinite auto scrool viewPager with indicator	{'rabyunghwa/InfiniteAutoScroolViewPager': {}}
+mkopylec/allegro-intellij-templates	8	0	Set of file and live templates for IntelliJ IDEA IDE	{'mkopylec/allegro-intellij-templates': {}}
+williamw520/fetchmailatt	8	0	Download email attachments from mail server	{'williamw520/fetchmailatt': {}}
+feldim2425/OC-Minecarts	8	0	Minecraft Mod / Addon for OpenComputers	{'feldim2425/OC-Minecarts': {}}
+pengjianbo/SQLiteFinal	8	0	Android ORMapping library	{'pengjianbo/SQLiteFinal': {}}
+Patreon/patreon-java	8	0	Interact with the Patreon API via OAuth	{'Patreon/patreon-java': {'junit': ('junit', '3.8.1', 'test'), 'org.json': ('json', '20140107', None)}}
+raghavendar-ts/Elasticsearch-Report-Plugin	8	0	Elasticsearch Report Plugin to Generate Excel Report	{'raghavendar-ts/Elasticsearch-Report-Plugin': {'org.elasticsearch': ('elasticsearch', '1.5.1', 'compile'), 'javax.mail': ('mail', '1.4', None), 'org.apache.commons': ('commons-lang3', '3.4', None), 'org.apache.poi': ('poi', '3.11', None), 'org.json': ('json', '20140107', None)}}
+aidhog/blabel	8	0	A library for skolemising (or canonicalising) blank node labels in RDF graphs.	{'aidhog/blabel': {}}
+paudroid/TC-Kimlik-No-Dogrulama	8	0	Android - Girilen bilgilerle TC kimlik numarasını doğrulama	{'paudroid/TC-Kimlik-No-Dogrulama': {}}
+sjanaud/jensoft-core	8	0	Java core chart library	{'sjanaud/jensoft-core': {}}
+ghmeier/slackpay	8	0	Run a server to easily add venmo payment links to slack slash commands.	{'ghmeier/slackpay': {'io.dropwizard': ('dropwizard-client', '${dropwizard.version}', None), 'junit': ('junit', '4.11', None), 'org.apache.httpcomponents': ('httpclient', '4.3.6', None)}}
+caskdata/cdap-hbase-increments	8	0	Efficient read-less increments for HBase	{'caskdata/cdap-hbase-increments': {'co.cask.cdap': ('cdap-hbase-compat-0.98', '${cdap.version}', None), 'org.apache.hbase': ('hbase-common', '${hbase98.version}', None), 'org.apache.hadoop': ('hadoop-common', '${hadoop.version}', None), 'com.google.guava': ('guava', '${guava.version}', None), 'org.slf4j': ('slf4j-api', '${slf4j.version}', None)}}
+SempaiGames/extension-android-immersive	8	0	Lime extension for enabling immersive mode on most android platforms	{'SempaiGames/extension-android-immersive': {}}
+artem-zinnatullin/ScreenValley	8	0	NO MORE FRAGMENTS HELL	{'artem-zinnatullin/ScreenValley': {}}
+MovieNetwork/Wubble	8	0	Social Network Template for Android	{'MovieNetwork/Wubble': {}}
+stefanlis/SimilarPhoto	8	0	A simple image similarity algorithm	{'stefanlis/SimilarPhoto': {}}
+wukaide/AdapterController	8	0	快速构建Adapter	{'wukaide/AdapterController': {}}
+longcoding/undefined-gateway	8	0	Asynchronous API Gateway with spring framework 4, servlet 3, jetty client.	{'longcoding/undefined-gateway': {'org.eclipse.jetty': ('jetty-client', '9.3.8.v20160314', None), 'com.typesafe.play': ('play-json_2.11', '2.5.0-M2', None), 'com.google.guava': ('guava', '19.0', None), 'javax.cache': ('cache-api', '1.0.0', None), 'com.fasterxml.jackson.core': ('jackson-annotations', '2.7.3', None), 'org.mockito': ('mockito-all', '2.0.2-beta', None), 'org.ehcache': ('ehcache', '3.0.0.rc3', None), 'org.projectlombok': ('lombok', '1.16.4', None), 'org.apache.logging.log4j': ('log4j-core', '2.5', None), 'org.springframework': ('spring-test', '4.1.4.RELEASE', 'test'), 'javax.servlet': ('javax.servlet-api', '${servlet.version}', None), 'org.apache.httpcomponents': ('httpclient', '4.2', 'test'), 'junit': ('junit', '4.4', 'test'), 'redis.clients': ('jedis', '2.8.1', None)}}
+larusba/neo4j-couchbase-connector	8	0	Neo4j - Couchbase Connection API	{'larusba/neo4j-couchbase-connector': {'org.apache.httpcomponents': ('httpclient', '4.5.1', None), 'org.json': ('json', '20151123', None)}}
+SpudCompat/SpudCompat	8	0	A bungee plugin to allow 1 .7 and 1.8 clients and servers to connect to each other	{'SpudCompat/SpudCompat': {'org.spacehq': ('opennbt', '1.0', 'compile'), 'net.techcable': ('event4j', '1.1.0-beta2', None), 'org.apache.commons': ('commons-lang3', '3.4', 'compile'), 'org.projectlombok': ('lombok', '1.16.4', 'provided'), 'io.github.waterfallmc': ('waterfall-proxy', '1.9-SNAPSHOT', 'provided')}}
+hnlbxb2004/BluetoothSocket	8	0	此library 库可以方便的帮你使用经典蓝牙做socket 通讯。 网上的一些蓝牙游戏互联都是用的经典蓝牙做socket ，	{'hnlbxb2004/BluetoothSocket': {}}
+ternsip/Placemod-1.7.10	8	0	Fast Schematic Spawning System in Minecraft based on Forge API	{'ternsip/Placemod-1.7.10': {}}
+meelody/RMVC	8	0	{'meelody/RMVC': {}}
+JustSid/AppCode-QuickLook	8	0	QuickLook for AppCode	{'JustSid/AppCode-QuickLook': {}}
+mBigFlower/TurnOverView	8	0	http://www.flowerfat.com	{'mBigFlower/TurnOverView': {}}
+bastienjalbert/topguw_api	8	0	Topguw implement Gr-gsm tools in Java and makes possible to uses to gsm data	{'bastienjalbert/topguw_api': {'org.hamcrest': ('hamcrest-core', '1.3', 'test'), 'junit': ('junit', '4.12', 'test')}}
+nathanielove/Java-Console-View	8	0	A Java framework to instantly build the View layer of your command line app. No more worries about anything like printing menus or validating user inputs. Just focus on your app logic.	{'nathanielove/Java-Console-View': {'junit': ('junit', '4.11', None)}}
+realm/realm-java-benchmarks	8	0	{'realm/realm-java-benchmarks': {}}
+partho-maple/Java-Remote-Control	8	0	A remote logging software like TeamVIewer, entirely made with Java RMI, Swing.	{'partho-maple/Java-Remote-Control': {}}
+TonyTangAndroid/max2Demo	8	0	A demo of RxJava, Retrofit, OKHttp, RecyclerView, Glide and ButterKnife.	{'TonyTangAndroid/max2Demo': {}}
+ironSource/atom-android	8	0	ironSource.atom SDK for Android http://www.ironsrc.com/data-flow-management/	{'ironSource/atom-android': {}}
+MobileComputingClass/FirstAndroidApp_AfternoonClass	8	0	{'MobileComputingClass/FirstAndroidApp_AfternoonClass': {}}
+shaohui10086/VistaReyclerView	8	0	One approve drop-down refresh and bottom load more lightweight RecyclerView	{'shaohui10086/VistaReyclerView': {}}
+Mixiaoxiao/NotificationTextColorCompat	8	0	Fetch the default system notification text color (ContentTitleColor and ContentTextColor) for your custom RemoteViews. 获取系统默认的通知文字颜色(标题和内容文字颜色)，适配自定义通知的RemoteViews中的文字。已测试兼容各种国产ROM。	{'Mixiaoxiao/NotificationTextColorCompat': {}}
+ashraf-hamdan/GitHubTraining2	8	0	{'ashraf-hamdan/GitHubTraining2': {}}
+s4ke/moar	8	0	Deterministic Regular Expressions with Backreferences	{'s4ke/moar': {'commons-cli': ('commons-cli', '1.3.1', None), 'com.github.s4ke': ('moar-json', '${project.version}', None)}}
+jzhu1224/Slider	8	0	{'jzhu1224/Slider': {}}
+stfalcon-studio/SmsVerifyCatcher	8	0	Automatically copy SMS verification code into the app http://stfalcon.com	{'stfalcon-studio/SmsVerifyCatcher': {}}
+RBGKew/Reconciliation-and-Matching-Framework	8	0	A framework to allow the matching of string entities using customised sets of transformations and matchers, plus a tool to produce the necessary configurations and another to expose them as OpenRefine reconciliation services.	{'RBGKew/Reconciliation-and-Matching-Framework': {'ch.qos.logback': ('logback-classic', None, None), 'commons-cli': ('commons-cli', None, None), 'cglib': ('cglib-nodep', '2.2.2', None), 'commons-dbcp': ('commons-dbcp', '1.4', None), 'org.springframework.roo': ('org.springframework.roo.annotations', None, None), 'javax.transaction': ('jta', '1.1', None), 'org.kew.rmf': ('string-transformers', None, None), 'org.reflections': ('reflections', None, None), 'org.glassfish.web': ('jstl-impl', None, None), 'javax.servlet': ('javax.servlet-api', None, None), 'javax.servlet.jsp': ('jsp-api', None, 'provided'), 'org.liquibase': ('liquibase-maven-plugin', None, None), 'commons-pool': ('commons-pool', '1.5.6', None), 'org.hsqldb': ('hsqldb', '2.2.9', None), 'org.springframework.webflow': ('spring-js-resources', None, None), 'org.hamcrest': ('hamcrest-all', None, None), 'commons-collections': ('commons-collections', '3.2.1', None), 'org.slf4j': ('slf4j-api', None, None), 'javax.el': ('el-api', '2.2', 'provided'), 'org.apache.tiles': ('tiles-jsp', '2.2.2', None), 'org.hibernate': ('hibernate-validator', '4.3.1.Final', None), 'net.sf.flexjson': ('flexjson', None, None), 'javax.servlet.jsp.jstl': ('jstl-api', None, None), 'info.cukes': ('cucumber-junit', None, None), 'junit': ('junit', None, None), 'org.aspectj': ('aspectjtools', '${aspectj.version}', None), 'org.springframework': ('spring-webmvc', None, None), 'commons-fileupload': ('commons-fileupload', '1.2.2', None), 'commons-codec': ('commons-codec', '1.5', None), 'joda-time': ('joda-time', '1.6', None), 'org.hibernate.javax.persistence': ('hibernate-jpa-2.0-api', '1.0.1.Final', None), 'javax.validation': ('validation-api', '1.0.0.GA', None), 'org.apache.commons': ('commons-lang3', None, None), 'log4j': ('log4j', '1.2.17', None), 'commons-digester': ('commons-digester', '2.1', None)}}
+Arisono/GridTagDragView	8	0	仿网易新闻分类效果，拖拽排序，删除，点击，弹窗效果！	{'Arisono/GridTagDragView': {}}
+ekeneijeoma/lookupnyc	8	0	{'ekeneijeoma/lookupnyc': {}}
+pakoito/RxComprehensions	8	0	Reduce boilerplate in RxJava by abstracting chained flatMaps, concatMaps and switchMaps	{'pakoito/RxComprehensions': {}}
+genius158/YRxBus	8	0	use just like eventbus	{'genius158/YRxBus': {}}
+awslabs/aws-iotbot	8	0	IoTbot: Controlling and Integrating the GoPiGo Raspberry Pi robot with AWS IoT using Node.js, Android and Amazon Echo	{'awslabs/aws-iotbot': {}}
+SmokyBob/NoteToGDocs	8	0	Simple Note taking app for android that saves Note on Google Drive as Google Documents	{'SmokyBob/NoteToGDocs': {}}
+keigoi/async-android	8	0	Asynchronous, composable, 'monadic' style task engine for Android-Java	{'keigoi/async-android': {}}
+evanchooly/critter	8	0	Type safe criteria generator for morphia	{'evanchooly/critter': {'org.mongodb.morphia': ('morphia', None, None)}}
+akauffm/LeapProcessing	8	0	A Processing Library for Leap Motion	{'akauffm/LeapProcessing': {}}
+Cloud8/Metablock	8	0	Linked Data Regime	{'Cloud8/Metablock': {}}
+97bytes/Muki	8	0	Muki Code Generator	{'97bytes/Muki': {}}
+rkwright/epubcrude	8	0	A simple Eclipse plugin/perspective to allow users to create, replace, update, delete and edit EPUB files.  The tool uses the IDPF EPUBCheck (3) tool for validation	{'rkwright/epubcrude': {}}
+vuzit/vuzitjava	8	0	Java library for the Vuzit AJAX document viewer web services API	{'vuzit/vuzitjava': {}}
+bcdev/eo-child-gen	8	0	Modules for EO data subset product generation	{'bcdev/eo-child-gen': {'junit': ('junit', '4.5', 'test')}}
+quen/leafchat	8	0	leafChat IRC client for Windows, Mac, and Linux	{'quen/leafchat': {}}
+RichardWarburton/Monads-in-Java	8	0	An encoding of monads in the Java Language	{'RichardWarburton/Monads-in-Java': {'junit': ('junit', '4.8.1', 'test')}}
+pgostation/HyperZebra	8	0	HyperCard Clone for Java	{'pgostation/HyperZebra': {}}
+finnkuusisto/JExplodomatica	8	0	Explosion sound generator (Java port of explodomatica)	{'finnkuusisto/JExplodomatica': {}}
+ghostandthemachine/android-core-fragmented	8	0	An embedable version of Processing for Android	{'ghostandthemachine/android-core-fragmented': {}}
+imhotep/MapsPlugin	8	0	Google Maps Plugin for Cordova/Android	{'imhotep/MapsPlugin': {}}
+codeskraps/HeadSet	8	0	Plugin launcher for the headset in Android	{'codeskraps/HeadSet': {}}
+rmichela/MCStats	8	0	A stats module for the hMod Minecraft server.	{'rmichela/MCStats': {}}
+aozgelen/rteam	8	0	Contains utils, libraries and all the source for RTEAM code,  a Human - Robot Team Environment, developed by METROBOTICS.	{'aozgelen/rteam': {}}
+pjq/MyDownload	8	0	Porting the defaul Android DownloadProvider	{'pjq/MyDownload': {}}
+whvandervelde/Yammer-plugin-for-Confluence	8	0	A macro plugin for Confluence that will allow you to show a yammer feed within a confluence page	{'whvandervelde/Yammer-plugin-for-Confluence': {'com.atlassian.confluence.plugin': ('func-test', '2.3-beta1', 'test'), 'net.sourceforge.nekohtml': ('nekohtml', '1.9.12', 'test'), 'com.atlassian.confluence': ('confluence', '${confluence.version}', 'provided'), 'junit': ('junit', '4.6', 'test'), 'com.atlassian.sal': ('sal-api', '2.0.0', 'provided'), 'net.sourceforge.jwebunit': ('jwebunit-htmlunit-plugin', '2.2', 'test')}}
+youngnh/saverbeans	8	0	Java Screensaver Toolkit	{'youngnh/saverbeans': {}}
+idega/com.idega.graphics	8	0	XHTML rendering and image generation utils for the Idega platform	{'idega/com.idega.graphics': {'batik': ('batik-parser', '1.6', None), 'flyingsaucer': ('minium', '${flyingsaucer-minium-version}', None), 'jimi': ('jimi', '1.0', None), 'org.imgscalr': ('imgscalr-lib', '4.2', 'compile'), 'javax.media': ('jai_codec', '1.1.3', None), 'itextpdf': ('itext-paulo', '${itextpdf-itext-paulo-version}', None), 'com.idega.block.platform': ('com.idega.slide', None, None)}}
+yawkat/Accordion	8	0	Peer-To-Peer minecraft server communication	{'yawkat/Accordion': {'org.xerial.snappy': ('snappy-java', '1.1.1.3', None), 'org.slf4j': ('slf4j-api', '1.7.7', None), 'net.sf.trove4j': ('trove4j', '3.0.3', None), 'io.netty': ('netty-codec', '4.0.14.Final', None)}}
+mdsecresearch/skypegrep	8	0	A proof of concept to derive spoken phrases from encrypted Skype conversations	{'mdsecresearch/skypegrep': {}}
+matzew/undertow-jaxrs-test	8	0	{'matzew/undertow-jaxrs-test': {'org.jboss.resteasy': ('resteasy-undertow', '3.0.10.Final', None), 'io.undertow': ('undertow-core', '1.2.0.Beta8', None), 'junit': ('junit', '4.11', 'test')}}
+afzaman/Power-Options-GoogleGlass	8	0	A simple Power Options card for toggling hardware	{'afzaman/Power-Options-GoogleGlass': {}}
+KeithYokoma/AutoValidationEditText	8	0	Simple extension for validate and alert function on edit text	{'KeithYokoma/AutoValidationEditText': {}}
+calblueprint/ff	8	0	Open source project for food donations	{'calblueprint/ff': {}}
+galdolber/clojure-core-java	8	0	Clojure core in java	{'galdolber/clojure-core-java': {}}
+FRC-Team-3140/FRC2015Code	8	0	our team's code for the 2015 FRC competition	{'FRC-Team-3140/FRC2015Code': {}}
+QuantumPhi/Starfighter	8	0	A game created at CodeDay 2014 Seattle	{'QuantumPhi/Starfighter': {}}
+Elphel/vdt-plugin	8	0	Eclipse IDE plugin for FPGA development including integration with 3-rd party tools	{'Elphel/vdt-plugin': {}}
+lifey/compfut	8	0	CompletableFuture examples for IL JUG session on 30 of April	{'lifey/compfut': {'io.netty': ('netty-all', '5.0.0.Alpha1', None)}}
+struktured/ocamljava-maven-plugin	8	0	maven integration for ocamljava and related tools	{'struktured/ocamljava-maven-plugin': {'org.apache.maven': ('maven-core', None, None), 'com.google.guava': ('guava', None, None), 'org.codehaus.jackson': ('jackson-mapper-asl', None, None), 'commons-io': ('commons-io', None, None), 'mandelbrot': ('ocamljava-maven-common', '${project.version}', None), 'junit': ('junit', None, 'test')}}
+danveloper/uberconf2014-from-groovy-to-java8	8	0	UberConf2014 Code and Slides - From Groovy to Java 8	{'danveloper/uberconf2014-from-groovy-to-java8': {}}
+jgasteiz/HNReader	8	0	Hacker News Reader app for Android	{'jgasteiz/HNReader': {}}
+duraraxbaccano/WhatsToday	8	0	{'duraraxbaccano/WhatsToday': {}}
+REDNBLACK/J-Kinopoisk2IMDB	8	0	Приложение для импорта списков и оценок с Кинопоиска на IMDB	{'REDNBLACK/J-Kinopoisk2IMDB': {}}
+joerogers/BluetoothCompat	8	0	Compatibility library back-porting the Android 5.0 Bluetooth LE Scanner api concepts to older releases.	{'joerogers/BluetoothCompat': {}}
+CandiceJoy/CandisCursePackAssembler	8	0	{'CandiceJoy/CandisCursePackAssembler': {}}
+Yasic/Easydroid.io	8	0	一个模仿easytouch的安卓端app，主要包含一些快捷操作功能。	{'Yasic/Easydroid.io': {}}
+fadelakin/ratio	8	0	a small android library that fits an image into an imageview while maintaining the aspect ratio	{'fadelakin/ratio': {}}
+wbuchanan/StataJSON	8	0	JSON IO operations for Stata using the Jackson Java Library	{'wbuchanan/StataJSON': {'org.paces-consulting': ('stata-java', '0.0.3-SNAPSHOT', 'compile'), 'com.stata': ('sfi', '14', 'provided'), 'com.fasterxml.jackson.core': ('jackson-databind', '2.6.1', 'compile')}}
+drcarter/AndroidDevPattern	8	0	Android Dev Pattern.	{'drcarter/AndroidDevPattern': {}}
+Turbiani/RealmForDummiesAndroid	8	0	Project to add a little knowledge about Realm ORM	{'Turbiani/RealmForDummiesAndroid': {}}
+techdev-solutions/spring-social-wunderlist	8	0	Wunderlist API binding for Spring Social	{'techdev-solutions/spring-social-wunderlist': {}}
+eefret/MineSweeperGame	8	0	This is a MineSweeperGame created for Android, using good practices and patterns	{'eefret/MineSweeperGame': {}}
+AgeCraft/AgeCraft	8	0	Reboot of AgeCraft, a Minecraft mod that adds ages and evolution	{'AgeCraft/AgeCraft': {}}
+tkirill/tc-bisect	8	0	Bisect plugin for TeamCity	{'tkirill/tc-bisect': {'org.jetbrains.teamcity': ('tests-support', '${teamcity-version}', 'test'), 'com.google.code.gson': ('gson', '2.3.1', None), 'org.mockito': ('mockito-all', '1.10.19', 'test')}}
+demianborba/braintree-cordova-angular-node	8	0	Demo for integrating payments into a Cordova app using Angular, Node and Braintree v.zero	{'demianborba/braintree-cordova-angular-node': {}}
+dxopt/OpenFilesLeakTest	8	0	{'dxopt/OpenFilesLeakTest': {}}
+tslamic/xkcdportal	8	0	A sleek xkcd comic browser for Android.	{'tslamic/xkcdportal': {}}
+xavierlepretre/rx-alert-dialog	8	0	Helpers to create and handle Android alert dialogs in an RxJava workflow.	{'xavierlepretre/rx-alert-dialog': {}}
+Nucleus-Inc/Mude	8	0	MPF - Combate a Corrupção	{'Nucleus-Inc/Mude': {}}
+TorchPowered/OpenByte	8	0	A crossplatform Java IDE for Minecraft modification development.	{'TorchPowered/OpenByte': {}}
+lchad/TestViewAnimation	8	0	易燃易爆炸	{'lchad/TestViewAnimation': {}}
+LittleMusic/MusicWave	8	0	music wave view	{'LittleMusic/MusicWave': {}}
+jqno/mutable-java	8	0	If Java isn't flexible enough for you	{'jqno/mutable-java': {'junit': ('junit', '4.12', 'test'), 'org.objenesis': ('objenesis', '2.2', None)}}
+yrizk/Espresso-CustomFailureHandler	8	0	provides a FailtureHandler for taking screenshots of the page where the test failed.	{'yrizk/Espresso-CustomFailureHandler': {}}
+Maascamp/fohlc	8	0	Java off-heap byte array to long cache with FIFO eviction semantics.	{'Maascamp/fohlc': {}}
+martellux/Lifecycle	8	0	A binder which let you manage async operations against Android components lifecycle (i.e. Activity of Fragment rotation).	{'martellux/Lifecycle': {}}
+turingttc/newshanxun	8	0	newshanxun for android	{'turingttc/newshanxun': {}}
+Shinelw/AnimatedDownload	8	0	This is a animated download  designed by Nick Buturishvili from dribble.	{'Shinelw/AnimatedDownload': {}}
+pine/RxBindroid	8	0	:recycle: Bind Observable for Android Activity / Fragment / View Lifecycles	{'pine/RxBindroid': {}}
+v1210012100/ScratchWheel	8	0	可以自动旋转的圆形图片，也可以触摸控制旋转方向和速度。类似于音乐里的搓碟。	{'v1210012100/ScratchWheel': {}}
+methods2014/AndFixDemo1	8	0	{'methods2014/AndFixDemo1': {}}
+magicdude4eva/graylog-jira-alarmcallback	8	0	Graylog plugin for JIRA with templating of JIRA issue title and JIRA issue message	{'magicdude4eva/graylog-jira-alarmcallback': {'org.apache.commons': ('commons-lang3', '3.0', 'provided'), 'org.graylog2': ('graylog2-plugin', '${graylog2.version}', 'provided'), 'net.rcarz': ('jira-client', '0.5', None), 'junit': ('junit', '4.12', 'test')}}
+brucewzp/Switcher	8	0	switch button for android	{'brucewzp/Switcher': {}}
+cattaka/AndroidSnippets	8	0	Cattaka's snippets for Android	{'cattaka/AndroidSnippets': {}}
+dalong982242260/GideView	8	0	1、引导页	{'dalong982242260/GideView': {}}
+Anniepoo/JavaPengine	8	0	Former home Java language client (master) for SWI-Prolog pengines - see simularity/JavaPengine	{'Anniepoo/JavaPengine': {'javax.json': ('javax.json-api', '1.0', None), 'org.glassfish': ('javax.json', '1.0.4', None)}}
+corochann/SingleFileExecutionPlugin	8	0	Single File Execution Plugin is a plugin for CLion (C/C++ IDE on IntelliJ platform provided by Jetbrain).	{'corochann/SingleFileExecutionPlugin': {}}
+forJrking/CrossEQ	8	0	十字均衡器（自定义控件）	{'forJrking/CrossEQ': {}}
+ironSource/atom-java	8	0	ironSource.atom SDK for Java	{'ironSource/atom-java': {'com.google.code.gson': ('gson', '2.2.4', None), 'org.json': ('json', '20080701', None), 'junit': ('junit', '4.11', 'test'), 'commons-codec': ('commons-codec', '1.9', None)}}
+Ooshita/constructProcessing	8	0	Writable Constract HTTP client for Android.	{'Ooshita/constructProcessing': {}}
+virl/vcdroid	8	0	View Controllers for Android	{'virl/vcdroid': {}}
+Doist/RecyclerViewExtensions	8	0	RecyclerView made easier.	{'Doist/RecyclerViewExtensions': {}}
+nosqltips/elasticstore	8	0	NOSQL oriented wrapper for elasticsearch	{'nosqltips/elasticstore': {'com.fasterxml.jackson.jaxrs': ('jackson-jaxrs-json-provider', '2.3.2', None), 'org.elasticsearch': ('elasticsearch', '2.4.0', None), 'com.googlecode.guava-osgi': ('guava-osgi', '11.0.1', None), 'com.fasterxml.jackson.core': ('jackson-annotations', '2.3.2', None), 'junit': ('junit', '4.10', 'test'), 'org.slf4j': ('slf4j-simple', '1.7.7', None), 'args4j': ('args4j', '2.0.29', None)}}
+AmadouSallah/Programming-Interview-Questions	8	0	{'AmadouSallah/Programming-Interview-Questions': {}}
+mobialia/gwt-android-emu	8	0	Library emulating Android APIs over GWT	{'mobialia/gwt-android-emu': {}}
+jiaosiyuan785/MaxPicture	8	0	A by the GridView displays multiple pictures and can be left click to enlarge	{'jiaosiyuan785/MaxPicture': {}}
+jleahey/Minicraft	8	0	A Minecraft 2D Demake	{'jleahey/Minicraft': {}}
+diffplug/gradle_and_eclipse_rcp	8	0	Gradle and Eclipse RCP	{'diffplug/gradle_and_eclipse_rcp': {}}
+taichi/aptcombo	8	0	Doma2 + lombok + Dagger2 + HikariCP + JUnit4 + gradle + eclipse + siden	{'taichi/aptcombo': {}}
+commerceboard/geeMVC-Java-MVC-Framework	8	0	geeMVC is a fast lightweight MVC framework written for Java 8+.	{'commerceboard/geeMVC-Java-MVC-Framework': {'javax.servlet': ('jstl', '1.2', None), 'com.geetools.geemvc': ('geemvc', '0.9.2-SNAPSHOT', None)}}
+fanOfDemo/FloatPathMenuSample	8	0	modified from https://github.com/daCapricorn/ArcMenu	{'fanOfDemo/FloatPathMenuSample': {}}
+cybernova/SDRecord	8	0	tool for audio recording with SDR	{'cybernova/SDRecord': {}}
+hpehl/karaka	8	0	Time recording made easy	{'hpehl/karaka': {'com.google.guava': ('guava-testlib', '${guava.version}', 'test'), 'org.jboss.resteasy': ('resteasy-cache-core', '${resteasy.version}', None), 'com.allen-sauer.gwt.log': ('gwt-log', '3.2.1', None), 'com.googlecode.objectify': ('objectify', '${objectify.version}', None), 'xalan': ('xalan', '2.7.1', None), 'com.google.gwt': ('gwt-codeserver', '${gwt.version}', 'provided'), 'javax.persistence': ('persistence-api', '1.0.2', 'provided'), 'org.fusesource.restygwt': ('restygwt', '1.3.1', 'provided'), 'org.mockito': ('mockito-all', '${mockito.version}', 'test'), 'junit': ('junit', '${junit.version}', 'test'), 'com.google.appengine': ('appengine-jsr107cache', '${gae.version}', None), 'com.google.gwt.inject': ('gin', '${gin.version}', 'provided'), 'org.moxieapps.gwt': ('highcharts', '1.5.0', 'system'), 'javax.servlet': ('servlet-api', '2.5', 'provided'), 'com.gwtplatform': ('gwtp-processors', '${gwtp.version}', None), 'joda-time': ('joda-time', '2.2', None), 'net.sf.jsr107cache': ('jsr107cache', '1.1', None), 'org.slf4j': ('slf4j-api', '${slf4j.version}', None), 'name.pehl': ('totoe', '${totoe.version}', 'provided'), 'org.jboss.weld.servlet': ('weld-servlet', '${weld.version}', None)}}
+bpow/varitas	8	0	Variant analysis with rapid incorporation of tabular annotation sources	{'bpow/varitas': {}}
+yxjiang/stream-outlier	8	0	Anomaly detection for multiple data streams.	{'yxjiang/stream-outlier': {'com.github.ptgoetz': ('storm-jms', '0.8.1', None), 'storm': ('storm', '0.8.1', 'compile'), 'edu.fiu.yxjiang.stream': ('subscriber', '0.1', 'compile'), 'com.google.code.gson': ('gson', '2.2.2', None), 'org.apache.activemq': ('activemq-all', '5.7.0', 'compile'), 'org.apache.commons': ('commons-math', '2.0', None), 'org.apache.geronimo.specs': ('geronimo-jms_1.1_spec', '1.1.1', None), 'org.slf4j': ('slf4j-log4j12', '1.5.8', None), 'junit': ('junit', '4.11', None)}}
+KaeruCT/GLXY	8	0	simplified gravity simulator	{'KaeruCT/GLXY': {}}
+Dewep/IntranetEpitech	8	0	Application Android pour accéder à l'Intranet Epitech	{'Dewep/IntranetEpitech': {}}
+tstirrat/ucm-twine	8	0	Dependency Injection framework for Oracle WebCenter Content (UCM)	{'tstirrat/ucm-twine': {'commons-lang': ('commons-lang', '2.6', None), 'com.oracle.ucm': ('ucm', '[10.1,11.0)', 'provided'), 'junit': ('junit', '4.8.1', 'test'), 'org.mockito': ('mockito-all', '1.9.0', 'test')}}
+jointry/jointry	8	0	{'jointry/jointry': {}}
+jamel/kladr	8	0	Библиотека для работы с классификатором адресов России (КЛАДР)	{'jamel/kladr': {}}
