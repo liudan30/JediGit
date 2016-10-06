@@ -1,4 +1,4 @@
-import json
+import operator
 
 reader = open("../data/java_repo_package.txt", "rb")
 package_dict = dict()
@@ -51,9 +51,10 @@ writer2.close()
 
 writer = open("../data/package_dict.txt", "wb")
 writer.write("package_num" + '\t' + "package_name" + '\n')
-for key in package_dict:
+sorted_pd = sorted(package_dict.items(), key = operator.itemgetter(1))
+for key in sorted_pd:
 	#if packages_count[key] > 1:
-	writer.write(str(package_dict[key]) + '\t' + key + '\n')
+	writer.write(str(key[1]) + '\t' + key[0] + '\n')
 	#else:
 	#	print key
 writer.close()
