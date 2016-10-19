@@ -26,7 +26,6 @@ def compute_jaccard_similarity(user_item_dict):
 					if not user_similarity.has_key(user2):
                                 	        user_similarity[user2] = dict()
                                 	user_similarity[user2][user1] = JSimilarity
-					print user1 + ' ' + user2 + ' ' + str(JSimilarity)
 	return user_similarity
 
 def recommendation(user_item_dict, user_similarity):
