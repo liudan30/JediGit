@@ -47,7 +47,7 @@ def read_dict(filename):
         dict_ = dict()
 	for line in reader:
 		line = line.strip('\n').split('\t')
-		if line[0] == "repo_num":
+		if line[0] == "repo_num" or line[0] == "package_num":
 			continue
 		dict_[line[0]] = line[1]
 	return dict_
@@ -56,7 +56,7 @@ def write_recommendation_result(filename, top_20_items, repo_id_name_dict, packa
 	writer = open(filename, "wb")
 	for user in top_20_items:
 		writer.write(repo_id_name_dict[user])
-		for item in top_20_items[item]:
+		for item in top_20_items[user]:
 			writer.write('\t')
 			writer.write(package_id_name_dict[item[0]])
 		writer.write('\n')

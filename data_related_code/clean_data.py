@@ -3,9 +3,9 @@ import operator
 reader = open("../data/java_repo_package.txt", "rb")
 package_dict = dict()
 packages_count = dict()
-writer1 = open("../data/repo_dict.txt", "wb")
+writer1 = open("../data/repo_package.txt", "wb")
 writer1.write("repo_num" + '\t' + "repo_name" + '\t' + "package_num" + '\t' + "package_name" + '\n') 
-writer2 = open("../data/repo_package.txt", "wb")
+writer2 = open("../data/repo_dict.txt", "wb")
 writer2.write("repo_num" + '\t' + "repo_name" + '\t' + "star_count" + '\t' + "fork_count" + '\n')
 repo_num = 1
 package_count = 1
@@ -27,8 +27,12 @@ for line in reader:
 		temp_dict = dict()
 		for name in package_info:
 			package_name_index = name.find(':')
+			if package_name_index == -1:
+				package_name_index = len(name)
 			package_name = name[:package_name_index].replace('\\n', '').replace('\\t', '').strip('\\\n\t \'')
 			package_name_index = package_name.find('.$')
+			if package_name_index == -1:
+				package_name_index = len(package_name)
 			package_name = package_name[:package_name_index]
 			if package_name != '' and package_name[0] != '$' and package_name[0] != '@' and package_name != "Not a proper repo retreived name.":
 				flag = True
@@ -42,9 +46,9 @@ for line in reader:
 					package_count += 1
 				if not temp_dict.has_key(package_name):
 					temp_dict[package_name] = 1
-					writer2.write(str(repo_num) + '\t' + repo_name + '\t' + str(package_num) + '\t' + package_name + '\n')
+					writer1.write(str(repo_num) + '\t' + repo_name + '\t' + str(package_num) + '\t' + package_name + '\n')
 		if flag:
-			writer1.write(str(repo_num) + '\t' + repo_name + '\t' + star + '\t' + fork + '\n')
+			writer2.write(str(repo_num) + '\t' + repo_name + '\t' + star + '\t' + fork + '\n')
 			repo_num += 1;		
 writer1.close()
 writer2.close()
