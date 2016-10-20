@@ -63,7 +63,7 @@ if __name__ == "__main__":
 	for i in range(0, 20):
 		recall_user_based_CF[i] = float(recall_user_based_CF[i]) / float(total_number)
 		recall_top20[i] = float(recall_top20[i]) / float(total_number)	
-	x = range(0, 20)
+	x = range(1, 21)
 	pl.plot(x, recall_top20, label = "most_popular(benchmark)")
 	pl.plot(x, recall_user_based_CF, label = "user_based_CF")
 	pl.legend(loc='lower right')
