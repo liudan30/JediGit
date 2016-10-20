@@ -1,0 +1,1 @@
+junit	org.slf4j	org.springframework	log4j	javax.servlet	org.mockito	com.google.guava	org.apache.commons	commons-io	ch.qos.logback	org.hibernate	commons-lang	org.apache.httpcomponents	mysql	org.hamcrest	com.fasterxml.jackson.core	com.google.code.gson	commons-logging	commons-codec	com.google.android
