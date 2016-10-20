@@ -15,17 +15,17 @@ def read_data(filename):
 
 def compute_jaccard_similarity(user_item_dict):
 	user_similarity = dict()
+	count = 0
 	for user1 in user_item_dict:
+		user_similarity[user1] = dict()
 		for user2 in user_item_dict:
-			if int(user1) < int(user2):
+			if int(user1) != int(user2):
 				JSimilarity = JaccardSimilarity.JaccardSimilarity(user_item_dict[user1], user_item_dict[user2])
 				if JSimilarity > 0:
-					if not user_similarity.has_key(user1):
-						user_similarity[user1] = dict()
 					user_similarity[user1][user2] = JSimilarity
-					if not user_similarity.has_key(user2):
-                                	        user_similarity[user2] = dict()
-                                	user_similarity[user2][user1] = JSimilarity
+		print count
+		count += 1
+		user_similarity[user1] = sorted(user_similarity[user1].iteritems(), key=lambda d:d[1], reverse = True)[:100]
 	return user_similarity
 
 def recommendation(user_item_dict, user_similarity):
@@ -33,11 +33,11 @@ def recommendation(user_item_dict, user_similarity):
 	for user in user_item_dict:
 		user_item_recommendation[user] = dict()
 		for similar_user in user_similarity[user]:
-			for item in user_item_dict[similar_user]:
+			for item in user_item_dict[similar_user[0]]:
 				if item not in user_item_dict[user]:
 					if not user_item_recommendation[user].has_key(item):
 						user_item_recommendation[user][item] = 0.0
-					user_item_recommendation[user][item] += user_similarity[user][similar_user]
+					user_item_recommendation[user][item] += similar_user[1]
 	for user in user_item_recommendation:
 		user_item_recommendation[user] = sorted(user_item_recommendation[user].iteritems(), key=lambda d:d[1], reverse = True)[:20]
 	return user_item_recommendation
