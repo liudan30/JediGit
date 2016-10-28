@@ -69,5 +69,7 @@ if __name__ == "__main__":
 	pl.plot(x, recall_top20, label = "most_popular(benchmark)")
 	pl.plot(x, recall_user_based_CF, label = "user_based_CF")
 	pl.plot(x, recall_item_based_CF, label = "item_based_CF")
+	pl.ylabel('recall rate')
+	pl.xlabel('recommend K libraries to each repository')
 	pl.legend(loc='lower right')
 	pl.savefig("recall.png")
