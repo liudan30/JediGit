@@ -1,0 +1,15 @@
+org.twdata.maven
+in.srain.cube
+com.activeandroid
+com.google.code.findbugs
+android
+javax.enterprise
+org.jboss.spec.javax.ejb
+com.google.android
+org.netbeans.external
+org.easytesting
+com.mopub.volley
+com.googlecode.json-simple
+com.helpshift
+com.google.auto.service
+com.squareup.retrofit2
