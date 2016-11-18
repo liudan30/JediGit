@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+
+	"name": "libraries_recommendation",
+	"description": "This extension shows libraries recommendation based on users' current github page and former history`",
+	
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	 },
+
+	"permissions": [
+		"tabs",
+		"declarativeContent"
+	],
+
+	"page_action": {
+		"default_icon":{
+			"48": "image/icon1.png"
+		},
+		"default_title": "Java Libraries Recommend",
+		"default_popup": "popup.html"
+	}
+}
