@@ -10,9 +10,18 @@ writer2.write("repo_num" + '\t' + "repo_name" + '\t' + "star_count" + '\t' + "fo
 repo_num = 1
 package_count = 1
 repo_dict = dict()
+count = 0
 for line in reader:
 	line = line.strip('\n').split('\t');
 	l = len(line)
+
+	repo_description = '\t'.join(line[3:-1])
+	try:
+    		repo_description.decode('ascii')
+	except UnicodeDecodeError:
+		count += 1
+		continue
+
 	if (l == 5 or l == 4) and not repo_dict.has_key(line[0]):
 		repo_name = line[0]
 		repo_dict[repo_name] = 0
@@ -63,4 +72,5 @@ for key in sorted_pd:
 	#	print key
 writer.close()
 
+print count
 		

@@ -23,5 +23,5 @@ if __name__ == "__main__":
 	item_similarity = common_function.compute_jaccard_similarity(item_user_dict)
 	top_20_items = recommendation(user_item_dict, item_similarity, item_user_dict)
 	repo_id_name_dict = common_function.read_dict("../data/repo_dict.txt")
-	package_id_name_dict = user_based_CF.read_dict("../data/package_dict.txt")
+	package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
 	common_function.write_recommendation_result("recommendation_result_item_based_CF.txt", top_20_items, repo_id_name_dict, package_id_name_dict)
