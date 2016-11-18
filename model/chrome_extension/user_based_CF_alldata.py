@@ -8,7 +8,8 @@ user_item_user_similarity = dict()
 def recommendation(user_item_dict, user_similarity, repo_id_name_dict):
 	user_item_recommendation = dict()
 	for user in user_item_dict:
-		if repo_id_name_dict[user] in sample_repo:
+		repo_name = 'github.com/' + repo_id_name_dict[user]
+		if repo_name in sample_repo:
 			user_item_recommendation[user] = dict()
 			user_item_user[user] = dict()
 			user_item_user_similarity[user] = dict()
@@ -39,7 +40,10 @@ def write_recommendation_result(filename, top_3_items, repo_id_name_dict, packag
 				writer.write(package_id_name_dict[item[0]])
 				packages.add(package_id_name_dict[item[0]])
 				writer.write('\t')
-				writer.write(repo_id_name_dict[user_item_user[user][item]])
+				print user
+				print item
+				print user_item_user[user][item[0]]
+				writer.write(repo_id_name_dict[user_item_user[user][item[0]]])
 				writer.write('\t')
 			writer.write('\n')
 	writer.close()
