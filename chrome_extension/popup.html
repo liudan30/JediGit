@@ -1,20 +1,124 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Recommend Libraries</title>
-    <style>
-      body {min-width: 250px;}
-    </style>
-    <script src='popup.js'></script>
-  </head>
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src *;
+          script-src 'self' 'unsafe-inline' 'unsafe-eval' *;
+          style-src  'self' 'unsafe-inline' *;
+          img-src 'self' data: http: https:;">
+          <title>Recommend Libraries</title>
 
-  <body>
-    <div id="repo"></div>
-    <div id="library1"></div>
-    <div id="repo1"></div>
-    <div id="library2"></div>
-    <div id="repo2"></div>
-    <div id="library3"></div>
-    <div id="repo3"></div>
-  </body>
+    <style>
+    body {
+      min-width: 300px;
+      min-height:500px;}
+  </style>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src='popup.js'></script>
+  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src = 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js' ></script>>
+  <script src= 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'></script>
+</head>
+
+ <body>
+
+  <div class="app">
+   <div class="swiper-container nav">
+      <div class="swiper-wrapper">
+<!--          <div class="swiper-slide"></div> -->
+         <div class="swiper-slide" id = "repo"></div>
+         <img class="swiper-slide"  src="https://www.dev-metal.com/wp-content/uploads/2013/11/Octocat-800x605.png" style="width:50px;height:36px;">
+      </div>
+   </div>
+
+   <div class="swiper-container view">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide">
+            <div class="swiper-container content">
+
+               <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+
+                <figure class="snip1533">
+                  <figcaption>
+
+                    <blockquote id = "library1" >
+
+                        <img src="http://centerforcreativity.net/wp-content/uploads/2016/06/codeorg.png" style="width:40px;height:40px;">
+
+                    </blockquote>
+                    <h3 >Repositories also use this Libraray : </h3>
+                    <h4 id = "repo1" ></h4>
+                  </figcaption>
+                </figure>
+
+              </div>
+
+                <div class="swiper-slide">
+
+                <figure class="snip1533">
+                  <figcaption>
+
+                    <blockquote id = "library2" >
+
+                        <img src="http://centerforcreativity.net/wp-content/uploads/2016/06/codeorg.png" style="width:40px;height:40px;">
+
+                    </blockquote>
+                    <h3 >Repositories also use this Libraray : </h3>
+                    <h4 id = "repo2" ></h4>
+                  </figcaption>
+                </figure>
+
+              </div>
+
+                <div class="swiper-slide">
+
+                <figure class="snip1533">
+                  <figcaption>
+
+                    <blockquote id = "library3" >
+
+                        <img src="http://centerforcreativity.net/wp-content/uploads/2016/06/codeorg.png" style="width:40px;height:40px;">
+
+                    </blockquote>
+                    <h3 >Repositories also use this Libraray : </h3>
+                    <h4 id = "repo3" ></h4>
+                  </figcaption>
+                </figure>
+
+              </div>
+
+
+               </div>
+               <div class="swiper-scrollbar"></div>
+            </div>
+         </div>
+         
+   </div>
+   <div class="bottom">
+   <!--       <a href="#"></a> -->
+      <a href="http://stackoverflow.com" target="_blank">
+      <img class = "resize" src="http://www.iconsdb.com/icons/preview/icon-sets/ice/stackoverflow-5-xxl.png" > </a>
+      <a href="http://google.com" target="_blank">
+      <img class = "resize" src="http://3.bp.blogspot.com/-1NtpxKeJf-o/VeXYLMr3NEI/AAAAAAAAkxo/KtOSQV0hFDQ/s1600/G-symbol.png" > </a>
+
+      <a href="http://baidu.com" target="_blank">
+      <img class = "resize" src="https://privafit.github.io/PrivaFitWebsite/index_files/icon/baidu.png" > </a>
+       
+       <a href="http://bing.com" target="_blank">
+      <img class = "resize" src="http://logos-download.com/wp-content/uploads/2016/02/bing-sign-logo-585x700.png" > </a>
+   </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js'></script>
+<script src="popup.js"></script>
+<!--     <script src="js/index.js"></script> -->
+
+</body>
 </html>

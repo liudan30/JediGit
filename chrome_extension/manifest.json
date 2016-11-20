@@ -21,5 +21,7 @@
 		},
 		"default_title": "Java Libraries Recommend",
 		"default_popup": "popup.html"
-	}
+	},
+
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
 }
