@@ -5,6 +5,7 @@ from sets import Set
 from nltk.tokenize import RegexpTokenizer
 from stop_words import get_stop_words
 from nltk.stem.porter import PorterStemmer
+import matplotlib.pyplot as plt
 
 def read_dict(filename):
 	reader = open(filename, "rb")
@@ -72,3 +73,14 @@ def description_similarity(n = 20):
 	#		if i != j and similarity[i][j] > 0:
 	#			similarity_dict[str(i + 1)].append((str(j + 1), similarity[i][j]))
 	return similarity
+
+if __name__ == "__main__":
+	a = description_similarity(30)
+	b = []
+	for i in range(0, len(a)-1):
+		c = a[i][i+1:]
+		b += c.tolist()
+	b = numpy.array(b)
+	print b.shape
+	plt.hist(b)
+	plt.savefig("hist.png")

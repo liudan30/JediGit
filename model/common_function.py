@@ -5,7 +5,7 @@ def JaccardSimilarity(preference1, preference2):
 	t = Set(preference2)
 	unionSet = s.union(t)
 	intersectionSet = s.intersection(t)
-	return float(len(intersectionSet))/float(len(unionSet))
+	return 
 
 def write_recommendation_result(filename, top_20_items, repo_id_name_dict, package_id_name_dict):
 	writer = open(filename, "wb")
