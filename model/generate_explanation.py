@@ -27,10 +27,10 @@ def recommendation(filename):
                 line = line.strip('\n').split('\t')
                 repo_name = line[0]
                 packages = line[1:]
-		recommendation[repo_name] = packages
+		recommend[repo_name] = packages
 	return recommend
 
-def generate_explanation(filename, recommend_package, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, top_20, description_similarity):
+def generate_explanation(filename, recommend_package, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, top_20, description_similarity, package_id_name_dict):
 	writer = open(filename, "wb")
 	for user in recommend_package:
 		writer.write(user)
@@ -42,8 +42,8 @@ def generate_explanation(filename, recommend_package, user_item_dict, item_user_
 			if item in top_20:
 				is_top20 = True
 			x, item_ = computeX(item, user, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict) 
-			computeY
-			writer.write(explanation(x, y, is_top20, item, user, item_))
+			y = computeY(item, user, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, description_similarity)
+			writer.write(explanation(x, y, is_top20, item, user, package_id_name_dict[item_]))
 		writer.write('\n')
 	writer.close()
 
@@ -51,7 +51,7 @@ def computeX(item, user, user_item_dict, item_user_dict, package_name_id_dict, r
 	x = 0.0
 	res_item = ""
 	for item_ in user_item_dict[repo_name_id_dict[user]]:
-		currentX = float(len(item_user_dict[package_name_id_dict[item]].union(item_user_dict[package_name_id_dict[item_]])))/float(item_user_dict[package_name_id_dict[item_]])	
+		currentX = float(len(item_user_dict[package_name_id_dict[item]].intersection(item_user_dict[item_])))/float(len(item_user_dict[item_]))	
 		if currentX > x:
 			x = currentX
 			res_item = item_
@@ -59,18 +59,20 @@ def computeX(item, user, user_item_dict, item_user_dict, package_name_id_dict, r
 
 def computeY(item, user, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, description_similarity):
         y = 0.0
+	if not description_similarity.has_key(repo_name_id_dict[user]):
+		return y
         for user_ in description_similarity[repo_name_id_dict[user]]:
                 if package_name_id_dict[item] in user_item_dict[user_]:
 			y += 1.0
         return float(y) / float(len(description_similarity[repo_name_id_dict[user]])) 
 
-def explanation(x, y, is_top20):
+def explanation(x, y, is_top20, item, user, item_):
 	if is_top20 and x < 0.5 and y < 0.5:
 		return item + "is one of the most popular java-packages in Github."
 	if x > y:
 		return str(int(x * 100)) + "% repositories who use java-package " + item_ + " also use java-package " + item
 	else:
-		return str(int(y * 100)) + "% repositories who use has similar description with repository " + user + " also use java-package " + item
+		return str(int(y * 100)) + "% repositories who has similar description with repository " + user + " also use java-package " + item
 
 def make_dict(similarity):
 	res = dict()
@@ -91,6 +93,7 @@ if __name__ == "__main__":
 	user_item_dict = common_function.read_user_item_dict("../data/repo_package_train.txt")
 	item_user_dict = common_function.read_item_user_dict("../data/repo_package_train.txt")
 	top_20 = get_top20("top-20.txt")
+	package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
 	description_similarity = make_dict(lda_model.description_similarity(30))
-	recommend_package = recommendation("recommendation_result_user_based_CF.txt")
-	generate_explanation("recommendation_result_user_based_CF_explanatoin.txt", recommend_package, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, top_20, description_similarity)
+	recommend_package = recommendation("recommendation_result_user_based_CF_.txt")
+	generate_explanation("recommendation_result_user_based_CF_explanation.txt", recommend_package, user_item_dict, item_user_dict, package_name_id_dict, repo_name_id_dict, top_20, description_similarity, package_id_name_dict)
