@@ -1,5 +1,6 @@
 import common_function
 import lda_model
+import copy
 
 def description_recommendation(user_item_dict, user_similarity):
 	user_item_recommendation = dict()
@@ -28,20 +29,21 @@ def recommendation(user_item_dict, user_similarity):
 	return user_item_recommendation
 
 def getTop20(user_item_description, user_item_recommendation, lambda_):
+	res = copy.deepcopy(user_item_recommendation)
 	for user in user_item_description:
 		for item in user_item_description[user]:
-			if user_item_recommendation.has_key(user):
-				if user_item_recommendation[user].has_key(item):
-					user_item_recommendation[user][item] += lambda_ * user_item_description[user][item]
+			if res.has_key(user):
+				if res[user].has_key(item):
+					res[user][item] += lambda_ * user_item_description[user][item]
 				else:
-					user_item_recommendation[user][item] = lambda_ * user_item_description[user][item]
+					res[user][item] = lambda_ * user_item_description[user][item]
 			else:
-				user_item_recommendation[user] = dict()
-				user_item_recommendation[user][item] = lambda_ * user_item_description[user][item]
+				res[user] = dict()
+				res[user][item] = lambda_ * user_item_description[user][item]
 	
-	for user in user_item_recommendation:
-                user_item_recommendation[user] = sorted(user_item_recommendation[user].iteritems(), key=lambda d:d[1], reverse = True)[:20]
-        return user_item_recommendation
+	for user in res:
+                res[user] = sorted(res[user].iteritems(), key=lambda d:d[1], reverse = True)[:20]
+        return res
 
 if __name__ == "__main__":
 	user_item_dict = common_function.read_user_item_dict("../data/repo_package_train.txt")
@@ -51,7 +53,13 @@ if __name__ == "__main__":
 	package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
 	user_item_description = description_recommendation(user_item_dict, topic_similarity)
 	user_item_recommendation = recommendation(user_item_dict, user_similarity)
-	for lambda_ in range(0.1, 1.1, 0.1):
-		print lambda_
-		top_20_items = getTop20(user_item_description, user_item_recommendation, lambda_)
-		common_function.write_recommendation_result("recommendation_result_user_based_CF_topic10_" + str(n) + ".txt", top_20_items, repo_id_name_dict, package_id_name_dict)
+
+	for lambda_ in range(1, 11):
+		print float(lambda_) / 10.0
+		top_20_items = getTop20(user_item_description, user_item_recommendation, float(lambda_) / 10.0)
+		common_function.write_recommendation_result("recommendation_result_user_based_CF_topic10_" + str(float(lambda_)/10.0) + ".txt", top_20_items, repo_id_name_dict, package_id_name_dict)
+
+	for lambda_ in range(1, 10):
+                print float(lambda_) / 100.0
+                top_20_items = getTop20(user_item_description, user_item_recommendation, float(lambda_) / 100.0)
+                common_function.write_recommendation_result("recommendation_result_user_based_CF_topic10_" + str(float(lambda_)/100.0) + ".txt", top_20_items, repo_id_name_dict, package_id_name_dict)
