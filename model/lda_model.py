@@ -1,5 +1,6 @@
 import lda
 import numpy
+import sklearn.metrics.pairwise as pairwise
 from sets import Set
 from nltk.tokenize import RegexpTokenizer
 from stop_words import get_stop_words
@@ -51,14 +52,23 @@ def generate_matrix(description_dict, vocal):
 	return X
 		
 
-if __name__ == "__main__":
+def description_similarity(n = 20):
 	repo_dict = read_dict("../data/repo_dict.txt")
 	description_dict, vocal = repo_description(repo_dict)
 	
 	X = generate_matrix(description_dict, vocal)
 	
-	model = lda.LDA(n_topics = 20, n_iter = 1500, random_state = 1)
+	model = lda.LDA(n_topics = n, n_iter = 1500, random_state = 1)
 	model.fit(X)
 	doc_topic = model.doc_topic_
-	print doc_topic.shape
-	print doc_topic
+	similarity =  pairwise.cosine_similarity(doc_topic)
+	print similarity.shape
+
+	#similarity_dict = dict()
+	#for i in range(0, len(description_dict)):
+	#	print i
+	#	similarity_dict[str(i + 1)] = []
+	#	for j in range(0, len(description_dict)):
+	#		if i != j and similarity[i][j] > 0:
+	#			similarity_dict[str(i + 1)].append((str(j + 1), similarity[i][j]))
+	return similarity
