@@ -4,8 +4,8 @@
 .app {
   width: 100%;
   height: 100vh;
-  max-width: 320px;
-  max-height: 568px;
+  max-width: 400px;
+  max-height: 600px;
   position: absolute;
   top: 0;
   left: 50%;
@@ -44,18 +44,18 @@
   width: 120px;
 }
 
-.nav .swiper-slide:nth-child(3) {      
+.nav .swiper-slide:nth-child(3) {
   width: 80px;
-}  
+}
 .nav .swiper-slide:nth-child(4) {
-  width: 110px;   
-}   
-.nav .swiper-slide:nth-child(5) {   
-  width: 60px;    
+  width: 110px;
+}
+.nav .swiper-slide:nth-child(5) {
+  width: 60px;
 }
 
 .nav .swiper-slide.swiper-slide-active {
-  opacity: 1;
+  opacity: 0;
 }
 .nav.active {
   height: 40px;
@@ -95,7 +95,7 @@
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 12px;
   margin: 20px 7px 10px;
-  max-width: 200px;
+  max-width: 300px;
   min-width: 150px;
   position: relative;
   text-align: center;
@@ -149,7 +149,7 @@
   content: attr(id);
   font-weight: 300;
   margin: 0;
-  opacity: 0.5;
+  opacity: 1;
 }
 
 
@@ -193,6 +193,9 @@
   padding-top: 55px;
 }
 
+.swiper-scrollbar {
+    height: 500px;
+}
 
 .bottom {
   width: 100%;
