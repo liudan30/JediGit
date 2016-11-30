@@ -149,7 +149,7 @@ function buildContent(key){
   var library3 = document.getElementById("library3");
   var pac_link3 = document.createElement('a');
   pac_link3.href = packagedict.find(dict.find(key)[4]);
-  pac_link3.style.fontSize = "14px"
+  pac_link3.style.fontSize = "16px"
   pac_link3.style.fontFamily = "Palatino Linotype";
   pac_link3.style.color = "#00ace6";
   pac_link3.appendChild(document.createTextNode(dict.find(key)[4]));
@@ -159,7 +159,7 @@ function buildContent(key){
   var repo3 = document.getElementById("repo3");
   repo3_link = document.createElement('a');
   repo3_link.href = github + dict.find(key)[5];
-  repo3_link.style.fontSize = "4px"
+  repo3_link.style.fontSize = "12px"
   repo3_link.style.fontFamily = "Palatino Linotype";
   repo3_link.style.color = "#00ace6";
   repo3_link.appendChild(document.createTextNode(dict.find(key)[5]));
