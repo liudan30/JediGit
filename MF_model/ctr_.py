@@ -50,6 +50,7 @@ class CTR:
         self.theta = self.theta / self.theta.sum(1)[:, np.newaxis]  # normalize
         self.beta = np.random.random([n_voca, n_topic])
         self.beta = self.beta / self.beta.sum(0)
+        print self.theta.shape, self.beta.shape
 
         for user in ratings:
             for item in ratings[user]:
@@ -68,8 +69,8 @@ class CTR:
             err = self.sqr_error()
             print str(iteration) + ' time:' + str(time.clock() - tic) + ' error:' + str(err)
             rating = self.predict_item()
-	    top_20_item = np.argsort(rating, axis = 1)[:,:20]
-	    common_function.write_recommendation_result(self.file_name, top_20_item, self.repo_id_name_dict, self.package_id_name_dict)
+	    top_20_item = np.argsort(rating, axis = 1)[:,::-1]
+	    common_function.write_recommendation_result(self.file_name, top_20_item, self.repo_id_name_dict, self.package_id_name_dict, self.ratings)
 	    if abs(old_err - err) < error_diff:
                 break
 
@@ -102,8 +103,8 @@ class CTR:
             phi = phi / phi.sum(1)[:, np.newaxis]
             result = scipy.optimize.minimize(func, self.theta[ui, :], method='nelder-mead',
                                              args=(self.U[ui, :], phi, word_beta, self.lambda_u))
-            self.theta[ui, :] = euclidean_proj_simplex(result.x)
             self.phi_sum[W, :] += np.array(self.doc_cnt[ui])[:, np.newaxis] * phi
+	    self.theta[ui, :] = euclidean_proj_simplex(result.x)
 
     def update_u(self):
         for ui in xrange(self.n_user):

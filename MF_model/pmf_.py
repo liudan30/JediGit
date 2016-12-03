@@ -8,10 +8,11 @@ error_diff = 10
 
 class PMF:
     def __init__(self, n_user, n_item, ratings, repo_id_name_dict, package_id_name_dict, file_name, n_topic = 200):
-        
+
 	self.repo_id_name_dict = repo_id_name_dict
 	self.package_id_name_dict = package_id_name_dict
 	self.file_name = file_name
+	self.ratings = ratings
 
 	self.lambda_u = 0.01
         self.lambda_v = 0.01
@@ -52,8 +53,8 @@ class PMF:
             err = self.sqr_error()
             print str(iteration) + ' time:' + str(time.clock() - tic) + ' error:' + str(err)
             rating = self.predict_item()
-	    top_20_item = np.argsort(rating, axis = 1)[:,:20]
-	    common_function.write_recommendation_result(self.file_name, top_20_item, self.repo_id_name_dict, self.package_id_name_dict)
+	    top_20_item = np.argsort(rating, axis = 1)[:,::-1]
+	    common_function.write_recommendation_result(self.file_name, top_20_item, self.repo_id_name_dict, self.package_id_name_dict, self.ratings)
 	    if abs(old_err - err) < error_diff:
                 break
 

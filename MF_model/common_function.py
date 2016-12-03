@@ -21,13 +21,20 @@ def read_user_item_dict(filename):
                 item_set.add(item_index)
         return user_item_dict, len(user_set), len(item_set)
 
-def write_recommendation_result(filename, top_20_items, repo_id_name_dict, package_id_name_dict):
+def write_recommendation_result(filename, top_20_items, repo_id_name_dict, package_id_name_dict, ratings):
 	writer = open(filename, "wb")
 	for user_index in xrange(len(top_20_items)):
 		writer.write(repo_id_name_dict[user_index])
+        	ratings_set = Set(ratings[user_index])
+        	count = 0
 		for i in xrange(len(top_20_items[user_index])):
-			writer.write('\t')
-			writer.write(package_id_name_dict[top_20_items[user_index][i]])
+            		if top_20_items[user_index][i] in ratings_set:
+                		continue
+	    		writer.write('\t')
+	    		writer.write(package_id_name_dict[top_20_items[user_index][i]])
+            		count += 1
+            		if count >= 20:
+                		break
 		writer.write('\n')
 	writer.close()
 
@@ -84,4 +91,8 @@ def repo_description(repo_dict):
 					doc_cnt[repo_dict[line[0]]].append(0)
 				doc_cnt[repo_dict[line[0]]][voc_local[voc]] += 1
 	
-	return doc_ids, doc_cnt, len(vocal)
+	for i in doc_ids:
+		doc_ids[i].append(len(vocal))
+		doc_cnt[i].append(1)
+
+	return doc_ids, doc_cnt, len(vocal) + 1

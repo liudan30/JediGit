@@ -56,13 +56,13 @@ def recall_CF(top20, test_data, filename):
 	return recall
 
 if __name__ == "__main__":
-	top_20 = get_top20("top-20.txt")
+	top_20 = get_top20("../model/top-20.txt")
 	total_number, test_data = get_test_data("../data/repo_package_test.txt")
 
 	recall_pmf = recall_CF(top_20, test_data, "recommendation_result_pmf.txt")
-	recall_ctr_10 = recall_CF(top_20, test_data, "recommendation_result_ctr_10.txt")
-	recall_ctr_100 = recall_CF(top_20, test_data, "recommendation_result_ctr_100.txt")
-	recall_ctr_1000 = recall_CF(top_20, test_data, "recommendation_result_ctr_1000.txt")
+	recall_ctr_10 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_10.txt")
+	recall_ctr_100 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100.txt")
+	recall_ctr_1000 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_1000.txt")
 
 	for i in range(0, 20):
 		recall_pmf[i] = float(recall_pmf[i]) / float(total_number)
@@ -74,8 +74,8 @@ if __name__ == "__main__":
 	pl.plot(x, recall_pmf, label = "pmf")
 	pl.plot(x, recall_ctr_10, label = "ctr_10")
 	pl.plot(x, recall_ctr_100, label = "ctr_100")
-	pl.plot(x, recall_ctr_1000 label = "ctr_1000")
-    
+	pl.plot(x, recall_ctr_1000, label = "ctr_1000")
+
 	pl.ylabel('recall rate')
 	pl.xlabel('recommend K libraries to each repository')
 	pl.legend(loc='lower right')

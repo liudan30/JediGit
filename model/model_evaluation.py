@@ -14,7 +14,7 @@ def get_test_data(filename):
 			test_data[line[1]] = Set()
 		test_data[line[1]].add(line[3])
 	return total_number, test_data
-		
+
 
 def get_top20(filename):
 	reader = open(filename, "rb")
@@ -45,7 +45,7 @@ def recall_CF(top20, test_data, filename):
 		line = line.strip('\n').split('\t')
 		repo_name = line[0]
 		if not test_data.has_key(repo_name):
-			continue 
+			continue
 		packages = line[1:] + top20
 		packages = packages[:20]
 		for i in range(0, 20):
@@ -61,21 +61,28 @@ if __name__ == "__main__":
 	recall_top20 = recall_top(top_20, test_data)
 	recall_user_based_CF = recall_CF(top_20, test_data, "recommendation_result_user_based_CF.txt")
 	recall_item_based_CF = recall_CF(top_20, test_data, "recommendation_result_item_based_CF.txt")
-	recall_user_based_CF1 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic30.txt")
-	recall_user_based_CF2 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic10_0.01.txt")
+	recall_user_based_CF1 = recall_CF(top_20, test_data, "result/recommendation_result_user_based_CF_topic30.txt")
+	#recall_user_based_CF2 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic10_0.01.txt")
+	recall_pmf = recall_CF(top_20, test_data, "../MF_model/recommendation_result_pmf.txt")
+	recall_ctr = recall_CF(top_20, test_data, "../MF_model/recommendation_result_ctrsimple_100.txt")
+
 
 	for i in range(0, 20):
+		recall_pmf[i] = float(recall_pmf[i]) / float(total_number)
+		recall_ctr[i] = float(recall_ctr[i]) / float(total_number)
 		recall_user_based_CF[i] = float(recall_user_based_CF[i]) / float(total_number)
 		recall_user_based_CF1[i] = float(recall_user_based_CF1[i]) / float(total_number)
-		recall_user_based_CF2[i] = float(recall_user_based_CF2[i]) / float(total_number)
+		#recall_user_based_CF2[i] = float(recall_user_based_CF2[i]) / float(total_number)
 		recall_item_based_CF[i] = float(recall_item_based_CF[i]) / float(total_number)
-		recall_top20[i] = float(recall_top20[i]) / float(total_number)	
+		recall_top20[i] = float(recall_top20[i]) / float(total_number)
 	x = range(1, 21)
 	pl.plot(x, recall_top20, label = "most_popular(benchmark)")
 	pl.plot(x, recall_user_based_CF, label = "user_based_CF")
-	pl.plot(x, recall_user_based_CF1, label = "description_similarity")
-	pl.plot(x, recall_user_based_CF2, label = "user_based_CF+description_similarity")
+	pl.plot(x, recall_user_based_CF1, label = "user_based_CF_topic_similar")
+	#pl.plot(x, recall_user_based_CF2, label = "user_based_CF+description_similarity")
 	pl.plot(x, recall_item_based_CF, label = "item_based_CF")
+    	pl.plot(x, recall_pmf, label = "pmf")
+    	pl.plot(x, recall_ctr, label = "ctr")
 	pl.ylabel('recall rate')
 	pl.xlabel('recommend K libraries to each repository')
 	pl.legend(loc='lower right')
