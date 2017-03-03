@@ -7,14 +7,15 @@ from six.moves import xrange
 error_diff = 100
 
 class PMF:
-    def __init__(self, n_user, n_item, ratings, repo_id_name_dict, package_id_name_dict, file_name, n_topic = 200):
-        
+    def __init__(self, n_user, n_item, ratings, repo_id_name_dict, package_id_name_dict, file_name, n_topic = 200, lambda_u = 0.01, lambda_v = 0.01):
+
 	self.repo_id_name_dict = repo_id_name_dict
 	self.package_id_name_dict = package_id_name_dict
 	self.file_name = file_name
 
-	self.lambda_u = 0.01
-        self.lambda_v = 0.01
+	self.lambda_u = lambda_u
+        self.lambda_v = lambda_v
+        print self.lambda_u, self.lambda_v
 
         self.a = 1
         self.b = 0.01
