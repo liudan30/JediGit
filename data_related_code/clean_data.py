@@ -1,16 +1,22 @@
 import operator
+from sets import Set
 
 reader = open("../data/java_repo_package.txt", "rb")
 package_dict = dict()
 packages_count = dict()
 writer1 = open("../data/repo_package.txt", "wb")
-writer1.write("repo_num" + '\t' + "repo_name" + '\t' + "package_num" + '\t' + "package_name" + '\n') 
+writer1.write("repo_num" + '\t' + "repo_name" + '\t' + "package_num" + '\t' + "package_name" + '\n')
 writer2 = open("../data/repo_dict.txt", "wb")
 writer2.write("repo_num" + '\t' + "repo_name" + '\t' + "star_count" + '\t' + "fork_count" + '\n')
 repo_num = 1
 package_count = 1
 repo_dict = dict()
 count = 0
+s = Set()
+for line in open("../data/repo_contributors_.txt"):
+	line  = line.split('\t')
+	s.add(line[0])
+
 for line in reader:
 	line = line.strip('\n').split('\t');
 	l = len(line)
@@ -22,16 +28,16 @@ for line in reader:
 		count += 1
 		continue
 
-	if (l == 5 or l == 4) and not repo_dict.has_key(line[0]):
+	if (l == 5 or l == 4) and not repo_dict.has_key(line[0]) and line[0] in s:
 		repo_name = line[0]
 		repo_dict[repo_name] = 0
 		star = line[1]
 		fork = line[2]
-		
+
 		index = line[l-1].find(':')
 		package_info = line[l-1][index+1:].strip(' {}')
 		package_info = package_info.split('), ')
-		
+
 		flag = False
 		temp_dict = dict()
 		for name in package_info:
@@ -58,7 +64,7 @@ for line in reader:
 					writer1.write(str(repo_num) + '\t' + repo_name + '\t' + str(package_num) + '\t' + package_name + '\n')
 		if flag:
 			writer2.write(str(repo_num) + '\t' + repo_name + '\t' + star + '\t' + fork + '\n')
-			repo_num += 1;		
+			repo_num += 1;
 writer1.close()
 writer2.close()
 
@@ -73,4 +79,3 @@ for key in sorted_pd:
 writer.close()
 
 print count
-		

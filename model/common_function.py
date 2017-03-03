@@ -1,11 +1,11 @@
 from sets import Set
 
-def JaccardSimilarity(preference1, preference2): 
+def JaccardSimilarity(preference1, preference2):
 	s = Set(preference1)
 	t = Set(preference2)
 	unionSet = s.union(t)
 	intersectionSet = s.intersection(t)
-	return 
+	return float(len(intersectionSet))/float(len(unionSet))
 
 def write_recommendation_result(filename, top_20_items, repo_id_name_dict, package_id_name_dict):
 	writer = open(filename, "wb")
@@ -36,7 +36,7 @@ def read_user_item_dict(filename):
 			continue
 		if not user_item_dict.has_key(line[0]):
 			user_item_dict[line[0]] = Set()
-		user_item_dict[line[0]].add(line[2])	
+		user_item_dict[line[0]].add(line[2])
 	return user_item_dict
 
 def read_item_user_dict(filename):
@@ -48,7 +48,7 @@ def read_item_user_dict(filename):
 			continue
 		if not item_user_dict.has_key(line[2]):
 			item_user_dict[line[2]] = Set()
-		item_user_dict[line[2]].add(line[0])	
+		item_user_dict[line[2]].add(line[0])
 	return item_user_dict
 
 def compute_jaccard_similarity(dict_, top = -1):
@@ -70,4 +70,3 @@ def compute_jaccard_similarity(dict_, top = -1):
 
 if __name__ == "__main__":
 	print JaccardSimilarity([1,2,3], [2,3,4])
-		

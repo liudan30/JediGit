@@ -18,16 +18,16 @@ def recommendation(user_item_dict, user_similarity):
 	return user_item_recommendation
 
 
-				
+
 if __name__ == "__main__":
 	user_item_dict = common_function.read_user_item_dict("../data/repo_package_train.txt")
 	#user_similarity = common_function.compute_jaccard_similarity(user_item_dict, 100)
-	
+
 	repo_id_name_dict = common_function.read_dict("../data/repo_dict.txt")
 	package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
-	
-	for n in range(10, 201, 10):
+
+	for n in range(30, 35, 10):
 		print n
 		user_similarity = lda_model.description_similarity(n)
 		top_20_items = recommendation(user_item_dict, user_similarity)
-		common_function.write_recommendation_result("recommendation_result_user_based_CF_topic" + str(n) + ".txt", top_20_items, repo_id_name_dict, package_id_name_dict)
+		common_function.write_recommendation_result("result/recommendation_result_user_based_CF_topic" + str(n) + ".txt", top_20_items, repo_id_name_dict, package_id_name_dict)
