@@ -5,9 +5,9 @@ import time
 error_diff = 10
 
 class PMF:
-    def __init__(self, n_user, n_item, ratings, n_topic = 200, lambda_u = 0.01, lambda_v = 0.01):
-        self.lambda_u = lambda_u
-        self.lambda_v = lambda_v
+    def __init__(self, n_user, n_item, ratings, n_topic = 200):
+        self.lambda_u = 0.01
+        self.lambda_v = 0.01
 
         self.a = 1
         self.b = 0.01

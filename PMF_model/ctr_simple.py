@@ -1,13 +1,17 @@
-import common_function
 import numpy as np
 import numpy.linalg
 import time
+import lda_model
+import scipy.optimize
+import common_function
+from simplex_projection import euclidean_proj_simplex
 from six.moves import xrange
 
-error_diff = 100
+e = 1e-100
+error_diff = 10
 
-class PMF:
-    def __init__(self, n_user, n_item, ratings, repo_id_name_dict, package_id_name_dict, file_name, n_topic = 200, lambda_u = 0.01, lambda_v = 0.01):
+class CTR:
+    def __init__(self, n_user, n_item, ratings, repo_id_name_dict, package_id_name_dict, file_name, lambda_u = 10, n_topic = 200):
 
 	self.repo_id_name_dict = repo_id_name_dict
 	self.package_id_name_dict = package_id_name_dict
@@ -15,7 +19,7 @@ class PMF:
 	self.ratings = ratings
 
 	self.lambda_u = lambda_u
-        self.lambda_v = lambda_v
+        self.lambda_v = 0.01
 
         self.a = 1
         self.b = 0.01
@@ -39,10 +43,13 @@ class PMF:
         self.C = np.zeros([n_user, n_item]) + self.b
         self.R = np.zeros([n_user, n_item])  # user_size x item_size
 
+        self.theta = lda_model.lda_model(n_topic)
+
         for user in ratings:
             for item in ratings[user]:
                 self.C[user][item] = self.a
                 self.R[user][item] = 1
+
 
     def fit(self, max_iter=100):
         old_err = 0
@@ -69,15 +76,18 @@ class PMF:
         return err
 
     def do_e_step(self):
-        self.update_u()
+	print 'u'
+	self.update_u()
+	print 'v'
         self.update_v()
 
     def update_u(self):
         for ui in xrange(self.n_user):
             left = np.dot(self.V.T * self.C[ui, :], self.V) + self.lambda_u * np.identity(self.n_topic)
-            self.U[ui, :] = numpy.linalg.solve(left, np.dot(self.V.T * self.C[ui, :], self.R[ui, :]))
+            self.U[ui, :] = numpy.linalg.solve(left, np.dot(self.V.T * self.C[ui, :], self.R[ui, :]) + self.lambda_u * self.theta[ui, :])
 
     def update_v(self):
         for vi in xrange(self.n_item):
             left = np.dot(self.U.T * self.C[:, vi], self.U) + self.lambda_v * np.identity(self.n_topic)
             self.V[vi, :] = numpy.linalg.solve(left, np.dot(self.U.T * self.C[:, vi], self.R[:, vi]))
+

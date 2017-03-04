@@ -83,5 +83,5 @@ def repo_description(repo_dict):
 					doc_ids[repo_dict[line[0]]].append(vocal[voc])
 					doc_cnt[repo_dict[line[0]]].append(0)
 				doc_cnt[repo_dict[line[0]]][voc_local[voc]] += 1
-	
+
 	return doc_ids, doc_cnt, len(vocal)
