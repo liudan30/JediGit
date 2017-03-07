@@ -1,4 +1,4 @@
-import ctr_simple
+import ctr_simple_network
 import numpy
 import common_function
 
@@ -7,6 +7,6 @@ if __name__ == "__main__":
 	doc_ids, doc_cnt, voc_num =  common_function.repo_description(common_function.read_dict_("../data/repo_dict.txt"))
 	repo_id_name_dict = common_function.read_dict("../data/repo_dict.txt")
         package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
-	vector_repo = common_function.read_vector2("vec_2nd_package.txt")
-	model = ctr_simple.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_100_v2package_.txt")
+	vector_repo = common_function.read_vector1("../Embedding/vec_all.txt")
+	model = ctr_simple_network.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_100_v12package_.txt")
 	model.fit()

@@ -61,17 +61,17 @@ if __name__ == "__main__":
 	recall_top20 = recall_top(top_20, test_data)
 	recall_user_based_CF = recall_CF(top_20, test_data, "recommendation_result_user_based_CF.txt")
 	recall_item_based_CF = recall_CF(top_20, test_data, "recommendation_result_item_based_CF.txt")
-<<<<<<< HEAD
 	recall_user_based_CF1 = recall_CF(top_20, test_data, "result/recommendation_result_user_based_CF_topic30.txt")
 	#recall_user_based_CF2 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic10_0.01.txt")
-	recall_pmf = recall_CF(top_20, test_data, "../MF_model/recommendation_result_pmf.txt")
-	recall_ctr = recall_CF(top_20, test_data, "../MF_model/recommendation_result_ctrsimple_100.txt")
+	recall_pmf = recall_CF(top_20, test_data, "../PMF_model/recommendation_result_pmf.txt")
+	recall_ctr = recall_CF(top_20, test_data, "../PMF_model/recommendation_result_ctrsimple_100.txt")
     	recall_ctr_v1 = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v1.txt")
     	recall_ctr_v2 = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v2.txt")
     	recall_ctr_v12 = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v12.txt")
         recall_ctr_v1_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v1_.txt")
         recall_ctr_v2_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v2_.txt")
         recall_ctr_v12_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v12_.txt")
+	recall_ctr_package = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v1package_.txt")
 
 	for i in range(0, 20):
 		recall_pmf[i] = float(recall_pmf[i]) / float(total_number)
@@ -82,21 +82,16 @@ if __name__ == "__main__":
 	        recall_ctr_v1_[i] = float(recall_ctr_v1_[i]) / float(total_number)
                 recall_ctr_v2_[i] = float(recall_ctr_v2_[i]) / float(total_number)
                 recall_ctr_v12_[i] = float(recall_ctr_v12_[i]) / float(total_number)
-=======
-	recall_user_based_CF1 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic30.txt")
-	recall_user_based_CF2 = recall_CF(top_20, test_data, "recommendation_result_user_based_CF_topic10_0.01.txt")
-
-	for i in range(0, 20):
->>>>>>> parent of 1066131... Ctr
-		recall_user_based_CF[i] = float(recall_user_based_CF[i]) / float(total_number)
+		recall_user_based_CF[i] = float(recall_user_based_CF[i]) /float(total_number)
 		recall_user_based_CF1[i] = float(recall_user_based_CF1[i]) / float(total_number)
-		recall_user_based_CF2[i] = float(recall_user_based_CF2[i]) / float(total_number)
+		#recall_user_based_CF2[i] = float(recall_user_based_CF2[i]) / float(total_number)
 		recall_item_based_CF[i] = float(recall_item_based_CF[i]) / float(total_number)
 		recall_top20[i] = float(recall_top20[i]) / float(total_number)	
+		recall_ctr_package[i] = float(recall_ctr_package[i]) /float(total_number)
+	
 	x = range(1, 21)
 	pl.plot(x, recall_top20, label = "most_popular(benchmark)")
 	pl.plot(x, recall_user_based_CF, label = "user_based_CF")
-<<<<<<< HEAD
 	#pl.plot(x, recall_user_based_CF1, label = "user_based_CF_topic_similar")
 	#pl.plot(x, recall_user_based_CF2, label = "user_based_CF+description_similarity")
 	pl.plot(x, recall_item_based_CF, label = "item_based_CF")
@@ -104,15 +99,12 @@ if __name__ == "__main__":
     	pl.plot(x, recall_ctr, label = "ctr")
         #pl.plot(x, recall_ctr_v1, label = "embedding_v1")
         #pl.plot(x, recall_ctr_v2, label = "embedding_v2")
-        pl.plot(x, recall_ctr_v12, label = "embedding_repo")
+        #pl.plot(x, recall_ctr_v12, label = "embedding_repo")
 	#pl.plot(x, recall_ctr_v1_, label = "embedding_v1_")
         #pl.plot(x, recall_ctr_v2_, label = "embedding_v2_")
         pl.plot(x, recall_ctr_v12_, label = "embedding_contibutors")
-=======
-	pl.plot(x, recall_user_based_CF1, label = "description_similarity")
-	pl.plot(x, recall_user_based_CF2, label = "user_based_CF+description_similarity")
-	pl.plot(x, recall_item_based_CF, label = "item_based_CF")
->>>>>>> parent of 1066131... Ctr
+	pl.plot(x, recall_ctr_package, label = "embedding_package")	
+
 	pl.ylabel('recall rate')
 	pl.xlabel('recommend K libraries to each repository')
 	pl.legend(loc='lower right')

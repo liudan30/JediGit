@@ -7,6 +7,6 @@ if __name__ == "__main__":
 	doc_ids, doc_cnt, voc_num =  common_function.repo_description(common_function.read_dict_("../data/repo_dict.txt"))
 	repo_id_name_dict = common_function.read_dict("../data/repo_dict.txt")
         package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
-	vector_repo = common_function.read_vector("vec_all.txt")
-	model = ctr_simple.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_100_v12.txt")
+	vector_repo = common_function.read_vector("vec_all_package.txt")
+	model = ctr_simple.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_100_v12package.txt")
 	model.fit()

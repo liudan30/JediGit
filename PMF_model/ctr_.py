@@ -80,7 +80,7 @@ class CTR:
     # reconstruction error
     def sqr_error(self):
         err = (self.R - self.predict_item()) ** 2
-        err = err.sum()
+        err = err.sum() + self.lambda_u * np.trace(np.dot(self.U, self.U.T)) + self.lambda_v * np.trace(np.dot(self.V, self.V.T))
         return err
 
     def do_e_step(self):
