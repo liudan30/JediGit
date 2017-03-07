@@ -8,5 +8,5 @@ if __name__ == "__main__":
 	repo_id_name_dict = common_function.read_dict("../data/repo_dict.txt")
         package_id_name_dict = common_function.read_dict("../data/package_dict.txt")
 	vector_repo = common_function.read_vector1("../Embedding/vec_all.txt")
-	model = ctr_simple_network.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_100_v12package_.txt")
+	model = ctr_simple_network.CTR(user_num, item_num, user_item_dict, repo_id_name_dict, package_id_name_dict, vector_repo, "recommendation_result_ctrsimple_10_v12contributor_.txt")
 	model.fit()
