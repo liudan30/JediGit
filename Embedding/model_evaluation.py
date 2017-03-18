@@ -59,12 +59,12 @@ if __name__ == "__main__":
 	top_20 = get_top20("../model/top-20.txt")
 	total_number, test_data = get_test_data("../data/repo_package_test.txt")
 
-	recall_ctr_package_v1 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v1package_.txt")
-	recall_ctr_package_v2 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v2package_.txt")
-    	recall_ctr_package_v12 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v12package_.txt")
-	recall_ctr_repo_v1 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v1package.txt")
-    	recall_ctr_repo_v2 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v2package.txt")
-    	recall_ctr_repo_v12 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v12package.txt")
+	recall_ctr_package_v1 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v1_.txt")
+	recall_ctr_package_v2 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v2_.txt")
+    	recall_ctr_package_v12 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v12_.txt")
+	recall_ctr_repo_v1 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v1.txt")
+    	recall_ctr_repo_v2 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v2.txt")
+    	recall_ctr_repo_v12 = recall_CF(top_20, test_data, "recommendation_result_ctrsimple_100_v12.txt")
 
 	for i in range(0, 20):
 		recall_ctr_package_v1[i] = float(recall_ctr_package_v1[i]) / float(total_number)

@@ -14,7 +14,7 @@ def get_test_data(filename):
 			test_data[line[1]] = Set()
 		test_data[line[1]].add(line[3])
 	return total_number, test_data
-		
+
 
 def get_top20(filename):
 	reader = open(filename, "rb")
@@ -45,10 +45,10 @@ def recall_CF(top20, test_data, filename):
 		line = line.strip('\n').split('\t')
 		repo_name = line[0]
 		if not test_data.has_key(repo_name):
-			continue 
-		packages = line[1:] + top20
-		packages = packages[:20]
-		for i in range(0, 20):
+			continue
+		packages = line[1:] #+ top20
+		#packages = packages[:20]
+		for i in range(0, min(20, len(packages))):
 			if packages[i] in test_data[repo_name]:
 				recall[i] += 1
 	for i in range(1, 20):
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         recall_ctr_v1_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v1_.txt")
         recall_ctr_v2_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v2_.txt")
         recall_ctr_v12_ = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v12_.txt")
-	recall_ctr_package = recall_CF(top_20, test_data, "../Embedding/recommendation_result_ctrsimple_100_v1package_.txt")
+	recall_ctr_package = recall_CF(top_20, test_data, "../../model/recommendation_result_ctrmix.txt")
 
 	for i in range(0, 20):
 		recall_pmf[i] = float(recall_pmf[i]) / float(total_number)
@@ -86,9 +86,9 @@ if __name__ == "__main__":
 		recall_user_based_CF1[i] = float(recall_user_based_CF1[i]) / float(total_number)
 		#recall_user_based_CF2[i] = float(recall_user_based_CF2[i]) / float(total_number)
 		recall_item_based_CF[i] = float(recall_item_based_CF[i]) / float(total_number)
-		recall_top20[i] = float(recall_top20[i]) / float(total_number)	
+		recall_top20[i] = float(recall_top20[i]) / float(total_number)
 		recall_ctr_package[i] = float(recall_ctr_package[i]) /float(total_number)
-	
+
 	x = range(1, 21)
 	pl.plot(x, recall_top20, label = "most_popular(benchmark)")
 	pl.plot(x, recall_user_based_CF, label = "user_based_CF")
@@ -103,7 +103,7 @@ if __name__ == "__main__":
 	#pl.plot(x, recall_ctr_v1_, label = "embedding_v1_")
         #pl.plot(x, recall_ctr_v2_, label = "embedding_v2_")
         pl.plot(x, recall_ctr_v12_, label = "embedding_contibutors")
-	pl.plot(x, recall_ctr_package, label = "embedding_package")	
+	pl.plot(x, recall_ctr_package, label = "ctrmix")
 
 	pl.ylabel('recall rate')
 	pl.xlabel('recommend K libraries to each repository')
